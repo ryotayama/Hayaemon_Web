@@ -1,0 +1,51 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"><html lang="ja">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=Shift_JIS">
+	<title>メールフォーム-エドルフ族</title>
+	<meta http-equiv="Content-Script-Type" content="text/javascript">
+	<meta http-equiv="content-style-type" content="text/css">
+	<meta name=description content="エドルフ族、メールフォーム">
+	<meta name="keywords" content="フリーソフトウェア,音楽,吉里吉里,KAG,プログラミング">
+	<link rel=stylesheet type="text/css" href="./style.css">
+</head>
+<body>
+
+<table summary="エドルフ族" width="50%" cellSpacing=0 cellPadding=0 align=center><tbody><tr><td valign=top align=center>
+<div class=contents>
+<p><strong>メールをご送信いただき、ありがとうございます。</strong></p>
+<p><strong>送信は正常に完了しました。</strong></p>
+<script type="text/javascript"><!--
+google_ad_client = "pub-9499594730627438";
+google_alternate_ad_url = "http://www.edolfzoku.com/amazon_468_60_best.html";
+google_ad_width = 468;
+google_ad_height = 60;
+google_ad_format = "468x60_as";
+google_ad_type = "text_image";
+google_ad_channel ="";
+google_color_border = "FFFFFF";
+google_color_bg = "FFFFFF";
+google_color_link = "006699";
+google_color_url = "BFBFBF";
+google_color_text = "36414D";
+//--></script>
+<script type="text/javascript"
+  src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script>
+<form>
+<input type=button value="トップに戻る" onClick=window.open("$back","_top")>
+</form>
+</div></td></tr></tbody></table>
+
+<?php
+	$fp = fopen("./count.txt", "r+");
+	$count = fgets($fp, 10);
+	$count = $count + 1;
+	fseek($fp, 0);
+	flock($fp, LOCK_EX);
+	fputs($fp, $count);
+	flock($fp, LOCK_UN);
+	fclose($fp);
+?>
+
+</body>
+</html>
