@@ -1,27 +1,33 @@
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
 <html lang="ja">
 <head>
-<META HTTP-EQUIV="Content-type" CONTENT="text/html; charset=Shift_JIS">
-<title>フォームメール</title></head>
+    <META HTTP-EQUIV="Content-type" CONTENT="text/html; charset=Shift_JIS">
+    <title>フォームメール</title>
+</head>
 <body bgcolor="#F0F0F0" text="#000000" link="#000FF" vlink="#800080">
-<br><div align="center">
-<h3>- 以下の内容でよろしければ送信ボタンを押して下さい -</h3>
-<form action="$script" method="post">
-<TABLE BORDER=0 CELLSPACING=0 CELLPADDING=0 width="80%" BORDER=0><TR>
-<TD BGCOLOR="#003399">
-<table border=0 cellspacing=1 cellpadding=7 width="100%">
-
-<!-- item --><tr><td bgcolor="#EBECF5" align=right width="25%">$left</td>
-<!-- item --><td bgcolor="#FFFFFF" width="75%">$right</td></tr>
-<!-- loop -->
-
-</table>
-</TD></TR></TABLE>
-<p>
-<input type="button" value="&lt;&lt; 前画面にもどる" onClick="history.back()">
-&nbsp;&nbsp;&nbsp;
-<input type=submit value="上記内容で送信 &gt;&gt;">
-</form>
-</div>
+    <br><div align="center">
+        <h3>- 以下の内容でよろしければ送信ボタンを押して下さい -</h3>
+        <form action="$script" method="post">
+            <TABLE BORDER=0 CELLSPACING=0 CELLPADDING=0 width="80%" BORDER=0>
+                <TR>
+                    <TD BGCOLOR="#003399">
+                        <table border=0 cellspacing=1 cellpadding=7 width="100%">
+                            <!-- item -->
+                            <tr>
+                                <td bgcolor="#EBECF5" align=right width="25%">$left</td>
+                                <!-- item -->
+                                <td bgcolor="#FFFFFF" width="75%">$right</td>
+                            </tr>
+                            <!-- loop -->
+                        </table>
+                    </TD>
+                </TR>
+            </TABLE>
+            <p>
+                <input type="button" value="&lt;&lt; 前画面にもどる" onClick="history.back()">
+                &nbsp;&nbsp;&nbsp;
+                <input type=submit value="上記内容で送信 &gt;&gt;">
+        </form>
+    </div>
 </body>
 </html>

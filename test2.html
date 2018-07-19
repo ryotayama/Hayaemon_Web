@@ -1,336 +1,328 @@
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
-<html lang="ja"><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"><meta http-equiv="Content-Script-Type" content="text/javascript"><meta http-equiv="Content-Style-Type" content="text/css">
-<meta name=description content="再生速度、周波数、音程を変更できる、耳コピ、カラオケ／楽器／ダンス／英語のリスニング練習、テープ起こし等に便利なMP3プレーヤとして公開中のオープンソースのフリーソフト">
-<meta name="keywords" content="聞々ハヤえもん,はやえもん,ハヤエモン,hayaemon,MP3プレーヤ,オープンソース,テープ起こし,書き起こし,耳コピ,カラオケ">
-<link rel="stylesheet" href="http://soft.edolfzoku.com/hayaemon2/styles-site.css" type="text/css">
-<link rel="index" href="http://soft.edolfzoku.com/hayaemon2/">
-<link rev="made" href="mailto:taro@edolfzoku.com">
-<link rel="icon" href="http://soft.edolfzoku.com/hayaemon2/favicon.ico" type="image/vnd.microsoft.icon" />
-
-<meta property="og:title" content="聞々ハヤえもん公式サイト／MP3プレイヤー フリーソフト" />
-<meta property="og:site_name" content="聞々ハヤえもん公式サイト" />
-<meta property="og:description" content="再生速度、周波数、音程を変更できる、耳コピ、カラオケ／楽器／ダンス／英語のリスニング練習、テープ起こし等に便利なMP3プレーヤとして公開中のオープンソースのフリーソフト" />
-<meta property="og:type" content="website" />
-<meta property="og:url" content="http://soft.edolfzoku.com/hayaemon2/" />
-<meta property="og:image" content="http://soft.edolfzoku.com/hayaemon2/icon.png" />
-
-<title>聞々ハヤえもん公式サイト／MP3プレイヤー フリーソフト</title>
-
-<script type='text/javascript'>
-var googletag = googletag || {};
-googletag.cmd = googletag.cmd || [];
-(function() {
-var gads = document.createElement('script');
-gads.async = true;
-gads.type = 'text/javascript';
-var useSSL = 'https:' == document.location.protocol;
-gads.src = (useSSL ? 'https:' : 'http:') + 
-'//www.googletagservices.com/tag/js/gpt.js';
-var node = document.getElementsByTagName('script')[0];
-node.parentNode.insertBefore(gads, node);
-})();
-</script>
-
-<script type='text/javascript'>
-googletag.cmd.push(function() {
-googletag.defineSlot('/127817812/How_Index_Bottom_728x90', [728, 90], 'div-gpt-ad-1355537191471-0').addService(googletag.pubads());
-googletag.defineSlot('/127817812/How_Index_Right_336x280', [336, 280], 'div-gpt-ad-1355537191471-1').addService(googletag.pubads());
-googletag.defineSlot('/127817812/How_Index_Top_728x90', [728, 90], 'div-gpt-ad-1355537191471-2').addService(googletag.pubads());
-googletag.pubads().enableSingleRequest();
-googletag.enableServices();
-});
-</script>
+﻿<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html lang="ja">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta http-equiv="Content-Script-Type" content="text/javascript">
+    <meta http-equiv="Content-Style-Type" content="text/css">
+    <meta name=description content="再生速度、周波数、音程を変更できる、耳コピ、カラオケ／楽器／ダンス／英語のリスニング練習、テープ起こし等に便利なMP3プレーヤとして公開中のオープンソースのフリーソフト">
+    <meta name="keywords" content="聞々ハヤえもん,はやえもん,ハヤエモン,hayaemon,MP3プレーヤ,オープンソース,テープ起こし,書き起こし,耳コピ,カラオケ">
+    <link rel="stylesheet" href="http://soft.edolfzoku.com/hayaemon2/styles-site.css" type="text/css">
+    <link rel="index" href="http://soft.edolfzoku.com/hayaemon2/">
+    <link rev="made" href="mailto:taro@edolfzoku.com">
+    <link rel="icon" href="http://soft.edolfzoku.com/hayaemon2/favicon.ico" type="image/vnd.microsoft.icon" />
+    <meta property="og:title" content="聞々ハヤえもん公式サイト／MP3プレイヤー フリーソフト" />
+    <meta property="og:site_name" content="聞々ハヤえもん公式サイト" />
+    <meta property="og:description" content="再生速度、周波数、音程を変更できる、耳コピ、カラオケ／楽器／ダンス／英語のリスニング練習、テープ起こし等に便利なMP3プレーヤとして公開中のオープンソースのフリーソフト" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="http://soft.edolfzoku.com/hayaemon2/" />
+    <meta property="og:image" content="http://soft.edolfzoku.com/hayaemon2/icon.png" />
+    <title>聞々ハヤえもん公式サイト／MP3プレイヤー フリーソフト</title>
+    <script type='text/javascript'>
+        var googletag = googletag || {};
+        googletag.cmd = googletag.cmd || [];
+        (function () {
+            var gads = document.createElement('script');
+            gads.async = true;
+            gads.type = 'text/javascript';
+            var useSSL = 'https:' == document.location.protocol;
+            gads.src = (useSSL ? 'https:' : 'http:') +
+            '//www.googletagservices.com/tag/js/gpt.js';
+            var node = document.getElementsByTagName('script')[0];
+            node.parentNode.insertBefore(gads, node);
+        })();
+    </script>
+    <script type='text/javascript'>
+        googletag.cmd.push(function () {
+            googletag.defineSlot('/127817812/How_Index_Bottom_728x90', [728, 90], 'div-gpt-ad-1355537191471-0').addService(googletag.pubads());
+            googletag.defineSlot('/127817812/How_Index_Right_336x280', [336, 280], 'div-gpt-ad-1355537191471-1').addService(googletag.pubads());
+            googletag.defineSlot('/127817812/How_Index_Top_728x90', [728, 90], 'div-gpt-ad-1355537191471-2').addService(googletag.pubads());
+            googletag.pubads().enableSingleRequest();
+            googletag.enableServices();
+        });
+    </script>
 </head>
-
 <body class="layout-two-column-right" bgcolor="#fffafa">
-<?php include_once("analyticstracking.php") ?>
-<div id="fb-root"></div>
-<script>(function(d, s, id) {
-  var js, fjs = d.getElementsByTagName(s)[0];
-  if (d.getElementById(id)) return;
-  js = d.createElement(s); js.id = id;
-  js.src = "//connect.facebook.net/ja_JP/all.js#xfbml=1";
-  fjs.parentNode.insertBefore(js, fjs);
+    <?php include_once("analyticstracking.php") ?>
+    <div id="fb-root"></div>
+    <script>
+(function (d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s); js.id = id;
+    js.src = "//connect.facebook.net/ja_JP/all.js#xfbml=1";
+    fjs.parentNode.insertBefore(js, fjs);
 }(document, 'script', 'facebook-jssdk'));</script>
-<script type="text/javascript" src="http://b.st-hatena.com/js/bookmark_button.js" charset="utf-8" async="async"></script>
-<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
-<script type="text/javascript">
-  window.___gcfg = {lang: 'ja'};
+    <script type="text/javascript" src="http://b.st-hatena.com/js/bookmark_button.js" charset="utf-8" async="async"></script>
+    <script>!function (d, s, id) { var js, fjs = d.getElementsByTagName(s)[0]; if (!d.getElementById(id)) { js = d.createElement(s); js.id = id; js.src = "//platform.twitter.com/widgets.js"; fjs.parentNode.insertBefore(js, fjs); } }(document, "script", "twitter-wjs");</script>
+    <script type="text/javascript">
+        window.___gcfg = { lang: 'ja' };
 
-  (function() {
-    var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
-    po.src = 'https://apis.google.com/js/plusone.js';
-    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
-  })();
-</script>
-
-<div id="box">
-
-<div style="float:left">
-
-<!-- タイトル -->
-<div id="banner">
-
-<img src="http://soft.edolfzoku.com/hayaemon2/80.png" align=left alt="アイコン" width=80 height=80 style="margin-right:10px" />
-MP3プレイヤー フリーソフト</a><br />
-<h1><span style="font-size:13px">ぶ ん ぶ ん</span><br />
-聞々ハヤえもん公式サイト</h1>
-</div>
-</div>
-<div style="float:right;font-size:24px;margin-right:36px">
-<br />
-日本語 | <a href="http://en.edolfzoku.com/hayaemon2/" style="text-decoration:underline">English</a>
-</div>
-<!-- 中央カラム開始 -->
-<div id="content">
-<div class="blog">
-
-<div class="entry">
-
-<?php
-require_once 'phpMyBorder2.class.php';
-$pmb = new PhpMyBorder();
-echo $pmb->begin_round('740px', 'ffffff', 'e0e0e0', 1000);
-?>
-<div style="margin:20px 0px 0px 5px; line-height: 120%">
-<img src="screen.png" alt="スクリーンショット" width=508 height=83 style="margin-left:100px;margin-bottom:10px"><br />
-<div style="text-align:center;vertical-align: top"><a href="http://b.hatena.ne.jp/entry/" class="hatena-bookmark-button" data-hatena-bookmark-layout="standard" title="このエントリーをはてなブックマークに追加"><img src="http://b.st-hatena.com/images/entry-button/button-only.gif" alt="このエントリーをはてなブックマークに追加" width="20" height="20" style="border: none" /></a>　<div class="fb-like" data-send="false" data-layout="button_count" data-width="450" data-show-faces="true" style="display: inline-block; _display: inline;vertical-align: top"></div>　<div style="display: inline-block; _display: inline;vertical-align: top"><a name="fb_share" type="button"></a></div><script src="http://static.ak.fbcdn.net/connect.php/js/FB.Share" type="text/javascript"></script>　<a href="https://twitter.com/share" class="twitter-share-button" data-via="ryota_yama" data-lang="ja"></a><div style="display: inline-block; _display: inline;vertical-align: top;width:70px !important"><g:plusone size="medium"></g:plusone></div></div>
-<div style="text-align:center;font-size:46px;margin-top:50px;margin-bottom:20px">音楽を、もっと楽しく。</div><br />
-<!-- How_Index_Top_728x90 -->
-<div id='div-gpt-ad-1355537191471-2' style='width:728px; height:90px;'>
-<script type='text/javascript'>
-googletag.cmd.push(function() { googletag.display('div-gpt-ad-1355537191471-2'); });
-</script>
-</div>
-<div style="width:335px;float:left"><br />
-<div style="margin-left:1em">音楽<span style="letter-spacing:-2px">――</span>&nbsp;。それは、音を楽しむこと。</div><br />
-<div style="margin-left:2em">近年、音楽の大量消費化が進み、次々と新しい音楽が生み出されては、たちまち消えていってしまうような世の中になりました。</div><br />
-<div style="margin-left:3em">しかし、音楽の本質が変わることはありません。</div><br />
-<div style="margin-left:4em">音楽<span style="letter-spacing:-2px">――</span>&nbsp;。それは、音を楽しむこと。</div><br />
-<div style="margin-left:1em">どうやって？</div><br />
-<div style="margin-left:2em">その答えを用意しました。</div><br />
-<div style="margin-left:3em">「聞々ハヤえもん」です。</div><br />
-<div style="margin-left:1em">聞々ハヤえもんは、「音楽を、もっと楽しく！！」という目的のためだけに作られた世界でひとつだけのユニークなサウンドプレイヤーです。</div><br />
-<div style="margin-left:2em">さあ、聞々ハヤえもんをダウンロードしてみましょう。</div><br />
-<div style="margin-left:3em">あなたにとっての音楽が、今日から変わります。</div><br />
-<div style="text-align:right;font-weight:bold;font-size:14px;line-height:120%">聞々ハヤえもん開発者<br />
-山内　良太</div><br />
-<div style="font-size:16px;text-align:right"><a href="about.html" target="_blank">聞々ハヤえもんについてさらに詳しく<img src="button.png" width="16" height="16" style="vertical-align:middle;margin-left:5px"></a></div><br /><br />
-</div>
-<div style="float:right;margin-right:10px;margin-top:0px">
-<div style="text-align:center">
-<br />
-<iframe width="340" height="255" src="http://www.youtube.com/embed/3qg0-ZfTZAc" frameborder="0" allowfullscreen></iframe>
-<div style="font-size:24px;font-weight:bold;margin-top:30px;margin-bottom:20px">
-今すぐ無料ダウンロード</div>
-<a onclick="window.location='thanks.html';" target="_blank" href="Hayaemon260.zip"><img src="japanese.png" width="160" top="70" style="margin:0" alt="聞々ハヤえもん日本語版を無料ダウンロード"></a>　　　<a onclick="window.location='thanks.html';" target="_blank" href="Hayaemon260_en.zip"><img src="english.png" width="160" top="70" style="margin:0" alt="聞々ハヤえもん英語版を無料ダウンロード"></a>
-</div>
-</div><br clear="all" />
-</div>
-<?php
-echo $pmb->end_round();
-?>
-<div style="float:left;width:320px;margin-left:25px">
-<div style="font-size:24px;margin-top:20px;display: inline-block; _display: inline;width:320px">News</div><br />
-<div style="margin-top:5px;border-top:3px solid #c0c0c0;border-bottom:1px solid #c0c0c0; inline-block; _display: inline;width:320px">
-<a href="http://www.forest.impress.co.jp/docs/news/20121105_570950.html" target="_blank" style="text-decoration: none;display:block;width:320px;padding-top:10px;padding-bottom:10px" onmouseover="style.background='#e0f0ff'" onmouseout="style.background='none'" >
-2012.11.5<br />
-<img src="button.png" width="16" height="16" style="vertical-align:middle;margin-right:5px">
-「窓の杜」にて紹介されました！
-</a>
-</div>
-<div style="border-bottom:1px solid #c0c0c0; inline-block; _display: inline;width:320px">
-<a href="http://www.shinyusha.co.jp/~top/00ip/ip_1208.htm" target="_blank" style="text-decoration: none;display:block;width:320px;padding-top:10px;padding-bottom:10px" onmouseover="style.background='#e0f0ff'" onmouseout="style.background='none'" >
-2012.8.24<br />
-<img src="button.png" width="16" height="16" style="vertical-align:middle;margin-right:5px">
-「Mr.PC」2012年10月号にて紹介されました！
-</a>
-</div>
-<div style="border-bottom:1px solid #c0c0c0; inline-block; _display: inline;width:320px">
-<a href="http://www.shinyusha.co.jp/~top/00ip/ip_1208.htm" target="_blank" style="text-decoration: none;display:block;width:320px;padding-top:10px;padding-bottom:10px" onmouseover="style.background='#e0f0ff'" onmouseout="style.background='none'" >
-2012.6.29<br />
-<img src="button.png" width="16" height="16" style="vertical-align:middle;margin-right:5px">
-「iP！」の2012年8月号にて紹介されました！
-</a>
-</div>
-<div style="border-bottom:1px solid #c0c0c0; inline-block; _display: inline;width:320px">
-<a href="http://www.forest.impress.co.jp/docs/news/20120511_532137.html" target="_blank" style="text-decoration: none;display:block;width:320px;padding-top:10px;padding-bottom:10px" onmouseover="style.background='#e0f0ff'" onmouseout="style.background='none'" >
-2012.5.11<br />
-<img src="button.png" width="16" height="16" style="vertical-align:middle;margin-right:5px">
-「窓の杜」にて紹介されました！
-</a>
-</div>
-</div>
-<div style="float:right;width:320px;margin-right:25px;margin-top:20px">
-<div style="font-size:24px;display: inline-block; _display: inline">更新履歴</div><br />
-<div style="margin-top:5px;padding-top:5px;padding-bottom:5px;border-top:3px solid #c0c0c0; border-bottom:1px solid #c0c0c0; inline-block; _display: inline;width:320px">
-2012/12/14(金) Version 2.61 β 19 開発版<br />
-<div style="margin-left:1em">
-再生位置のレジューム機能を追加しました。再生停止時に再生リストの１曲目に戻ってしまっていたのを修正しました。
-<br /><div style="text-align:right"><a onclick="window.location='thanks.html';" target="_blank" href="Hayaemon261b19.zip">Hayaemon261b19.zipをダウンロード<img src="button.png" width="16" height="16" style="vertical-align:middle;margin-left:5px"></a></div>
-</div>
-</div>
-<div style="padding-top:5px;padding-bottom:5px;border-bottom:1px solid #c0c0c0; inline-block; _display: inline;width:320px">
-2012/12/13(木) Version 2.61 β 18 開発版<br />
-<div style="margin-left:1em">
-タブ非表示時にエクスプローラの幅を調整できなかったのを修正しました。
-<br /><div style="text-align:right"><a onclick="window.location='thanks.html';" target="_blank" href="Hayaemon261b18.zip">Hayaemon261b18.zipをダウンロード<img src="button.png" width="16" height="16" style="vertical-align:middle;margin-left:5px"></a></div>
-</div>
-</div>
-<div style="padding-top:5px;padding-bottom:5px;border-bottom:1px solid #c0c0c0; inline-block; _display: inline;width:320px">
-2012/12/12(水) Version 2.61 β 17 開発版<br />
-<div style="margin-left:1em">
-ALACファイルの読み込みに対応しました。
-<br /><div style="text-align:right"><a onclick="window.location='thanks.html';" target="_blank" href="Hayaemon261b17.zip">Hayaemon261b17.zipをダウンロード<img src="button.png" width="16" height="16" style="vertical-align:middle;margin-left:5px"></a></div>
-</div>
-</div>
-<div style="padding-top:5px;padding-bottom:5px;border-bottom:1px solid #c0c0c0; inline-block; _display: inline;width:320px">
-2012/12/11(火) Version 2.61 β 16 開発版<br />
-<div style="margin-left:1em">
-再生リストの右クリックメニューから再生中のアーティストの曲をiTunes Storeで検索できるようにしました。
-<br /><div style="text-align:right"><a onclick="window.location='thanks.html';" target="_blank" href="Hayaemon261b16.zip">Hayaemon261b16.zipをダウンロード<img src="button.png" width="16" height="16" style="vertical-align:middle;margin-left:5px"></a></div>
-</div>
-</div>
-<div style="padding-top:5px;padding-bottom:5px;border-bottom:1px solid #c0c0c0; inline-block; _display: inline;width:320px">
-2012/12/10(月) Version 2.61 β 15 開発版<br />
-<div style="margin-left:1em">
-再生リストの右クリックメニューから再生中の曲の歌詞をインターネットで検索できるようにしました。
-<br /><div style="text-align:right"><a onclick="window.location='thanks.html';" target="_blank" href="Hayaemon261b15.zip">Hayaemon261b15.zipをダウンロード<img src="button.png" width="16" height="16" style="vertical-align:middle;margin-left:5px"></a></div>
-</div>
-</div>
-<div style="text-align:right"><a href="./history/">さらに過去の更新履歴<img src="button.png" width="16" height="16" style="vertical-align:middle;margin-left:5px"></a></div>
-</div>
-<br clear="all" /><br />
-<div style="text-align:center">
-<a href="./wiki/" target="_blank"><img src="community.png" style="margin-right:20px" alt="聞々ハヤえもんユーザーコミュニティ"></a><a href="bosyu.html" target="_blank"><img src="bosyu.png" alt="協力者募集中！！"></a>
-</div>
-<div style="font-size:24px;color:#4080ff;margin-left:10px;margin-top:30px;margin-bottom:10px;border-bottom:3px solid #c0c0c0;display: inline-block; _display: inline;width:320px">マニュアル動画公開中！！</div><br />
-<iframe width="730" height="545" src="http://www.youtube.com/embed/bvn-Vd095KA" frameborder="0" allowfullscreen></iframe>
-<div style="font-size:16px;margin-top:5px"><a href="./manual/"><img src="button.png" width="16" height="16" style="vertical-align:middle;margin-right:5px">もっと詳しく知りたい方はこちら</a></div><br />
-<!-- How_Index_Bottom_728x90 -->
-<div id='div-gpt-ad-1355537191471-0' style='width:728px; height:90px;'>
-<script type='text/javascript'>
-googletag.cmd.push(function() { googletag.display('div-gpt-ad-1355537191471-0'); });
-</script>
-</div>
-<br>
-
-   <div class="entry-footer">
-   Copyright &copy; 2004 - 2012 Ryota. All Rights Reserved.
-   </div><!-- /entry-footer -->
-
-</div><!-- /entry -->
-
-<div style="text-align:right"><a href="http://soft.edolfzoku.com/"><img src="http://soft.edolfzoku.com/link/freesoft.png" alt="フリーソフト開発所" border=0></a>　<a href="http://soft.edolfzoku.com/hayaemon2/"><img src="http://soft.edolfzoku.com/link/hayaemon-L.gif" alt="音楽を、もっと楽しく！！／聞々ハヤえもん公式サイト" border=0 width="200" height="40"></a></div>
-
-</div><!-- /blog -->
-
-</div><!-- /content -->
-<!-- 中央カラム終了 -->
-
-<!-- 右カラム開始 -->
-<div id="links-right-box">
-<div id="links-right">
-
-<!-- How_Index_Right_336x280 -->
-<div id='div-gpt-ad-1355537191471-1' style='width:336px; height:280px;'>
-<script type='text/javascript'>
-googletag.cmd.push(function() { googletag.display('div-gpt-ad-1355537191471-1'); });
-</script>
-</div>
-<br />
-<?php
-$pmb = new PhpMyBorder();
-echo $pmb->begin_round('336px', 'ffffff', 'e0e0e0', 1000);
-?>
-<div style="margin:10px;font-size:12px">
-<img src="face.png" width="63" height="73" align="left" style="margin-right:10px">
-<div style="font-weight:bold;margin-bottom:5px">山内良太（りょーた）</div>
-<div style="margin-bottom:5px">1982年10月28日 愛知県生まれ。</div>
-大学時代、些細な出来事がきっかけで人間不信になり、孤独な日々を過ごしていたところ、大学のPCにソフトウェア開発環境がある事を知り、Windows用のソフトを作り始める。様々なソフトを開発していく中、自分に出来る事はこれしか無いと確信するに至り、2006年より愛知県でソフトウェア開発者として働き始める。2011年7月には職場で出会った同僚と結婚、2012年5月には長女が生まれる。ソフトウェア開発に対する情熱は冷める事なく、現在ではソフトウェア開発者として働きつつ、『聞々ハヤえもん』という無料音楽再生ソフトの開発を行う日々を過ごしている。<br />
-<br />
-<div style="margin-left:1em">
-<a href="https://twitter.com/ryota_yama" class="twitter-follow-button" data-show-count="false" data-lang="ja" data-show-screen-name="true">@ryota_yamaさんをフォロー</a>
-<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script><a href="mailto:Ryota.Yamauch@gmail.com"><img src="mail.png"></a>
-<br />
-Mail:<a href="mailto:Ryota.Yamauch@gmail.com">Ryota.Yamauch@gmail.com</a><br />
-Twitter:<a href="https://twitter.com/ryota_yama" target="_blank">@ryota_yama</a><br />
-Google+:<a href="https://plus.google.com/102844305957143894856/posts" target="_blank">山内良太</a><br />
-YouTube:<a href="http://www.youtube.com/user/taroedolfzoku/" target="_blank">山内良太</a>
-</div>
-</div>
-<?php
-echo $pmb->end_round();
-?>
-<br />
-<?php
-$pmb = new PhpMyBorder();
-echo $pmb->begin_round('336px', 'ffffff', 'e0e0e0', 1000);
-?>
-<div style="font-size:14px;padding-top:5px;padding-bottom:5px;font-weight:bold;padding-left:5px;border-bottom:1px solid #f0f0f0;text-align:center">取扱説明書（β）</div>
-<div style="font-size:14px;border-bottom:1px solid #f0f0f0"><a href="about.html" style="display:block;width:326px;padding:5px" target="_blank"><img src="button.png" width="16" height="16" style="vertical-align:middle;margin-right:5px;">聞々ハヤえもんについて</a></div>
-<div style="font-size:14px"><a href="howtodownload.html" style="display:block;width:326px;padding:5px" target="_blank"><img src="button.png" width="16" height="16" style="vertical-align:middle;margin-right:5px;">聞々ハヤえもんをダウンロードする方法</a></div>
-<?php
-echo $pmb->end_round();
-?>
-<br />
-<a href="http://www.edolfzoku.com/diary/" target="_blank"><img src="blog2.png" width="350" height="84" alt="聞々ハヤえもん開発者りょーたのブログ"></a>
-<br /><br />
-<?php
-$pmb = new PhpMyBorder();
-echo $pmb->begin_round('350px', 'ffffff', 'e0e0e0', 1000);
-?>
-<div style="font-size:14px;padding-top:5px;padding-bottom:5px;font-weight:bold;padding-left:5px;border-bottom:1px solid #f0f0f0">お買い物して開発支援</div>
-<div style="font-size:14px;margin-left:10px;padding-top:5px;padding-bottom:5px;text-align:center">
-<script type="text/javascript"><!--
+        (function () {
+            var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+            po.src = 'https://apis.google.com/js/plusone.js';
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+        })();
+    </script>
+    <div id="box">
+        <div style="float:left">
+            <!-- タイトル -->
+            <div id="banner">
+                <img src="http://soft.edolfzoku.com/hayaemon2/80.png" align=left alt="アイコン" width=80 height=80 style="margin-right:10px" />
+                MP3プレイヤー フリーソフト</a><br />
+                <h1>
+                    <span style="font-size:13px">ぶ ん ぶ ん</span><br />
+                    聞々ハヤえもん公式サイト
+                </h1>
+            </div>
+        </div>
+        <div style="float:right;font-size:24px;margin-right:36px">
+            <br />
+            日本語 | <a href="http://en.edolfzoku.com/hayaemon2/" style="text-decoration:underline">English</a>
+        </div>
+        <!-- 中央カラム開始 -->
+        <div id="content">
+            <div class="blog">
+                <div class="entry">
+                    <?php
+                    require_once 'phpMyBorder2.class.php';
+                    $pmb = new PhpMyBorder();
+                    echo $pmb->begin_round('740px', 'ffffff', 'e0e0e0', 1000);
+                    ?>
+                    <div style="margin:20px 0px 0px 5px; line-height: 120%">
+                        <img src="screen.png" alt="スクリーンショット" width=508 height=83 style="margin-left:100px;margin-bottom:10px"><br />
+                        <div style="text-align:center;vertical-align: top"><a href="http://b.hatena.ne.jp/entry/" class="hatena-bookmark-button" data-hatena-bookmark-layout="standard" title="このエントリーをはてなブックマークに追加"><img src="http://b.st-hatena.com/images/entry-button/button-only.gif" alt="このエントリーをはてなブックマークに追加" width="20" height="20" style="border: none" /></a>　<div class="fb-like" data-send="false" data-layout="button_count" data-width="450" data-show-faces="true" style="display: inline-block; _display: inline;vertical-align: top"></div>　<div style="display: inline-block; _display: inline;vertical-align: top"><a name="fb_share" type="button"></a></div>
+                        <script src="http://static.ak.fbcdn.net/connect.php/js/FB.Share" type="text/javascript"></script>　<a href="https://twitter.com/share" class="twitter-share-button" data-via="ryota_yama" data-lang="ja"></a><div style="display: inline-block; _display: inline;vertical-align: top;width:70px !important"><g:plusone size="medium"></g:plusone></div></div>
+                        <div style="text-align:center;font-size:46px;margin-top:50px;margin-bottom:20px">音楽を、もっと楽しく。</div><br />
+                        <!-- How_Index_Top_728x90 -->
+                        <div id='div-gpt-ad-1355537191471-2' style='width:728px; height:90px;'>
+                            <script type='text/javascript'>
+                                googletag.cmd.push(function () { googletag.display('div-gpt-ad-1355537191471-2'); });
+                            </script>
+                        </div>
+                        <div style="width:335px;float:left">
+                            <br />
+                            <div style="margin-left:1em">音楽<span style="letter-spacing:-2px">――</span>&nbsp;。それは、音を楽しむこと。</div><br />
+                            <div style="margin-left:2em">近年、音楽の大量消費化が進み、次々と新しい音楽が生み出されては、たちまち消えていってしまうような世の中になりました。</div><br />
+                            <div style="margin-left:3em">しかし、音楽の本質が変わることはありません。</div><br />
+                            <div style="margin-left:4em">音楽<span style="letter-spacing:-2px">――</span>&nbsp;。それは、音を楽しむこと。</div><br />
+                            <div style="margin-left:1em">どうやって？</div><br />
+                            <div style="margin-left:2em">その答えを用意しました。</div><br />
+                            <div style="margin-left:3em">「聞々ハヤえもん」です。</div><br />
+                            <div style="margin-left:1em">聞々ハヤえもんは、「音楽を、もっと楽しく！！」という目的のためだけに作られた世界でひとつだけのユニークなサウンドプレイヤーです。</div><br />
+                            <div style="margin-left:2em">さあ、聞々ハヤえもんをダウンロードしてみましょう。</div><br />
+                            <div style="margin-left:3em">あなたにとっての音楽が、今日から変わります。</div><br />
+                            <div style="text-align:right;font-weight:bold;font-size:14px;line-height:120%">
+                                聞々ハヤえもん開発者<br />
+                                山内　良太
+                            </div><br />
+                            <div style="font-size:16px;text-align:right"><a href="about.html" target="_blank">聞々ハヤえもんについてさらに詳しく<img src="button.png" width="16" height="16" style="vertical-align:middle;margin-left:5px"></a></div><br /><br />
+                        </div>
+                        <div style="float:right;margin-right:10px;margin-top:0px">
+                            <div style="text-align:center">
+                                <br />
+                                <iframe width="340" height="255" src="http://www.youtube.com/embed/3qg0-ZfTZAc" frameborder="0" allowfullscreen></iframe>
+                                <div style="font-size:24px;font-weight:bold;margin-top:30px;margin-bottom:20px">
+                                    今すぐ無料ダウンロード
+                                </div>
+                                <a onclick="window.location='thanks.html';" target="_blank" href="Hayaemon260.zip"><img src="japanese.png" width="160" top="70" style="margin:0" alt="聞々ハヤえもん日本語版を無料ダウンロード"></a>　　　<a onclick="window.location='thanks.html';" target="_blank" href="Hayaemon260_en.zip"><img src="english.png" width="160" top="70" style="margin:0" alt="聞々ハヤえもん英語版を無料ダウンロード"></a>
+                            </div>
+                        </div><br clear="all" />
+                    </div>
+                    <?php
+                    echo $pmb->end_round();
+                    ?>
+                    <div style="float:left;width:320px;margin-left:25px">
+                        <div style="font-size:24px;margin-top:20px;display: inline-block; _display: inline;width:320px">News</div><br />
+                        <div style="margin-top:5px;border-top:3px solid #c0c0c0;border-bottom:1px solid #c0c0c0; inline-block; _display: inline;width:320px">
+                            <a href="http://www.forest.impress.co.jp/docs/news/20121105_570950.html" target="_blank" style="text-decoration: none;display:block;width:320px;padding-top:10px;padding-bottom:10px" onmouseover="style.background='#e0f0ff'" onmouseout="style.background='none'">
+                                2012.11.5<br />
+                                <img src="button.png" width="16" height="16" style="vertical-align:middle;margin-right:5px">
+                                「窓の杜」にて紹介されました！
+                            </a>
+                        </div>
+                        <div style="border-bottom:1px solid #c0c0c0; inline-block; _display: inline;width:320px">
+                            <a href="http://www.shinyusha.co.jp/~top/00ip/ip_1208.htm" target="_blank" style="text-decoration: none;display:block;width:320px;padding-top:10px;padding-bottom:10px" onmouseover="style.background='#e0f0ff'" onmouseout="style.background='none'">
+                                2012.8.24<br />
+                                <img src="button.png" width="16" height="16" style="vertical-align:middle;margin-right:5px">
+                                「Mr.PC」2012年10月号にて紹介されました！
+                            </a>
+                        </div>
+                        <div style="border-bottom:1px solid #c0c0c0; inline-block; _display: inline;width:320px">
+                            <a href="http://www.shinyusha.co.jp/~top/00ip/ip_1208.htm" target="_blank" style="text-decoration: none;display:block;width:320px;padding-top:10px;padding-bottom:10px" onmouseover="style.background='#e0f0ff'" onmouseout="style.background='none'">
+                                2012.6.29<br />
+                                <img src="button.png" width="16" height="16" style="vertical-align:middle;margin-right:5px">
+                                「iP！」の2012年8月号にて紹介されました！
+                            </a>
+                        </div>
+                        <div style="border-bottom:1px solid #c0c0c0; inline-block; _display: inline;width:320px">
+                            <a href="http://www.forest.impress.co.jp/docs/news/20120511_532137.html" target="_blank" style="text-decoration: none;display:block;width:320px;padding-top:10px;padding-bottom:10px" onmouseover="style.background='#e0f0ff'" onmouseout="style.background='none'">
+                                2012.5.11<br />
+                                <img src="button.png" width="16" height="16" style="vertical-align:middle;margin-right:5px">
+                                「窓の杜」にて紹介されました！
+                            </a>
+                        </div>
+                    </div>
+                    <div style="float:right;width:320px;margin-right:25px;margin-top:20px">
+                        <div style="font-size:24px;display: inline-block; _display: inline">更新履歴</div><br />
+                        <div style="margin-top:5px;padding-top:5px;padding-bottom:5px;border-top:3px solid #c0c0c0; border-bottom:1px solid #c0c0c0; inline-block; _display: inline;width:320px">
+                            2012/12/14(金) Version 2.61 β 19 開発版<br />
+                            <div style="margin-left:1em">
+                                再生位置のレジューム機能を追加しました。再生停止時に再生リストの１曲目に戻ってしまっていたのを修正しました。
+                                <br /><div style="text-align:right"><a onclick="window.location='thanks.html';" target="_blank" href="Hayaemon261b19.zip">Hayaemon261b19.zipをダウンロード<img src="button.png" width="16" height="16" style="vertical-align:middle;margin-left:5px"></a></div>
+                            </div>
+                        </div>
+                        <div style="padding-top:5px;padding-bottom:5px;border-bottom:1px solid #c0c0c0; inline-block; _display: inline;width:320px">
+                            2012/12/13(木) Version 2.61 β 18 開発版<br />
+                            <div style="margin-left:1em">
+                                タブ非表示時にエクスプローラの幅を調整できなかったのを修正しました。
+                                <br /><div style="text-align:right"><a onclick="window.location='thanks.html';" target="_blank" href="Hayaemon261b18.zip">Hayaemon261b18.zipをダウンロード<img src="button.png" width="16" height="16" style="vertical-align:middle;margin-left:5px"></a></div>
+                            </div>
+                        </div>
+                        <div style="padding-top:5px;padding-bottom:5px;border-bottom:1px solid #c0c0c0; inline-block; _display: inline;width:320px">
+                            2012/12/12(水) Version 2.61 β 17 開発版<br />
+                            <div style="margin-left:1em">
+                                ALACファイルの読み込みに対応しました。
+                                <br /><div style="text-align:right"><a onclick="window.location='thanks.html';" target="_blank" href="Hayaemon261b17.zip">Hayaemon261b17.zipをダウンロード<img src="button.png" width="16" height="16" style="vertical-align:middle;margin-left:5px"></a></div>
+                            </div>
+                        </div>
+                        <div style="padding-top:5px;padding-bottom:5px;border-bottom:1px solid #c0c0c0; inline-block; _display: inline;width:320px">
+                            2012/12/11(火) Version 2.61 β 16 開発版<br />
+                            <div style="margin-left:1em">
+                                再生リストの右クリックメニューから再生中のアーティストの曲をiTunes Storeで検索できるようにしました。
+                                <br /><div style="text-align:right"><a onclick="window.location='thanks.html';" target="_blank" href="Hayaemon261b16.zip">Hayaemon261b16.zipをダウンロード<img src="button.png" width="16" height="16" style="vertical-align:middle;margin-left:5px"></a></div>
+                            </div>
+                        </div>
+                        <div style="padding-top:5px;padding-bottom:5px;border-bottom:1px solid #c0c0c0; inline-block; _display: inline;width:320px">
+                            2012/12/10(月) Version 2.61 β 15 開発版<br />
+                            <div style="margin-left:1em">
+                                再生リストの右クリックメニューから再生中の曲の歌詞をインターネットで検索できるようにしました。
+                                <br /><div style="text-align:right"><a onclick="window.location='thanks.html';" target="_blank" href="Hayaemon261b15.zip">Hayaemon261b15.zipをダウンロード<img src="button.png" width="16" height="16" style="vertical-align:middle;margin-left:5px"></a></div>
+                            </div>
+                        </div>
+                        <div style="text-align:right"><a href="./history/">さらに過去の更新履歴<img src="button.png" width="16" height="16" style="vertical-align:middle;margin-left:5px"></a></div>
+                    </div>
+                    <br clear="all" /><br />
+                    <div style="text-align:center">
+                        <a href="./wiki/" target="_blank"><img src="community.png" style="margin-right:20px" alt="聞々ハヤえもんユーザーコミュニティ"></a><a href="bosyu.html" target="_blank"><img src="bosyu.png" alt="協力者募集中！！"></a>
+                    </div>
+                    <div style="font-size:24px;color:#4080ff;margin-left:10px;margin-top:30px;margin-bottom:10px;border-bottom:3px solid #c0c0c0;display: inline-block; _display: inline;width:320px">マニュアル動画公開中！！</div><br />
+                    <iframe width="730" height="545" src="http://www.youtube.com/embed/bvn-Vd095KA" frameborder="0" allowfullscreen></iframe>
+                    <div style="font-size:16px;margin-top:5px"><a href="./manual/"><img src="button.png" width="16" height="16" style="vertical-align:middle;margin-right:5px">もっと詳しく知りたい方はこちら</a></div><br />
+                    <!-- How_Index_Bottom_728x90 -->
+                    <div id='div-gpt-ad-1355537191471-0' style='width:728px; height:90px;'>
+                        <script type='text/javascript'>
+                            googletag.cmd.push(function () { googletag.display('div-gpt-ad-1355537191471-0'); });
+                        </script>
+                    </div>
+                    <br>
+                    <div class="entry-footer">
+                        Copyright &copy; 2004 - 2012 Ryota. All Rights Reserved.
+                    </div><!-- /entry-footer -->
+                </div><!-- /entry -->
+                <div style="text-align:right"><a href="http://soft.edolfzoku.com/"><img src="http://soft.edolfzoku.com/link/freesoft.png" alt="フリーソフト開発所" border=0></a>　<a href="http://soft.edolfzoku.com/hayaemon2/"><img src="http://soft.edolfzoku.com/link/hayaemon-L.gif" alt="音楽を、もっと楽しく！！／聞々ハヤえもん公式サイト" border=0 width="200" height="40"></a></div>
+            </div><!-- /blog -->
+        </div><!-- /content -->
+        <!-- 中央カラム終了 -->
+        <!-- 右カラム開始 -->
+        <div id="links-right-box">
+            <div id="links-right">
+                <!-- How_Index_Right_336x280 -->
+                <div id='div-gpt-ad-1355537191471-1' style='width:336px; height:280px;'>
+                    <script type='text/javascript'>
+                        googletag.cmd.push(function () { googletag.display('div-gpt-ad-1355537191471-1'); });
+                    </script>
+                </div>
+                <br />
+                <?php
+                $pmb = new PhpMyBorder();
+                echo $pmb->begin_round('336px', 'ffffff', 'e0e0e0', 1000);
+                ?>
+                <div style="margin:10px;font-size:12px">
+                    <img src="face.png" width="63" height="73" align="left" style="margin-right:10px">
+                    <div style="font-weight:bold;margin-bottom:5px">山内良太（りょーた）</div>
+                    <div style="margin-bottom:5px">1982年10月28日 愛知県生まれ。</div>
+                    大学時代、些細な出来事がきっかけで人間不信になり、孤独な日々を過ごしていたところ、大学のPCにソフトウェア開発環境がある事を知り、Windows用のソフトを作り始める。様々なソフトを開発していく中、自分に出来る事はこれしか無いと確信するに至り、2006年より愛知県でソフトウェア開発者として働き始める。2011年7月には職場で出会った同僚と結婚、2012年5月には長女が生まれる。ソフトウェア開発に対する情熱は冷める事なく、現在ではソフトウェア開発者として働きつつ、『聞々ハヤえもん』という無料音楽再生ソフトの開発を行う日々を過ごしている。<br />
+                    <br />
+                    <div style="margin-left:1em">
+                        <a href="https://twitter.com/ryota_yama" class="twitter-follow-button" data-show-count="false" data-lang="ja" data-show-screen-name="true">@ryota_yamaさんをフォロー</a>
+                        <script>!function (d, s, id) { var js, fjs = d.getElementsByTagName(s)[0]; if (!d.getElementById(id)) { js = d.createElement(s); js.id = id; js.src = "//platform.twitter.com/widgets.js"; fjs.parentNode.insertBefore(js, fjs); } }(document, "script", "twitter-wjs");</script><a href="mailto:Ryota.Yamauch@gmail.com"><img src="mail.png"></a>
+                        <br />
+                        Mail:<a href="mailto:Ryota.Yamauch@gmail.com">Ryota.Yamauch@gmail.com</a><br />
+                        Twitter:<a href="https://twitter.com/ryota_yama" target="_blank">@ryota_yama</a><br />
+                        Google+:<a href="https://plus.google.com/102844305957143894856/posts" target="_blank">山内良太</a><br />
+                        YouTube:<a href="http://www.youtube.com/user/taroedolfzoku/" target="_blank">山内良太</a>
+                    </div>
+                </div>
+                <?php
+                echo $pmb->end_round();
+                ?>
+                <br />
+                <?php
+                $pmb = new PhpMyBorder();
+                echo $pmb->begin_round('336px', 'ffffff', 'e0e0e0', 1000);
+                ?>
+                <div style="font-size:14px;padding-top:5px;padding-bottom:5px;font-weight:bold;padding-left:5px;border-bottom:1px solid #f0f0f0;text-align:center">取扱説明書（β）</div>
+                <div style="font-size:14px;border-bottom:1px solid #f0f0f0"><a href="about.html" style="display:block;width:326px;padding:5px" target="_blank"><img src="button.png" width="16" height="16" style="vertical-align:middle;margin-right:5px;">聞々ハヤえもんについて</a></div>
+                <div style="font-size:14px"><a href="howtodownload.html" style="display:block;width:326px;padding:5px" target="_blank"><img src="button.png" width="16" height="16" style="vertical-align:middle;margin-right:5px;">聞々ハヤえもんをダウンロードする方法</a></div>
+                <?php
+                echo $pmb->end_round();
+                ?>
+                <br />
+                <a href="http://www.edolfzoku.com/diary/" target="_blank"><img src="blog2.png" width="350" height="84" alt="聞々ハヤえもん開発者りょーたのブログ"></a>
+                <br /><br />
+                <?php
+                $pmb = new PhpMyBorder();
+                echo $pmb->begin_round('350px', 'ffffff', 'e0e0e0', 1000);
+                ?>
+                <div style="font-size:14px;padding-top:5px;padding-bottom:5px;font-weight:bold;padding-left:5px;border-bottom:1px solid #f0f0f0">お買い物して開発支援</div>
+                <div style="font-size:14px;margin-left:10px;padding-top:5px;padding-bottom:5px;text-align:center">
+                    <script type="text/javascript"><!--
 amazon_ad_tag = "edolfzoku-22"; amazon_ad_width = "300"; amazon_ad_height = "250"; amazon_ad_link_target = "new";//--></script>
-<script type="text/javascript" src="http://www.assoc-amazon.jp/s/ads.js"></script>
-<br /><br />
-<script type="text/javascript">var ronl_site_code="K*SWrc0YTzA";var ronl_oid="270022";var ronl_searchCondition="2";var ronl_sex="9";var ronl_age="30";var ronl_layoutType="2";var ronl_vertical="3";var ronl_horizontal="1";var ronl_alignment="1";var ronl_frame="1";var ronl_ranking="1";</script><script type="text/javascript" src="http://r-ad.linkshare.jp/js/rank_ichiba.js"></script>
-</div>
-<?php
-echo $pmb->end_round();
-?>
-<br />
-<a href="http://www.amazon.co.jp/gp/product/4636867580/ref=as_li_qf_sp_asin_il?ie=UTF8&tag=edolfzoku-22&linkCode=as2&camp=247&creative=1211&creativeASIN=4636867580"><img border="0" src="http://ws.assoc-amazon.jp/widgets/q?_encoding=UTF8&Format=_SL160_&ASIN=4636867580&MarketPlace=JP&ID=AsinImage&WS=1&tag=edolfzoku-22&ServiceVersion=20070822" ></a><img src="http://www.assoc-amazon.jp/e/ir?t=edolfzoku-22&l=as2&o=9&a=4636867580" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />　
-<a href="http://www.amazon.co.jp/gp/product/4990493419/ref=as_li_qf_sp_asin_il?ie=UTF8&tag=edolfzoku-22&linkCode=as2&camp=247&creative=1211&creativeASIN=4990493419"><img border="0" src="http://ws.assoc-amazon.jp/widgets/q?_encoding=UTF8&Format=_SL160_&ASIN=4990493419&MarketPlace=JP&ID=AsinImage&WS=1&tag=edolfzoku-22&ServiceVersion=20070822" ></a><img src="http://www.assoc-amazon.jp/e/ir?t=edolfzoku-22&l=as2&o=9&a=4990493419" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
-<br /><br />
-<?php
-$pmb = new PhpMyBorder();
-echo $pmb->begin_round('350px', 'ffffff', 'e0e0e0');
-?>
-<div style="font-size:14px;padding-top:5px;padding-bottom:5px;font-weight:bold;padding-left:5px;border-bottom:1px solid #f0f0f0">聞々ハヤえもんについて</div>
-<div style="font-size:14px;padding-top:5px;padding-left:15px;padding-right:10px">
-あなたのご意見をお聞かせください<br>
-<form action="http://www.edolfzoku.com/postmail.cgi" method="POST">
-<input type=hidden name="need" value="">
-<textarea name="メッセージ" rows="14" ACCESSKEY="M" style="width:320px"></textarea><br>
-<input type=submit value="送信する">
-</form>
-※管理人からの返信が必要な場合は、返信先をご記入ください。
-</div>
-<?php
-echo $pmb->end_round();
-?>
+                    <script type="text/javascript" src="http://www.assoc-amazon.jp/s/ads.js"></script>
+                    <br /><br />
+                    <script type="text/javascript">var ronl_site_code = "K*SWrc0YTzA"; var ronl_oid = "270022"; var ronl_searchCondition = "2"; var ronl_sex = "9"; var ronl_age = "30"; var ronl_layoutType = "2"; var ronl_vertical = "3"; var ronl_horizontal = "1"; var ronl_alignment = "1"; var ronl_frame = "1"; var ronl_ranking = "1";</script>
+                    <script type="text/javascript" src="http://r-ad.linkshare.jp/js/rank_ichiba.js"></script>
+                </div>
+                <?php
+                echo $pmb->end_round();
+                ?>
+                <br />
+                <a href="http://www.amazon.co.jp/gp/product/4636867580/ref=as_li_qf_sp_asin_il?ie=UTF8&tag=edolfzoku-22&linkCode=as2&camp=247&creative=1211&creativeASIN=4636867580"><img border="0" src="http://ws.assoc-amazon.jp/widgets/q?_encoding=UTF8&Format=_SL160_&ASIN=4636867580&MarketPlace=JP&ID=AsinImage&WS=1&tag=edolfzoku-22&ServiceVersion=20070822"></a><img src="http://www.assoc-amazon.jp/e/ir?t=edolfzoku-22&l=as2&o=9&a=4636867580" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
+                <a href="http://www.amazon.co.jp/gp/product/4990493419/ref=as_li_qf_sp_asin_il?ie=UTF8&tag=edolfzoku-22&linkCode=as2&camp=247&creative=1211&creativeASIN=4990493419"><img border="0" src="http://ws.assoc-amazon.jp/widgets/q?_encoding=UTF8&Format=_SL160_&ASIN=4990493419&MarketPlace=JP&ID=AsinImage&WS=1&tag=edolfzoku-22&ServiceVersion=20070822"></a><img src="http://www.assoc-amazon.jp/e/ir?t=edolfzoku-22&l=as2&o=9&a=4990493419" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
+                <br /><br />
+                <?php
+                $pmb = new PhpMyBorder();
+                echo $pmb->begin_round('350px', 'ffffff', 'e0e0e0');
+                ?>
+                <div style="font-size:14px;padding-top:5px;padding-bottom:5px;font-weight:bold;padding-left:5px;border-bottom:1px solid #f0f0f0">聞々ハヤえもんについて</div>
+                <div style="font-size:14px;padding-top:5px;padding-left:15px;padding-right:10px">
+                    あなたのご意見をお聞かせください<br>
+                    <form action="http://www.edolfzoku.com/postmail.cgi" method="POST">
+                        <input type=hidden name="need" value="">
+                        <textarea name="メッセージ" rows="14" ACCESSKEY="M" style="width:320px"></textarea><br>
+                        <input type=submit value="送信する">
+                    </form>
+                    ※管理人からの返信が必要な場合は、返信先をご記入ください。
+                </div>
+                <?php
+                echo $pmb->end_round();
+                ?>
 
-</div><!-- /links-right -->
-</div><!-- /links-right-box -->
-<!-- 右カラム終了 -->
-
-<br class="clear">
-
-</div><!-- /box -->
-
-<?php
-	$fp = fopen("../count.txt", "r+");
-	$count = fgets($fp, 10);
-	$count = $count + 1;
-	fseek($fp, 0);
-	flock($fp, LOCK_EX);
-	fputs($fp, $count);
-	flock($fp, LOCK_UN);
-	fclose($fp);
-?>
+            </div><!-- /links-right -->
+        </div><!-- /links-right-box -->
+        <!-- 右カラム終了 -->
+        <br class="clear">
+    </div><!-- /box -->
+    <?php
+    $fp = fopen("../count.txt", "r+");
+    $count = fgets($fp, 10);
+    $count = $count + 1;
+    fseek($fp, 0);
+    flock($fp, LOCK_EX);
+    fputs($fp, $count);
+    flock($fp, LOCK_UN);
+    fclose($fp);
+    ?>
 
 </body>
 </html>
