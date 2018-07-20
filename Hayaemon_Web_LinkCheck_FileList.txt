@@ -1,0 +1,60 @@
+﻿サクラエディタのGrep検索でファイル名を検索して孤立ファイルをみつけました。
+孤立ファイルは旧サイトで使われていたファイルっぽいです。
+
+￥GitHub\Hayaemon-master\Hayaemon_Web のディレクトリ
+
+80.png
+abloop.html
+about.html
+boot.html
+bosyu.html
+button.png
+changefrequency.html
+changepitch.html
+changespeed.html
+controls.html
+donate.html
+download.html　download_en.htmlからのリンクのみ。
+download_en.html　download.htmlからのリンクのみ。
+effects.html
+environment.html
+eqpreset.html
+heavyrotation.html
+history.html　index.htmlでは、http://hayaemon.jp/history/index.html というリンクになっている。このリンクをクリックすると、このhistory.htmlが表示されている模様。
+howtodownload.html
+icon.html
+icon_16.html
+icon_48.html
+incspeed.html
+index.html
+introduce.html
+lyrics.html
+maintenance.html　孤立ファイル。でも必要性あり。
+manual.html
+morainaki.html
+normalize.html
+play.html
+playrange.html
+record.html
+reverse.html
+savefile.html
+screenshot.html　孤立ファイル。
+screenshot1.html　孤立ファイルのscreenshot.htmlからのリンクのみ。
+screenshot2.html　孤立ファイルのscreenshot.htmlからのリンクのみ。
+screenshot3.html　孤立ファイルのscreenshot.htmlからのリンクのみ。
+soundeffects.html
+spec.html　孤立ファイル
+styles-site.css
+syoukai.html　孤立ファイル。
+test.html　孤立ファイル。
+test2.html　孤立ファイル。
+thanks.html
+thanks2.html　孤立ファイル。
+tmp_conf.html　孤立ファイル：投稿フォーム？
+tmp_err1.html　孤立ファイル：投稿フォーム？
+tmp_err2.html　孤立ファイル：投稿フォーム？
+tmp_thx.html　孤立ファイル ：投稿フォーム？
+uninstall.html
+versionup.html
+vocalcancel.html
+whychangespeed.html
