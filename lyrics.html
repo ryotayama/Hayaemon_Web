@@ -5,7 +5,11 @@
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-122337233-1"></script>
     <script>
         window.dataLayer = window.dataLayer || [];
-        function gtag() { dataLayer.push(arguments); }
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+
         gtag('js', new Date());
 
         gtag('config', 'UA-122337233-1');
@@ -13,18 +17,20 @@
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <meta http-equiv="Content-Script-Type" content="text/javascript">
     <meta http-equiv="Content-Style-Type" content="text/css">
-    <meta name=description content="再生速度、周波数、音程を変更できる、耳コピ、カラオケ／楽器／ダンス／英語のリスニング練習、テープ起こし等に便利なMP3プレーヤとして公開中のオープンソースのフリーソフト">
+    <meta name=description
+          content="再生速度、周波数、音程を変更できる、耳コピ、カラオケ／楽器／ダンス／英語のリスニング練習、テープ起こし等に便利なMP3プレーヤとして公開中のオープンソースのフリーソフト">
     <meta name="keywords" content="聞々ハヤえもん,はやえもん,ハヤエモン,hayaemon,MP3プレーヤ,オープンソース,テープ起こし,書き起こし,耳コピ,カラオケ">
     <link rel="stylesheet" href="http://hayaemon.jp/styles-site.css" type="text/css">
     <link rel="index" href="http://hayaemon.jp/">
     <link rev="made" href="mailto:ryota.yamauch@gmail.com">
-    <link rel="icon" href="http://hayaemon.jp/favicon.ico" type="image/vnd.microsoft.icon" />
-    <meta property="og:title" content="聞々ハヤえもんで歌詞を表示させる方法" />
-    <meta property="og:site_name" content="聞々ハヤえもん公式サイト" />
-    <meta property="og:description" content="再生速度、周波数、音程を変更できる、耳コピ、カラオケ／楽器／ダンス／英語のリスニング練習、テープ起こし等に便利なMP3プレーヤとして公開中のオープンソースのフリーソフト" />
-    <meta property="og:type" content="website" />
-    <meta property="og:url" content="http://hayaemon.jp/about.html" />
-    <meta property="og:image" content="http://hayaemon.jp/icon.png" />
+    <link rel="icon" href="http://hayaemon.jp/favicon.ico" type="image/vnd.microsoft.icon"/>
+    <meta property="og:title" content="聞々ハヤえもんで歌詞を表示させる方法"/>
+    <meta property="og:site_name" content="聞々ハヤえもん公式サイト"/>
+    <meta property="og:description"
+          content="再生速度、周波数、音程を変更できる、耳コピ、カラオケ／楽器／ダンス／英語のリスニング練習、テープ起こし等に便利なMP3プレーヤとして公開中のオープンソースのフリーソフト"/>
+    <meta property="og:type" content="website"/>
+    <meta property="og:url" content="http://hayaemon.jp/about.html"/>
+    <meta property="og:image" content="http://hayaemon.jp/icon.png"/>
     <title>聞々ハヤえもんで歌詞を表示させる方法</title>
     <script type='text/javascript'>
         var googletag = googletag || {};
@@ -35,7 +41,7 @@
             gads.type = 'text/javascript';
             var useSSL = 'https:' == document.location.protocol;
             gads.src = (useSSL ? 'https:' : 'http:') +
-            '//www.googletagservices.com/tag/js/gpt.js';
+                '//www.googletagservices.com/tag/js/gpt.js';
             var node = document.getElementsByTagName('script')[0];
             node.parentNode.insertBefore(gads, node);
         })();
@@ -50,107 +56,126 @@
     </script>
 </head>
 <body class="layout-one-column">
-    <?php include_once("analyticstracking.php") ?>
-    <div id="fb-root"></div>
-    <script>
-(function (d, s, id) {
+<?php include_once("analyticstracking.php") ?>
+<div id="fb-root"></div>
+<script>
+    (function (d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s);
+        js.id = id;
+        js.src = "//connect.facebook.net/ja_JP/all.js#xfbml=1";
+        fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));</script>
+<script>!function (d, s, id) {
     var js, fjs = d.getElementsByTagName(s)[0];
-    if (d.getElementById(id)) return;
-    js = d.createElement(s); js.id = id;
-    js.src = "//connect.facebook.net/ja_JP/all.js#xfbml=1";
-    fjs.parentNode.insertBefore(js, fjs);
-}(document, 'script', 'facebook-jssdk'));</script>
-    <script>!function (d, s, id) { var js, fjs = d.getElementsByTagName(s)[0]; if (!d.getElementById(id)) { js = d.createElement(s); js.id = id; js.src = "//platform.twitter.com/widgets.js"; fjs.parentNode.insertBefore(js, fjs); } }(document, "script", "twitter-wjs");</script>
-    <script src="http://static.ak.fbcdn.net/connect.php/js/FB.Share" type="text/javascript"></script>
-    <script type="text/javascript" src="http://b.st-hatena.com/js/bookmark_button.js" charset="utf-8" async="async"></script>
-    <div id="box">
-        <!-- タイトル -->
-        <div id="banner">
-            <a href="http://hayaemon.jp/">
-                <img src="http://hayaemon.jp/80.png" align=left alt="アイコン" width=80 height=80 style="margin-right:10px" />
-                MP3プレイヤー フリーソフト<br />
-                <h1>
-                    <span style="font-size:13px">ぶ ん ぶ ん</span><br />
-                    聞々ハヤえもん公式サイト
-                </h1>
-            </a>
-        </div>
-        <?php
-        require_once 'phpMyBorder2.class.php';
-        $pmb = new PhpMyBorder();
-        echo $pmb->begin_round('1120px', 'fefefe', 'e0e0e0');
-        ?>
+    if (!d.getElementById(id)) {
+        js = d.createElement(s);
+        js.id = id;
+        js.src = "//platform.twitter.com/widgets.js";
+        fjs.parentNode.insertBefore(js, fjs);
+    }
+}(document, "script", "twitter-wjs");</script>
+<script src="http://static.ak.fbcdn.net/connect.php/js/FB.Share" type="text/javascript"></script>
+<script type="text/javascript" src="http://b.st-hatena.com/js/bookmark_button.js" charset="utf-8"
+        async="async"></script>
+<div id="box">
+    <!-- タイトル -->
+    <div id="banner">
+        <a href="http://hayaemon.jp/">
+            <img src="http://hayaemon.jp/80.png" align=left alt="アイコン" width=80 height=80 style="margin-right:10px"/>
+            MP3プレイヤー フリーソフト<br/>
+            <h1>
+                <span style="font-size:13px">ぶ ん ぶ ん</span><br/>
+                聞々ハヤえもん公式サイト
+            </h1>
+        </a>
+    </div>
+    <div style="border:1px solid #e0e0e0;border-radius:5px">
         <div style="margin:20px 25px 40px 25px; line-height: 150%;font-size:15px;text-align:left;background-image:url();background-repeat:no-repeat">
             <div style="margin-left:60px;margin-right:100px">
                 <div style="text-align:center;margin-bottom:40px;font-size:20px">
-                    <div style="padding-top:40px;margin-bottom:20px;font-size:40px;font-weight:bold">聞々ハヤえもんで歌詞を表示させる方法</div>
+                    <div style="padding-top:40px;margin-bottom:20px;font-size:40px;font-weight:bold">
+                        聞々ハヤえもんで歌詞を表示させる方法
+                    </div>
                     <div style="font-size:30px;color:#808080;font-weight:bold">音楽に合わせて歌うこと、それが最高のストレス解消。</div>
-                    <br />
+                    <br/>
                     <center>
                         <!-- How_About_Top_728x90 -->
                         <div id='div-gpt-ad-1353715793997-1' style='width:728px; height:90px'>
                             <script type='text/javascript'>
-                                googletag.cmd.push(function () { googletag.display('div-gpt-ad-1353715793997-1'); });
+                                googletag.cmd.push(function () {
+                                    googletag.display('div-gpt-ad-1353715793997-1');
+                                });
                             </script>
                         </div>
                     </center>
-                    <br /><br />
-                    このページでは、歌詞を表示させる方法を説明します。<br />
-                    聞々ハヤえもんをご存知無い方は、まず以下のページをご覧ください。<br /><br />
-                    <a href="about.html" style="font-size:25px;text-decoration:underline">聞々ハヤえもんについて<img src="button.png" width="16" height="16" style="vertical-align:middle;margin-left:5px"></a><br /><br />
-                    まだ聞々ハヤえもんをダウンロードしていない方は、以下のページをご覧ください。<br /><br />
-                    <a href="howtodownload.html" style="font-size:25px;text-decoration:underline">聞々ハヤえもんをダウンロードする方法<img src="button.png" width="16" height="16" style="vertical-align:middle;margin-left:5px"></a>
+                    <br/><br/>
+                    このページでは、歌詞を表示させる方法を説明します。<br/>
+                    聞々ハヤえもんをご存知無い方は、まず以下のページをご覧ください。<br/><br/>
+                    <a href="about.html" style="font-size:25px;text-decoration:underline">聞々ハヤえもんについて<img
+                            <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMCAyMCI+PGRlZnM+PHN0eWxlPiNhe2ZpbGw6IzhmYjRlMTtzdHJva2U6IzNlNjE4ZDtzdHJva2Utd2lkdGg6MnB4O30jYntmaWxsOm5vbmU7c3Ryb2tlOiNmZmY7c3Ryb2tlLXdpZHRoOjJweDt9PC9zdHlsZT48L2RlZnM+PGNpcmNsZSBpZD0iYSIgY3g9IjEwIiBjeT0iMTAiIHI9IjkiLz48cG9seWxpbmUgaWQ9ImIiIHBvaW50cz0iNyA2LjUgMTMgMTAgNyAxMy41Ii8+PC9zdmc+" width="16" height="16"
+                            style="vertical-align:middle;margin-left:5px"></a><br/><br/>
+                    まだ聞々ハヤえもんをダウンロードしていない方は、以下のページをご覧ください。<br/><br/>
+                    <a href="howtodownload.html" style="font-size:25px;text-decoration:underline">聞々ハヤえもんをダウンロードする方法<img
+                            <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMCAyMCI+PGRlZnM+PHN0eWxlPiNhe2ZpbGw6IzhmYjRlMTtzdHJva2U6IzNlNjE4ZDtzdHJva2Utd2lkdGg6MnB4O30jYntmaWxsOm5vbmU7c3Ryb2tlOiNmZmY7c3Ryb2tlLXdpZHRoOjJweDt9PC9zdHlsZT48L2RlZnM+PGNpcmNsZSBpZD0iYSIgY3g9IjEwIiBjeT0iMTAiIHI9IjkiLz48cG9seWxpbmUgaWQ9ImIiIHBvaW50cz0iNyA2LjUgMTMgMTAgNyAxMy41Ii8+PC9zdmc+" width="16" height="16" style="vertical-align:middle;margin-left:5px"></a>
                 </div>
                 <div style="font-size:26px;margin-top:60px;margin-bottom:20px;font-weight:bold">LRC歌詞ファイルを作成。</div>
                 <div style="margin-left:20px">
-                    聞々ハヤえもんはLRC歌詞ファイルの表示に対応しています。LRC歌詞ファイルとは、以下のようなフォーマットのファイルです。<br />
-                    <br />
+                    聞々ハヤえもんはLRC歌詞ファイルの表示に対応しています。LRC歌詞ファイルとは、以下のようなフォーマットのファイルです。<br/>
+                    <br/>
                     <div style="border:1px #a0a0a0 solid;padding:5px">
-                        [ti:福神漬けのうた]<br />
-                        [ar:山内良太]<br />
-                        [00:24.00]福神漬けが食べたいな　福神漬けが食べたいな<br />
+                        [ti:福神漬けのうた]<br/>
+                        [ar:山内良太]<br/>
+                        [00:24.00]福神漬けが食べたいな　福神漬けが食べたいな<br/>
                         [00:29.00]カレーに良く合う　福神漬け
                     </div>
-                    <br />
-                    1行ずつ説明します。まず1行目の[ti:福神漬けのうた]は、曲のタイトルが「福神漬けのうた」というタイトルであることを意味しています。<br />
-                    <br />
-                    2行目の[ar:山内良太]は、アーティスト名が「山内良太」であるという意味です。<br />
-                    <br />
-                    3行目の[00:24.00]福神漬けが食べたいな　福神漬けが食べたいなというのは、24秒目のタイミングで「福神漬けが食べたいな　福神漬けが食べたいな」という歌詞を表示させるための記述です。4行目は29秒目のタイミングで「カレーに良く合う　福神漬け」という歌詞を表示させるための記述です。<br />
-                    <br />
+                    <br/>
+                    1行ずつ説明します。まず1行目の[ti:福神漬けのうた]は、曲のタイトルが「福神漬けのうた」というタイトルであることを意味しています。<br/>
+                    <br/>
+                    2行目の[ar:山内良太]は、アーティスト名が「山内良太」であるという意味です。<br/>
+                    <br/>
+                    3行目の[00:24.00]福神漬けが食べたいな　福神漬けが食べたいなというのは、24秒目のタイミングで「福神漬けが食べたいな　福神漬けが食べたいな」という歌詞を表示させるための記述です。4行目は29秒目のタイミングで「カレーに良く合う　福神漬け」という歌詞を表示させるための記述です。<br/>
+                    <br/>
                     こんな風にして、LRC歌詞ファイルを作成します。
                 </div>
                 <div style="font-size:26px;margin-top:40px;margin-bottom:20px;font-weight:bold">音声ファイルと同じ場所に保存。</div>
                 <div style="margin-left:20px">
-                    LRC歌詞ファイルが完成したら、音声ファイルと同じ場所に拡張子以外は同じ名前で保存します。<br />
-                    <br />
-                    例えば、「C:\Music\山内良太 - 福神漬け.mp3」というファイルが音声ファイルだとしたら、LRC歌詞ファイルも同じように「C:\Music」フォルダに「山内良太 - 福神漬け.txt」という名前で保存します。<br />
-                    <br />
+                    LRC歌詞ファイルが完成したら、音声ファイルと同じ場所に拡張子以外は同じ名前で保存します。<br/>
+                    <br/>
+                    例えば、「C:\Music\山内良太 - 福神漬け.mp3」というファイルが音声ファイルだとしたら、LRC歌詞ファイルも同じように「C:\Music」フォルダに「山内良太 -
+                    福神漬け.txt」という名前で保存します。<br/>
+                    <br/>
                     こうすることで、聞々ハヤえもんがLRC歌詞ファイルを読み込めるようになります。
                 </div>
-                <br /><br />
+                <br/><br/>
                 <div style="float:left">
-                    <a href="controls.html" style="font-size:19px;text-decoration:underline"><img src="lbutton.png" width="16" height="16" style="vertical-align:middle;margin-right:5px">聞々ハヤえもんでコントロールの表示状態を切り替える方法</a>
+                    <a href="controls.html" style="font-size:19px;text-decoration:underline"><img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMCAyMCI+PGRlZnM+PHN0eWxlPiNhe2ZpbGw6IzhmYjRlMTtzdHJva2U6IzNlNjE4ZDtzdHJva2Utd2lkdGg6MnB4O30jYntmaWxsOm5vbmU7c3Ryb2tlOiNmZmY7c3Ryb2tlLXdpZHRoOjJweDt9PC9zdHlsZT48L2RlZnM+PGNpcmNsZSBpZD0iYSIgY3g9IjEwIiBjeT0iMTAiIHI9IjkiLz48cG9seWxpbmUgaWQ9ImIiIHBvaW50cz0iMTMgNi41IDcgMTAgMTMgMTMuNSIvPjwvc3ZnPg=="
+                                                                                                  width="16" height="16"
+                                                                                                  style="vertical-align:middle;margin-right:5px">聞々ハヤえもんでコントロールの表示状態を切り替える方法</a>
                 </div>
                 <div style="float:right;text-align:right">
-                    <a href="effects.html" style="font-size:19px;text-decoration:underline">聞々ハヤえもんでエフェクト機能を使う方法<img src="button.png" width="16" height="16" style="vertical-align:middle;margin-left:5px"></a>
+                    <a href="effects.html" style="font-size:19px;text-decoration:underline">聞々ハヤえもんでエフェクト機能を使う方法<img
+                            <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMCAyMCI+PGRlZnM+PHN0eWxlPiNhe2ZpbGw6IzhmYjRlMTtzdHJva2U6IzNlNjE4ZDtzdHJva2Utd2lkdGg6MnB4O30jYntmaWxsOm5vbmU7c3Ryb2tlOiNmZmY7c3Ryb2tlLXdpZHRoOjJweDt9PC9zdHlsZT48L2RlZnM+PGNpcmNsZSBpZD0iYSIgY3g9IjEwIiBjeT0iMTAiIHI9IjkiLz48cG9seWxpbmUgaWQ9ImIiIHBvaW50cz0iNyA2LjUgMTMgMTAgNyAxMy41Ii8+PC9zdmc+" width="16" height="16" style="vertical-align:middle;margin-left:5px"></a>
                 </div>
-                <br /><br />
+                <br/><br/>
                 <center>
                     <!-- How_About_Bottom_728x90 -->
                     <div id='div-gpt-ad-1353715793997-0' style='width:728px; height:90px;'>
                         <script type='text/javascript'>
-                            googletag.cmd.push(function () { googletag.display('div-gpt-ad-1353715793997-0'); });
+                            googletag.cmd.push(function () {
+                                googletag.display('div-gpt-ad-1353715793997-0');
+                            });
                         </script>
                     </div>
                 </center>
             </div>
         </div>
-        <?php
-        echo $pmb->end_round();
-        ?>
-        <br />
-        <div style="font-size:14px"><a href="http://hayaemon.jp/" style="text-decoration:underline">聞々ハヤえもん公式サイト</a> &gt; 聞々ハヤえもんで歌詞を表示させる方法</div>
-    </div><!-- /box -->
+    </div>
+    <br/>
+    <div style="font-size:14px"><a href="http://hayaemon.jp/" style="text-decoration:underline">聞々ハヤえもん公式サイト</a> &gt;
+        聞々ハヤえもんで歌詞を表示させる方法
+    </div>
+</div><!-- /box -->
 </body>
 </html>
