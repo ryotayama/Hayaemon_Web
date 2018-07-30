@@ -28,6 +28,10 @@
     vertical-align: middle;
 }
 
+#menu a:after, #vocalChange a:after, #manualList li a:after{
+   margin-left: 10px;
+}
+
 .lbtn:before{
     content: '';
     display: inline-block;
@@ -39,3 +43,13 @@
     vertical-align: middle;
 }
 
+#manualList ol{
+    margin-left:-32px;
+}
+#manualList li{
+    padding:8px 5px 8px 15px;
+    font-size:14px;
+    border-top:1px solid #f0f0f0;
+    list-style-position: inside;
+    margin-left:0px;
+}
