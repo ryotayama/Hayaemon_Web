@@ -67,5 +67,5 @@ include('./include/header.html');
         聞々ハヤえもんでABループ機能を使う方法
     </div>
 <?php
-include('./include/fotter.html');
+include('./include/footer.html');
 ?>
