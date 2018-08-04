@@ -105,7 +105,7 @@ function GetMd($content, $year, $mon, $flag = FALSE)
         case '#':
             $str = str_replace('# ', '', $content);
             $str_split = explode("\t", $str);
-            $release_timing = date("Y / m / d", strtotime($str_split[0]));
+            $release_timing = date("Y/m/d", strtotime($str_split[0]));
             $date = explode('/', $release_timing);
             if ($date[1] == $mon || $mon == 'any') {
                 $flag = TRUE;
@@ -113,7 +113,7 @@ function GetMd($content, $year, $mon, $flag = FALSE)
                 $flag = FALSE;
             }
             if ($flag == TRUE) {
-                $return .= " < h3>${release_timing} ${str_split[1]} </h3 > ";
+                $return .= " <h3>${release_timing} ${str_split[1]} </h3 > ";
             }
             break;
         case '*':
