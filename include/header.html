@@ -52,7 +52,12 @@
             MP3プレイヤー フリーソフト<br/>
             <h1>
                 <span class="font13">ぶ ん ぶ ん</span><br/>
-                聞々ハヤえもん公式サイト
+                <?php echo $o['GlobalTitle']; ?>
             </h1>
         </a>
     </div>
+    <?php
+            if($o['type'] == 'manual') {
+            include('./include/manual_header.html');
+            }
+            ?>

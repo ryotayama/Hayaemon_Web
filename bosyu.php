@@ -1,53 +1,13 @@
-﻿<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
-<html lang="ja">
-<head>
-    <link rel="stylesheet" type="text/css" href="style.css">
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-122337233-1"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag() { dataLayer.push(arguments); }
-        gtag('js', new Date());
+﻿<?php
+$set['PageTitle'] = '聞々ハヤえもん開発協力者、募集中！';
+$set['column'] = 'one';
+$set['type'] = 'manual';
+include('config.inc.php');
 
-        gtag('config', 'UA-122337233-1');
-    </script>
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <meta http-equiv="Content-Script-Type" content="text/javascript">
-    <meta http-equiv="Content-Style-Type" content="text/css">
-    <meta name=description content="再生速度、周波数、音程を変更できる、耳コピ、カラオケ／楽器／ダンス／英語のリスニング練習、テープ起こし等に便利なMP3プレーヤとして公開中のオープンソースのフリーソフト">
-    <meta name="keywords" content="聞々ハヤえもん,はやえもん,ハヤエモン,hayaemon,MP3プレーヤ,オープンソース,テープ起こし,書き起こし,耳コピ,カラオケ">
-    <link rel="stylesheet" href="http://hayaemon.jp/styles-site.css" type="text/css">
-    <link rel="index" href="http://hayaemon.jp/">
-    <link rev="made" href="mailto:ryota.yamauch@gmail.com">
-    <link rel="icon" href="http://hayaemon.jp/favicon.ico" type="image/vnd.microsoft.icon" />
-    <meta property="og:title" content="聞々ハヤえもん開発協力者、募集中！" />
-    <meta property="og:site_name" content="聞々ハヤえもん公式サイト" />
-    <meta property="og:description" content="再生速度、周波数、音程を変更できる、耳コピ、カラオケ／楽器／ダンス／英語のリスニング練習、テープ起こし等に便利なMP3プレーヤとして公開中のオープンソースのフリーソフト" />
-    <meta property="og:type" content="website" />
-    <meta property="og:url" content="http://hayaemon.jp/bosyu.html" />
-    <meta property="og:image" content="http://hayaemon.jp/icon.png" />
-    <title>聞々ハヤえもん開発協力者、募集中！</title>
-</head>
-<body class="layout-one-column">
-    <?php include_once("analyticstracking.php") ?>
-    <div id="box">
-        <!-- タイトル -->
-        <div id="banner">
-            <a href="http://hayaemon.jp/">
-                <img src="http://hayaemon.jp/80.png" align=left alt="アイコン" width=80 height=80 style="margin-right:10px" />
-                MP3プレイヤー フリーソフト<br />
-                <h1>
-                    <span class="font13">ぶ ん ぶ ん</span><br/>
-                    聞々ハヤえもん公式サイト
-                </h1>
-            </a>
-        </div>
-<div style="border:1px solid #e0e0e0;border-radius:5px">
-    <div class="font15"
-         style="margin:25px 20px 40px 20px; line-height: 150%;text-align:left;background-image:url(develop.png);background-repeat:no-repeat">
-            <div style="margin-left:60px;margin-right:100px">
-                <div style="text-align:center;margin-bottom:40px;font-weight:bold">
-                    <div class="font40" style="margin-bottom:20px;">聞々ハヤえもん開発協力者、募集中！</div>
+include('./include/header.html');
+
+?>
+
                     <div class="font30" style="color:#808080">最高の音楽プレイヤーを、皆の手で。</div>
                     <br />
                     <!-- グーグル・アドセンス開始-->
@@ -151,9 +111,6 @@ google_ad_height = 90;
         </div>
 </div>
         <br />
-        <div class="font14"><a href="http://hayaemon.jp/" style="text-decoration:underline">聞々ハヤえもん公式サイト</a> &gt;
-            開発協力者、募集中！
-        </div>
-    </div><!-- /box -->
-</body>
-</html>
+<?php
+include('./include/footer.html');
+?>

@@ -61,9 +61,6 @@ include('./include/header.html');
         </div>
 </div>
         <br />
-        <div class="font14"><a href="http://hayaemon.jp/" style="text-decoration:underline">聞々ハヤえもん公式サイト</a> &gt;
-            聞々ハヤえもんで再生速度を変更する方法
-        </div>
-    </div><!-- /box -->
-</body>
-</html>
+<?php
+include('./include/footer.html');
+?>

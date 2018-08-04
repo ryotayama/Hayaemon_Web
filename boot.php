@@ -1,18 +1,13 @@
 ﻿<?php
 $set['PageTitle'] = '聞々ハヤえもんで音楽を聴く方法';
 $set['column'] = 'one';
+$set['type'] = 'manual';
 include('config.inc.php');
 
 include('./include/header.html');
 
 ?>
 
-    <div style="border:1px solid #e0e0e0;border-radius:5px">
-        <div class="font15" style="margin:20px 25px 40px 25px; line-height: 150%;text-align:left">
-            <div style="margin-left:60px;margin-right:100px">
-                <div class="font20" style="text-align:center;margin-bottom:40px;">
-                    <div class="font40" style="padding-top:40px;margin-bottom:20px;font-weight:bold">聞々ハヤえもんを起動する方法
-                    </div>
                     <div class="font30" style="color:#808080;font-weight:bold">さあ、立ち上がるんだ。</div>
                     <br/>
                     <center>
@@ -28,7 +23,7 @@ include('./include/header.html');
                     <br/><br/>
                     このページでは、聞々ハヤえもんを起動する方法を説明します。<br/>
                     聞々ハヤえもんをご存知無い方は、まず以下のページをご覧ください。<br/><br/>
-                    <a href="about.html" class="font25 btn" style="text-decoration:underline">聞々ハヤえもんについて</a>
+    <a href="about.php" class="font25 btn" style="text-decoration:underline">聞々ハヤえもんについて</a>
                 </div>
                 <div class="font26" style="margin-top:60px;margin-bottom:20px;font-weight:bold">①ダウンロードしたファイルを解凍。</div>
                 <div style="margin-left:20px">
@@ -78,5 +73,5 @@ include('./include/header.html');
     </div>
     <br/>
 <?php
-include('./include/fotter.html');
+include('./include/footer.html');
 ?>
