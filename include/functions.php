@@ -1,6 +1,6 @@
 <?php
-$debug = TRUE;
-if ($debug) {
+$GLOBALS['debug'] = FALSE;
+if ($GLOBALS['debug']) {
     ini_set("display_errors", "true");
     error_reporting(-1);
 } else {
@@ -42,9 +42,9 @@ function GetHistory($date = 'latest')
     } else {
         trigger_error("ERROR:Invalid argument", E_USER_ERROR);
     }
-    $flag = false;
+    $flag = TRUE;
     $count = 0;
-    $html = null;
+    $html = NULL;
     $history = file_get_contents("./history/history_${date_year}.txt");
     if (empty($history)) {
         $html = "<div class='history'>指定された期間のアップデートログは見つかりませんでした</div>";
@@ -55,7 +55,9 @@ function GetHistory($date = 'latest')
 
 
     foreach ($history as $value) {
-        $html .= "<div class='history'>";
+        if ($flag) {
+            $html .= "<div class='history'>";
+        }
         $content = explode("\n", $value);
         if ($date == 'latest') {
             if ($count <= 5) {
@@ -74,23 +76,36 @@ function GetHistory($date = 'latest')
 
             }
         }
-        $html .= "</div>";
+        if ($GLOBALS['debug']) {
+            var_dump($value);
+        }
+        if ($flag) {
+            $html .= "</div>";
+        }
     }
-
+    if ($GLOBALS['debug']) {
+        var_dump($html);
+    }
+    if ($html == "<div class='history'></div><div class='history'>") {
+        $html = "<div class='history'>指定された期間のアップデートログは見つかりませんでした</div>";
+    }
     $html = str_replace('<div class=\'history\'></div>', '', $html);
     return $html;
 }
 
-function GetMd($content, $year, $mon, $flag = false)
+function GetMd($content, $year, $mon, $flag = FALSE)
 {
-    $return = null;
+    $return = NULL;
+    if ($GLOBALS['debug']) {
+        var_dump($content);
+    }
     switch ($content[0]) {
         case '-':
             break;
         case '#':
             $str = str_replace('# ', '', $content);
             $str_split = explode("\t", $str);
-            $release_timing = date("Y/m/d", strtotime($str_split[0]));
+            $release_timing = date("Y / m / d", strtotime($str_split[0]));
             $date = explode('/', $release_timing);
             if ($date[1] == $mon || $mon == 'any') {
                 $flag = TRUE;
@@ -98,18 +113,18 @@ function GetMd($content, $year, $mon, $flag = false)
                 $flag = FALSE;
             }
             if ($flag == TRUE) {
-                $return .= "<h3>${release_timing} ${str_split[1]}</h3>";
+                $return .= " < h3>${release_timing} ${str_split[1]} </h3 > ";
             }
             break;
         case '*':
             if ($flag == TRUE) {
-                $return .= "<li>" . str_replace('* ', '', $content) . "</li>";
+                $return .= "<li > " . str_replace('* ', '', $content) . "</li > ";
             }
             break;
         case '$':
             if ($flag == TRUE) {
                 $str = str_replace('$ ', '', $content);
-                $return .= "<a href='${str}' class='downloadlink'>このバージョンをダウンロード</a>";
+                $return .= "<a href = '${str}' class='downloadlink' > このバージョンをダウンロード</a > ";
             }
             break;
     }
