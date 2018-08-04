@@ -1,4 +1,12 @@
 <?php
+$debug = TRUE;
+if ($debug) {
+    ini_set("display_errors", "true");
+    error_reporting(-1);
+} else {
+    ini_set("display_errors", "false");
+    error_reporting(0);
+}
 function GetCalener()
 {
     $document = <<<EOL
@@ -38,6 +46,9 @@ function GetHistory($date = 'latest')
     $count = 0;
     $html = null;
     $history = file_get_contents("./history/history_${date_year}.txt");
+    if (empty($history)) {
+        $html = "<div class='history'>指定された期間のアップデートログは見つかりませんでした</div>";
+    }
 
     $history = str_replace(array("\r\n", "\r", "\n"), "\n", $history);
     $history = explode("\n\n", $history);
@@ -61,7 +72,6 @@ function GetHistory($date = 'latest')
                 $html .= $data[0];
                 $flag = $data[1];
 
-//        var_dump($version_detail);
             }
         }
         $html .= "</div>";
