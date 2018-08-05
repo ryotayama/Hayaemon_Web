@@ -1,0 +1,8 @@
+# 2017/08/30	Windows Version 2.75 β 4 開発版
+* Windows XPの環境で起動しなかったのを修正しました。
+
+# 2017/08/23	Windows Version 2.75 β 3 開発版
+* iOS用にうめさんがデザインしてくれたアイコンをしゅがーたろうくんと坂口くんが反映させてくれました。
+* ○うめさん（Twitter: (@UmeboshiKantaro)[https://twitter.com/UmeboshiKantaro]）
+* ○しゅがーたろうくん（Twitter: @12guitar21）
+* ○坂口くん（Twitter: @guxtuti_cording） 

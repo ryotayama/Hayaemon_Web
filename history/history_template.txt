@@ -1,0 +1,11 @@
+- charset=utf8
+- EOL=CR(\r) or LF(\n)
+- Comment
+- # 公開日付(YYYY/MM/DD)	(tab)バージョン(タブを含まない任意の形式)
+- $ /Path/File.extension
+- * list of content
+- * 更新内容
+- * 箇条書き
+- 
+- 新しいバージョンは空行を挟んでください
+- End Comment

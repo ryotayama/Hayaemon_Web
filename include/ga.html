@@ -8,14 +8,8 @@
     }
 
     gtag('js', new Date());
-    gtag('config', '<?php echo $o[';
-    AnalyticsId;
-    ']; ?>';
-    )
-    gtag('config', '<?php echo $o[';
-    AdwordsId;
-    ']; ?>';
-    )
+    gtag('config', '<?php echo $o['AnalyticsId']; ?>');
+    gtag('config', '<?php echo $o['AdwordsId']; ?>');
 </script>
 <script type='text/javascript'>
     var googletag = googletag || {};

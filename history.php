@@ -6,7 +6,7 @@ include('config.inc.php');
 
 include('./include/functions.php');
 include('./include/header.html');
-@$date = $_GET['date'];
+$date = $_GET['date'];
 
 ?>
     <style>
@@ -25,6 +25,10 @@ include('./include/header.html');
         li {
             list-style-position: outside;
         }
+
+        .cal.disable {
+            color: #ccc;
+        }
     </style>
 
     <div style="border:1px solid #e0e0e0;border-radius:5px">
@@ -35,7 +39,9 @@ include('./include/header.html');
                     <div class="font40" style="text-align:center;padding-top:40px;margin-bottom:20px;font-weight:bold"><?php echo $o['PageTitle']; ?></div>
                     <br/>
                     <br/>
-                    <?php echo GetCalener(); ?>
+                    <div id="cal">
+                        <?php echo GetCalener(); ?>
+                    </div>
                     <br/>
 
                     <?php echo GetHistory($date); ?>
