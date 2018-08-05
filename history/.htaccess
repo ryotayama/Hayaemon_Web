@@ -1,0 +1,5 @@
+<IfModule mod_rewrite.c>
+    RewriteEngine on
+    RewriteRule ^history/index.html$ history.php [R=302]
+    RewriteRule ^history/([0-9]{6}).html$ history.php?date=$1 [R=302]
+</IfModule>
