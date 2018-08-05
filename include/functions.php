@@ -45,7 +45,7 @@ function GetCalener()
     for ($i = 2005; $i <= date('Y'); $i++) {
         $cal_html .= "<div> ${i} 年 [";
         for ($m = 1; $m <= 12; $m++) {
-            if (array_search($m, $cal_array[$i]) !== FALSE) {
+            if (array_search($m, $cal_array[$i]) !== FALSE && !empty($cal_array[$i])) {
                 $cal_html .= " <a href='./history.php?date=${i}${m}'>${m}</a>";
             } else {
                 $cal_html .= " <span class='cal disable'>${m}</span>";
