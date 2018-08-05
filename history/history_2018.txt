@@ -1,24 +1,35 @@
 # 2018/07/11	MacOS Version 0.01 β4 開発版公開
+$ /download/Hayaemon001b4.app.zip
 * ①ツールバーの再生リストのOn/Offボタンで再生リストの表示状態が切り替わらない不具合を修正。
 * ②メニューバーのデフォルトの表示スタイルをmacOSネイティブスタイルに変更。
 
 # 2018/07/04	Windows Version 2.77 β 3 開発版公開
+$ /download/Hayaemon277b3.zip
 * ASIOを選んでいない場合でもASIOと競合して音が出ない場合があったのを修正しました。
-* Hayaemon277b3.zipをダウンロード
+* (XP対応版)[/download/Hayaemon277b3_XP.zip]
 
 # 2018/07/03	Windows Version 2.77 β 2 開発版公開
+$ /download/Hayaemon277b2.zip
 * 起動時に「d3dx9_43.dll が見つからないため、コードの実行を続行できません」というエラーが出ていたのを修正しました。
+* (XP対応版)[/download/Hayaemon277b2_XP.zip]
 
 # 2018/06/27	Windows Version 2.77 β 1 開発版公開
+$ /download/Hayaemon277b1.zip
 * 外部ライブラリを最新化しました。
+* (XP対応版)[/download/Hayaemon277b1_XP.zip]
 
 # 2018/06/12	Windows Version 2.76 安定版公開
+$ /download/Hayaemon276.zip
 * 安定版として公開しました。
+* (XP対応版)[/download/Hayaemon276_XP.zip]
 
 # 2018/06/04	Windows Version 2.75 β6 開発版公開
+$ /download/Hayaemon275b6.zip
 * アイコンを期間限定の桜アイコンから通常のアイコンに変更しました。
+* (XP対応版)[/download/Hayaemon275b6_XP.zip]
 
 # 2018/06/01	MacOS Version 0.01 β3 開発版公開
+$ /download/Hayaemon001b3.app.zip
 * ①再生リストで複数の曲を選択して削除した時に、挙動がおかしくなっていたのを修正。
 * ②アップデート時に再生リストがリセットされてしまうのを修正。
 * ③再生速度などのテキストボックスをクリックした時に、数値を選択状態になるようにした。
@@ -26,13 +37,17 @@
 * ⑤アイコンを桜のアイコンから通常のアイコンに変更。
 
 # 2018/05/14	Windows Version 2.75 β5 開発版公開
+$ /download/Hayaemon275b5.zip
 * iOS、Android、MacOS版にあわせて、期間限定でアイコンを桜のアイコンにしました。
+* (XP対応版)[/download/Hayaemon275b5_XP.zip]
 
 # 2018/05/13	MacOS Version 0.01 β2 開発版公開
+$ /download/Hayaemon001b2.app.zip
 * ①エクスプローラ機能でパスを手打ちすると落ちるのを修正。
 * ②Retinaディスプレイに最適化されていなかったのを修正。
 * ③アクティビティモニタにアプリ名が表示されなかったのを修正
 
 # 2018/05/11	MacOS Version 0.01 β1 開発版公開
+$ /download/Hayaemon001b1.app.zip
 * MacOS[beta]版を公開しました。
-* Daisukeさん（Twitter: @DaisukeAtraxia2）が有志で開発してくれました。
+* Daisukeさん（Twitter: (@DaisukeAtraxia2)[https://twitter.com/DaisukeAtraxia2]）が有志で開発してくれました。
