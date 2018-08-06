@@ -56,7 +56,7 @@ if (is_numeric($date) && '6' == strlen($date)) {
     $date .= '/01';
     $date_mon = date("m", strtotime($date));
     $date_year = date("Y", strtotime($date));
-    $o['PageTitle'] = "<a href='/history.php'>更新履歴</a> &gt; ${date_year}年 &gt; ${date_mon}月";
+    $o['PageTitle'] = "<a href='${o['Url']}/history.php'>更新履歴</a> &gt; ${date_year}年 &gt; ${date_mon}月";
 }
 
 include('./include/footer.php');

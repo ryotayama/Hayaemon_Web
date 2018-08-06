@@ -9,15 +9,15 @@
     <meta name="description" content="<?php echo $o['Description']; ?>">
     <meta name="keywords" content="聞々ハヤえもん,はやえもん,ハヤエモン,hayaemon,MP3プレーヤ,オープンソース,テープ起こし,書き起こし,耳コピ,カラオケ">
     <link rel="stylesheet" href="/styles-site.css" type="text/css">
-    <link rel="index" href="<?php echo $o['Protocol']; ?>://<?php echo $o['Domain']; ?>">
+    <link rel="index" href="<?php echo $o['Url']; ?>">
     <link rev="made" href="mailto:ryota.yamauch@gmail.com">
-    <link rel="icon" href="<?php echo $o['Protocol']; ?>://<?php echo $o['Domain']; ?>/favicon.ico" type="image/vnd.microsoft.icon"/>
+    <link rel="icon" href="<?php echo $o['Url']; ?>/favicon.ico" type="image/vnd.microsoft.icon"/>
     <meta property="og:title" content="<?php echo $o['PageTitle']; ?>"/>
     <meta property="og:site_name" content="<?php echo $o['GlobalTitle']; ?>"/>
     <meta property="og:description" content="<?php echo $o['Description']; ?>"/>
     <meta property="og:type" content="website"/>
-    <meta property="og:url" content="<?php echo $o['Protocol']; ?>://<?php echo $o['Domain']; ?>/about.html"/>
-    <meta property="og:image" content="<?php echo $o['Protocol']; ?>://<?php echo $o['Domain']; ?>/icon.png"/>
+    <meta property="og:url" content="<?php echo $o['Url']; ?>/about.html"/>
+    <meta property="og:image" content="<?php echo $o['Url']; ?>/icon.png"/>
     <title><?php echo $o['PageTitle']; ?> | <?php echo $o['GlobalTitle']; ?></title>
 </head>
 <body class="layout-<?php echo $o['column']; ?>-column">
@@ -47,8 +47,8 @@
 <script type="text/javascript" src="http://b.st-hatena.com/js/bookmark_button.js" charset="utf-8" async="async"></script>
 <div id="box">
     <div id="banner">
-        <a href="http://hayaemon.jp/">
-            <img src="http://hayaemon.jp/80.png" align=left alt="アイコン" width=80 height=80 style="margin-right:10px"/>
+        <a href="<?php echo $o['Url']; ?>">
+            <img src="<?php echo $o['Url']; ?>/80.png" align=left alt="アイコン" width=80 height=80 style="margin-right:10px"/>
             MP3プレイヤー フリーソフト<br/>
             <h1>
                 <span class="font13">ぶ ん ぶ ん</span><br/>

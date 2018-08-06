@@ -39,6 +39,15 @@ $set['Protocol'] = 'http';
 // recommend: hayaemon.jp
 $set['Domain'] = 'hayaemon.jp';
 
+// Directoryはサブディレクトリ以下で動作している場合に必要です
+// ルートディレクトリで動作する場合には設置は不要です
+// 最後にスラッシュが必要です
+// この機能はWIPです
+// context:https://hayaemon.jp/{Directory}
+// default: /
+// recommend: /
+$set['Directory'] = '';
+
 // AnalyticsIdはGoogle Analyticsとの連携に使われます
 // context:gtag('config', '{AnalyticsId}');
 // default: UA-*********-*
@@ -54,6 +63,7 @@ $set['AdwordsId'] = 'AW-*********-*';
 
 // DO NOT EDIT
 $o = $set;
+$o['Url'] = "${set['Protocol']}://${set['Domain']}${set['Directory']}";
 unset($set);
 
 $GLOBALS['debug'] = $o['Debug'];

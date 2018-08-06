@@ -2,6 +2,7 @@
 /**
  * @return string HTML
  */
+
 function GetCalener()
 {
     $cal = NULL;
@@ -40,7 +41,7 @@ function GetCalener()
             for ($m = 1; $m <= 12; $m++) {
                 $mp = str_pad($m,2,0,STR_PAD_LEFT);
                 if (array_search($m, $cal_array[$i]) !== FALSE) {
-                    $cal_html .= " <a href='./history.php?date=${i}${mp}'>${mp}</a>";
+                    $cal_html .= " <a href='{$GLOBALS['o']['Url']}/history.php?date=${i}${mp}'>${mp}</a>";
                 } else {
                     $cal_html .= " <span class='cal disable'>${mp}</span>";
                 }
@@ -165,7 +166,7 @@ function GetMd($content, $year, $mon, $flag = FALSE)
         case '$':
             if ($flag == TRUE) {
                 $str = str_replace('$ ', '', $content);
-                $return .= "<a href = '${str}' class='downloadlink'> このバージョンをダウンロード</a> ";
+                $return .= "<a href = '{$GLOBALS['o']['Url']}${str}' class='downloadlink'> このバージョンをダウンロード</a> ";
             }
             break;
     }
@@ -178,7 +179,7 @@ function GetMd($content, $year, $mon, $flag = FALSE)
  */
 function SearchLink($str)
 {
-    $atag = preg_replace("/\((.+)\)\[(.+)\]/", "<a href='$2' class='history alternate'>$1</a>", $str);
+    $atag = preg_replace("/\((.+)\)\[(.+)\]/", "<a href='{$GLOBALS['o']['Url']}/$2' class='history alternate'>$1</a>", $str);
     if (empty($atag)) {
         $atag = $str;
     }
