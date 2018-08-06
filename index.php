@@ -400,10 +400,8 @@ include('./include/functions.php');
                             <a href="http://www.forest.impress.co.jp/article/2006/04/04/hayaemon.html" target="_blank">再生速度と音程を個別変更できるWAVE/MP3/WMAプレイヤー「聞々ハヤえもん」</a></li>
                     </ul>
                 </div>
-                <div style="float:right;width:340px;margin-right:10px">
-                    <div style="font-size:24px;margin-top:20px; padding:10px 0; display: inline-block; _display: inline;width:340px;border-bottom:3px solid #c0c0c0;">
-                        更新履歴
-                    </div>
+                <div id="history">
+                    <h2>更新履歴</h2>
                     <br/>
                     <?php echo GetHistory($date); ?>
                     <div style="text-align:right"><a href="history.php" class="btn">さらに過去の更新履歴</a>
