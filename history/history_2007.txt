@@ -1,168 +1,224 @@
 # 2007/01/29	Version 2.05 β 4 開発版
+$ /download/Hayaemon205b4.lzh
 * ウィンドウの位置／サイズを復元時に補正するようにしました。
 
 # 2007/01/29	Version 2.05 β 3 開発版
+$ /download/Hayaemon205b3.lzh
 * システム→復元→再生速度／再生周波数／音程メニューにより、前回終了時の再生速度／再生周波数／音程を復元できるようにしました。
 
 # 2007/01/08	Version 2.05 β 2 開発版
+$ /download/Hayaemon205b2.lzh
 * システム→復元→ウィンドウ位置／サイズメニューにより、前回終了時のウィンドウの位置／サイズを復元できるようにしました。
 
 # 2007/01/02	Version 2.05 β 1 開発版
+$ /download/Hayaemon205b1.lzh
 * 「ファイルを開く」ダイアログから、「読み取り専用ファイルとして開く」オプションを削除しました。
 
 # 2007/02/27	Version 2.09 β 5 開発版
+$ /download/Hayaemon209b5.lzh
 * コントロールバーと再生リストのデフォルトでの表示状態をオンにしました。
 
 # 2007/02/25	Version 2.09 β 4 開発版
+$ /download/Hayaemon209b4.lzh
 * CD ( CDA ファイル ) の読み込みに対応しました。
 
 # 2007/02/25	Version 2.09 β 3 開発版
+$ /download/Hayaemon209b3.lzh
 * APE ファイルの読み込みに対応しました。
 
 # 2007/02/25	Version 2.09 β 2 開発版
+$ /download/Hayaemon209b2.lzh
 * Ogg Vorbis 形式での保存に対応しました ( 要 oggenc.exe ) 。
 
 # 2007/02/24	Version 2.09 β 1 開発版
+$ /download/Hayaemon209b1.lzh
 * MP3 形式での保存に対応しました ( 要 LAME.EXE ) 。
 
 # 2007/02/22	Version 2.08 安定版
+$ /download/Hayaemon208.lzh
 * 安定版として公開しました。
 
 # 2007/02/18	Version 2.07 β 8 開発版
+$ /download/Hayaemon207b8.lzh
 * ファイル→フォルダを追加メニューを追加しました。
 
 # 2007/02/18	Version 2.07 β 7 開発版
+$ /download/Hayaemon207b7.lzh
 * ファイル→追加メニューにより、現在の再生リストにファイルを追加できるようにしました。
 
 # 2007/02/18	Version 2.07 β 6 開発版
+$ /download/Hayaemon207b6.lzh
 * M3Uファイル内に読込可能ファイルが存在しなかった場合、挙動がおかしくなっていたのを修正しました。
 
 # 2007/02/18	Version 2.07 β 5 開発版
+$ /download/Hayaemon207b5.lzh
 * ファイル→フォルダを開くメニューを追加しました。
 
 # 2007/02/17	Version 2.07 β 4 開発版
+$ /download/Hayaemon207b4.lzh
 * ファイル→一括変換メニューにより一括変換ができるようにしました。
 
 # 2007/02/14	Version 2.07 β 3 開発版
+$ /download/Hayaemon207b3.lzh
 * ＡＢループをボタンをクリックした時点での再生位置に設定するようにしました。
 
 # 2007/02/13	Version 2.07 β 2 開発版
+$ /download/Hayaemon207b2.lzh
 * 再生位置設定用スライダがクリックされた位置に再生位置を移すようにしました。
 
 # 2007/02/13	Version 2.07 β 1 開発版
+$ /download/Hayaemon207b1.lzh
 * 起動がもたつくのを改善しました。
 
 # 2007/02/12	Version 2.06 安定版
+$ /download/Hayaemon206.lzh
 * 安定版として公開しました。
 
 # 2007/02/11	Version 2.05 β 17 開発版
+$ /download/Hayaemon205b17.lzh
 * ファイル→保存メニューによるM3U形式のプレイリスト（相対パス）の保存に対応しました。
 
 # 2007/02/11	Version 2.05 β 16 開発版
+$ /download/Hayaemon205b16.lzh
 * システム→復元→再生モードメニューにより、前回終了時の１曲ループ等の選択状態を復元するかどうかを選択できるようにしました。
 
 # 2007/02/11	Version 2.05 β 15 開発版
+$ /download/Hayaemon205b15.lzh
 * システム→復元→表示状態メニューにより、前回終了時のコントロールバー等の表示状態を復元するかどうかを選択できるようにしました。
 
 # 2007/02/10	Version 2.05 β 14 開発版
+$ /download/Hayaemon205b14.lzh
 * システム→復元→再生リストメニューにより、前回終了時の再生リストを復元できるようにしました。
 
 # 2007/02/10	Version 2.05 β 13 開発版
+$ /download/Hayaemon205b13.lzh
 * アイコンにドロップされたM3U形式のプレイリストの読み込みに対応しました。
 
 # 2007/02/10	Version 2.05 β 12 開発版
+$ /download/Hayaemon205b12.lzh
 * ファイル→保存メニューによるM3U形式のプレイリストの保存に対応しました。
 
 # 2007/02/06	Version 2.05 β 11 開発版
+$ /download/Hayaemon205b11.lzh
 * 再生関連のメニューを「再生」メニューとして独立させました。
 
 # 2007/02/06	Version 2.05 β 10 開発版
+$ /download/Hayaemon205b10.lzh
 * システム→復元→グラフィックイコライザメニューにより、前回終了時のグラフィックイコライザを復元できるようにしました。
 
 # 2007/02/06	Version 2.05 β 9 開発版
+$ /download/Hayaemon205b9.lzh
 * システム→復元→パンメニューにより、前回終了時のパンを復元できるようにしました。
 
 # 2007/02/06	Version 2.05 β 8 開発版
+$ /download/Hayaemon205b8.lzh
 * システム→復元→音量メニューにより、前回終了時の音量を復元できるようにしました。
 
 # 2007/02/05	Version 2.05 β 7 開発版
+$ /download/Hayaemon205b7.lzh
 * M3U形式のプレイリスト（相対パス）の読み込みに対応しました。
 
 # 2007/02/05	Version 2.05 β 6 開発版
+$ /download/Hayaemon205b6.lzh
 * ウィンドウにドロップされたM3U形式のプレイリスト（絶対パス）の読み込みに対応しました。
 
 # 2007/02/05	Version 2.05 β 5 開発版
+$ /download/Hayaemon205b5.lzh
 * M3U形式のプレイリスト（絶対パス）の読み込みに対応しました。
 
 # 2007/03/05	Version 2.10 安定版
+$ /download/Hayaemon210.lzh
 * 安定版として公開しました。
 
 # 2007/03/04	Version 2.09 β 6 開発版
+$ /download/Hayaemon209b6.lzh
 * FLAC ファイルの読み込みに対応しました。
 
 # 2007/08/20	Version 2.11 β 3 開発版
+$ /download/Hayaemon211b3.lzh
 * AAC ファイルの読み込みに対応しました。
 
 # 2007/08/20	Version 2.11 β 2 開発版
+$ /download/Hayaemon211b2.lzh
 * BASS.DLL のバージョンを 2.3.0.1 から 2.3.0.3 にしました。
 
 # 2007/08/19	Version 2.11 β 1 開発版
+$ /download/Hayaemon211b1.lzh
 * 対応 OS に Windows Vista ( 32ビット版 ) を追加しました。
 
 # 2007/09/18	Version 2.13 β 4 開発版
+$ /download/Hayaemon213b4.lzh
 * リストビューのソートに対応しました。
 
 # 2007/09/18	Version 2.13 β 3 開発版
+$ /download/Hayaemon213b3.lzh
 * 2.13 β 1 より、保存時に必ず逆回転再生になってしまっていたのを修正しました。
 
 # 2007/09/17	Version 2.13 β 2 開発版
+$ /download/Hayaemon213b2.lzh
 * 前回終了時の逆回転再生の状態を復元するかどうかを選択できるようにしました。
 
 # 2007/09/16	Version 2.13 β 1 開発版
+$ /download/Hayaemon213b1.lzh
 * 逆回転再生機能を追加しました。
 
 # 2007/09/16	Version 2.12 安定版
+$ /download/Hayaemon212.lzh
 * 安定版として公開しました。
 
 # 2007/09/15	Version 2.11 β 4 開発版
+$ /download/Hayaemon211b4.lzh
 * 2.11 β 2 以降、ループ再生ができなくなっていたのを修正しました。
 
 # 2007/10/17	Version 2.13 β 5 開発版
+$ /download/Hayaemon213b5.lzh
 * 2.11 β 2 以降、速度や音程の変更時にループ再生ができなくなっていたのを修正しました。
 
 # 2007/11/18	Version 2.15 β 1 開発版
+$ /download/Hayaemon215b1.lzh
 * 動作を高速化しました。（INI ファイルの書き込みタイミングを改善）
 
 # 2007/11/04	Version 2.14 安定版
+$ /download/Hayaemon214.lzh
 * 安定版として公開しました。
 
 # 2007/12/31	Version 2.17 β 7 開発版
+$ /download/Hayaemon217b7.lzh
 * 再生速度を 0.1% 単位で指定できるようにしました。
 
 # 2007/12/31	Version 2.17 β 6 開発版
+$ /download/Hayaemon217b6.lzh
 * 再生周波数を 0.1% 単位で指定できるようにしました。
 * 「古びたレコード再生」を改良しました。
 
 # 2007/12/31	Version 2.17 β 5 開発版
+$ /download/Hayaemon217b5.lzh
 * 2.17 β 1 以降、再生ファイルを変更した際に再生周波数がリセットされていたのを修正しました。
 
 # 2007/12/30	Version 2.17 β 4 開発版
+$ /download/Hayaemon217b4.lzh
 * ウィンドウ位置／サイズ復元時の挙動を改善しました。
 
 # 2007/12/29	Version 2.17 β 3 開発版
+$ /download/Hayaemon217b3.lzh
 * システム→多重起動メニューにより多重起動を許すかどうかを選択できるようにしました。
 
 # 2007/12/29	Version 2.17 β 2 開発版
+$ /download/Hayaemon217b2.lzh
 * 前回終了時の古びたレコード再生の状態を復元するかどうかを選択できるようにしました。
 
 # 2007/12/29	Version 2.17 β 1 開発版
+$ /download/Hayaemon217b1.lzh
 * 「古びたレコード再生」機能を追加しました。
 
 # 2007/12/27	Version 2.16 安定版
+$ /download/Hayaemon216.lzh
 * 安定版として公開しました。
 
 # 2007/12/24	Version 2.15 β 3 開発版
+$ /download/Hayaemon215b3.lzh
 * 一括変換時にフォーマットを指定できるようにしました。
 
 # 2007/12/23	Version 2.15 β 2 開発版
+$ /download/Hayaemon215b2.lzh
 * ラベルのフォントが全てタイトルバーと同じものになっていたのを修正しました。
