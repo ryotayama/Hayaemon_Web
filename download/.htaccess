@@ -1,8 +1,8 @@
 Options +MultiViews -Indexes
-ErrorDocument 401 /download/expiration
-ErrorDocument 402 /download/expiration
-ErrorDocument 403 /download/expiration
-ErrorDocument 404 /download/expiration
-ErrorDocument 410 /download/expiration
-ErrorDocument 412 /download/expiration
-ErrorDocument 451 /download/expiration
+ErrorDocument 401 ./expiration
+ErrorDocument 402 ./expiration
+ErrorDocument 403 ./expiration
+ErrorDocument 404 ./expiration
+ErrorDocument 410 ./expiration
+ErrorDocument 412 ./expiration
+ErrorDocument 451 ./expiration
