@@ -7,7 +7,6 @@ include('config.inc.php');
 include('./include/functions.php');
 include('./include/header.html');
 $date = $_GET['date'];
-
 ?>
     <style>
         h3 {
@@ -52,5 +51,13 @@ $date = $_GET['date'];
     </div>
     <br/>
 <?php
+if (is_numeric($date) && '6' == strlen($date)) {
+    $date = substr_replace($date, '/', 4, 0);
+    $date .= '/01';
+    $date_mon = date("m", strtotime($date));
+    $date_year = date("Y", strtotime($date));
+    $o['PageTitle'] = "<a href='/history.php'>更新履歴</a> &gt; ${date_year}年 &gt; ${date_mon}月";
+}
+
 include('./include/footer.html');
 ?>
