@@ -41,9 +41,9 @@ $set['Domain'] = 'hayaemon.jp';
 
 // Directoryはサブディレクトリ以下で動作している場合に必要です
 // ルートディレクトリで動作する場合には設置は不要です
-// 最後にスラッシュが必要です
+// 最後のスラッシュは不要ですが最初のスラッシュが必要です
 // この機能はWIPです
-// context:https://hayaemon.jp/{Directory}
+// context:https://hayaemon.jp{Directory}/
 // default: /
 // recommend: /
 $set['Directory'] = '';
