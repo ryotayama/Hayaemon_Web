@@ -92,6 +92,6 @@ if($o['is_Security']) {
     header("X-Download-Options: noopen");
     header("X-Frame-Options: DENY");
     header("Strict-Transport-Security: max-age=31536000; includeSubDomains");
-    header_remove("X-Powered-By");
     header("Server: HTTP Server");
+    header_remove("X-Powered-By");
 }

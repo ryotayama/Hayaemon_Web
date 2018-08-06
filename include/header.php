@@ -1,8 +1,11 @@
+<?php
+var_dump ( dirname(__FILE__) );
+?>
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
 <html lang="ja">
 <head>
     <link rel="stylesheet" type="text/css" href="<?php echo $o['Url']; ?>/style.css">
-    <?php include('./include/ga.php'); ?>
+    <?php include(dirname(__FILE__) . '/ga.php'); ?>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <meta http-equiv="Content-Script-Type" content="text/javascript">
     <meta http-equiv="Content-Style-Type" content="text/css">
@@ -58,6 +61,6 @@
     </div>
 <?php
 if ($o['type'] == 'manual') {
-    include('./include/manual_header.php');
+    include(dirname(__FILE__) . '/manual_header.php');
 }
 ?>
