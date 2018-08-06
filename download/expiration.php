@@ -4,7 +4,7 @@ $set['column'] = 'one';
 $set['type'] = 'download';
 include('../config.inc.php');
 include('../include/functions.php');
-include('../include/header.html');
+include('../include/header.php');
 ?>
 <style>
     .CircleBorder {
@@ -29,5 +29,5 @@ include('../include/header.html');
     </div>
 </div>
 <?php
-include('../include/footer.html');
+include('../include/footer.php');
 ?>

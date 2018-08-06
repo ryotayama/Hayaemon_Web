@@ -4,7 +4,7 @@ $set['column'] = 'one';
 $set['type'] = 'manual';
 include('config.inc.php');
 
-include('./include/header.html');
+include('./include/header.php');
 
 ?>
 
@@ -112,5 +112,5 @@ google_ad_height = 90;
 </div>
         <br />
 <?php
-include('./include/footer.html');
+include('./include/footer.php');
 ?>

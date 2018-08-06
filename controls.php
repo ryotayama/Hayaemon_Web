@@ -4,7 +4,7 @@ $set['column'] = 'one';
 $set['type'] = 'manual';
 include('config.inc.php');
 
-include('./include/header.html');
+include('./include/header.php');
 
 ?>
                     <div class="font30" style="color:#808080;font-weight:bold">全てを非表示にすれば、最高にコンパクトに。</div>
@@ -49,5 +49,5 @@ include('./include/header.html');
 </div>
         <br />
 <?php
-include('./include/footer.html');
+include('./include/footer.php');
 ?>

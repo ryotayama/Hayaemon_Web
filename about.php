@@ -4,7 +4,7 @@ $set['column'] = 'one';
 $set['type'] = 'manual';
 include('config.inc.php');
 
-include('./include/header.html');
+include('./include/header.php');
 
 ?>
 
@@ -97,5 +97,5 @@ include('./include/header.html');
 </div>
         <br />
 <?php
-include('./include/footer.html');
+include('./include/footer.php');
 ?>

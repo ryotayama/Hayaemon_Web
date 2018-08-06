@@ -5,7 +5,7 @@ $set['type'] = 'history';
 include('config.inc.php');
 
 include('./include/functions.php');
-include('./include/header.html');
+include('./include/header.php');
 $date = $_GET['date'];
 ?>
     <style>
@@ -59,5 +59,5 @@ if (is_numeric($date) && '6' == strlen($date)) {
     $o['PageTitle'] = "<a href='/history.php'>更新履歴</a> &gt; ${date_year}年 &gt; ${date_mon}月";
 }
 
-include('./include/footer.html');
+include('./include/footer.php');
 ?>

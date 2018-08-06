@@ -5,7 +5,7 @@ $set['type'] = 'history';
 include('config.inc.php');
 
 include('./include/functions.php');
-//include('./include/header.html');
+//include('./include/header.php');
 
 ?>
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">

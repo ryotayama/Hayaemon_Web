@@ -4,7 +4,7 @@ $set['column'] = 'one';
 $set['type'] = 'manual';
 include('config.inc.php');
 
-include('./include/header.html');
+include('./include/header.php');
 
 ?>
                     <div class="font30" style="color:#808080;font-weight:bold">再生速度を、あなたの意のままに。</div>
@@ -62,5 +62,5 @@ include('./include/header.html');
 </div>
         <br />
 <?php
-include('./include/footer.html');
+include('./include/footer.php');
 ?>

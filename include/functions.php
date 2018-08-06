@@ -1,12 +1,4 @@
 <?php
-$GLOBALS['debug'] = FALSE;
-if ($GLOBALS['debug']) {
-    ini_set("display_errors", "true");
-    error_reporting(-1);
-} else {
-    ini_set("display_errors", "false");
-    error_reporting(0);
-}
 /**
  * @return string HTML
  */

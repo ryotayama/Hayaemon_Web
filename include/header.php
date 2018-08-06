@@ -2,7 +2,7 @@
 <html lang="ja">
 <head>
     <link rel="stylesheet" type="text/css" href="/style.css">
-    <?php include('./include/ga.html'); ?>
+    <?php include('./include/ga.php'); ?>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <meta http-equiv="Content-Script-Type" content="text/javascript">
     <meta http-equiv="Content-Style-Type" content="text/css">
@@ -56,8 +56,8 @@
             </h1>
         </a>
     </div>
-    <?php
-            if($o['type'] == 'manual') {
-            include('./include/manual_header.html');
-            }
-            ?>
+<?php
+if ($o['type'] == 'manual') {
+    include('./include/manual_header.php');
+}
+?>
