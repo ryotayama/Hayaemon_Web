@@ -1,14 +1,14 @@
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
 <html lang="ja">
 <head>
-    <link rel="stylesheet" type="text/css" href="/style.css">
+    <link rel="stylesheet" type="text/css" href="<?php echo $o['Url']; ?>/style.css">
     <?php include('./include/ga.php'); ?>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <meta http-equiv="Content-Script-Type" content="text/javascript">
     <meta http-equiv="Content-Style-Type" content="text/css">
     <meta name="description" content="<?php echo $o['Description']; ?>">
     <meta name="keywords" content="聞々ハヤえもん,はやえもん,ハヤエモン,hayaemon,MP3プレーヤ,オープンソース,テープ起こし,書き起こし,耳コピ,カラオケ">
-    <link rel="stylesheet" href="/styles-site.css" type="text/css">
+    <link rel="stylesheet" href="<?php echo $o['Url']; ?>/styles-site.css" type="text/css">
     <link rel="index" href="<?php echo $o['Url']; ?>">
     <link rev="made" href="mailto:ryota.yamauch@gmail.com">
     <link rel="icon" href="<?php echo $o['Url']; ?>/favicon.ico" type="image/vnd.microsoft.icon"/>

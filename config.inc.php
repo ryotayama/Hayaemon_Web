@@ -13,6 +13,13 @@
 // recommend: FALSE
 $set['Debug'] = TRUE;
 
+// [WIP]
+// is_Securityは本モジュールが読み込まれているページ全体を通してセキュリティー機構を有効にするか選択できます
+// いくつか機能や、技術は正しく動作しなくなる可能性がありますので、十分確認の上設定して下さい
+// default: TRUE
+// recommend: TRUE
+$set['is_Security'] = TRUE;
+
 // GlobalTitleはサイト全域で利用されるタイトルで全てのページのタイトルの右側に表示されます
 // context:<title>PageTitle | {GlobalTitle}</title>
 // default: 聞々ハヤえもん公式サイト
@@ -73,4 +80,18 @@ if ($GLOBALS['debug']) {
 } else {
     ini_set("display_errors", "false");
     error_reporting(0);
+}
+if($o['is_Security']) {
+    ini_set('session.cookie_httponly', 1);
+    ini_set('session.cookie_secure', 1);
+    header("Cache-Control: no-cache");
+    header("Content-Security-Policy: default-src 'self'; script-src 'self' static.ak.fbcdn.net b.st-hatena.com www.googletagmanager.com; img-src 'self' data:; style-src 'self' ");
+    header('Access-Control-Allow-Origin: *');
+    header("X-XSS-Protection: 1; mode=block");
+    header("X-Content-Type-Options: nosniff");
+    header("X-Download-Options: noopen");
+    header("X-Frame-Options: DENY");
+    header("Strict-Transport-Security: max-age=31536000; includeSubDomains");
+    header_remove("X-Powered-By");
+    header("Server: HTTP Server");
 }
