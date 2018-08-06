@@ -46,10 +46,11 @@ function GetCalener()
         if(!empty($cal_array[$i])) {
             $cal_html .= "<div> ${i} 年 [";
             for ($m = 1; $m <= 12; $m++) {
+                $mp = str_pad($m,2,0,STR_PAD_LEFT);
                 if (array_search($m, $cal_array[$i]) !== FALSE) {
-                    $cal_html .= " <a href='./history.php?date=${i}${m}'>${m}</a>";
+                    $cal_html .= " <a href='./history.php?date=${i}${mp}'>${mp}</a>";
                 } else {
-                    $cal_html .= " <span class='cal disable'>${m}</span>";
+                    $cal_html .= " <span class='cal disable'>${mp}</span>";
                 }
             }
             $cal_html .= " ]</div>";
