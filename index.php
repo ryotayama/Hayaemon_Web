@@ -373,99 +373,32 @@ include('./include/functions.php');
                     <!-- リンクバナー
                     <a href="wiki/index.php" target="_blank"><img src="community.png" style="margin-right:20px" alt="聞々ハヤえもんユーザーコミュニティ"></a><a href="bosyu.php" target="_blank"><img src="bosyu.png" alt="協力者募集中！！"></a> -->
                 </div>
-                <div style="float:left;width:340px;margin-left:10px">
-                    <div style="font-size:24px;margin-top:20px; padding:10px 0; display: inline-block; _display: inline;width:340px;border-bottom:3px solid #c0c0c0;">
-                        News
-                    </div>
-                    <br/>
-                    <div style="margin-top:5px;border-bottom:1px solid #c0c0c0; inline-block; _display: inline;width:340px">
-                        <a href="http://www.forest.impress.co.jp/docs/news/20130329_593795.html" target="_blank"
-                           style="text-decoration: none;display:block;width:340px;padding-top:5px;padding-bottom:5px"
-                           onmouseover="style.background='#e0f0ff'" onmouseout="style.background='none'">
-                            「窓の杜」にて紹介されました！<br/>
-                            音程を解析してピアノロール風に表示する機能が追加された「聞々ハヤえもん」v2.72
-                        </a>
-                    </div>
-                    <div style="border-bottom:1px solid #c0c0c0; inline-block; _display: inline;width:340px">
-                        <a href="http://www.forest.impress.co.jp/docs/news/20130212_587377.html" target="_blank"
-                           style="text-decoration: none;display:block;width:340px;padding-top:5px;padding-bottom:5px"
-                           onmouseover="style.background='#e0f0ff'" onmouseout="style.background='none'">
-                            「窓の杜」にて紹介されました！<br/>
-                            各種エフェクトのパラメーターを細かく設定可能になった「聞々ハヤえもん」v2.68
-                        </a>
-                    </div>
-                    <div style="border-bottom:1px solid #c0c0c0; inline-block; _display: inline;width:340px">
-                        <a href="http://www.forest.impress.co.jp/docs/news/20130117_582081.html" target="_blank"
-                           style="text-decoration: none;display:block;width:340px;padding-top:5px;padding-bottom:5px"
-                           onmouseover="style.background='#e0f0ff'" onmouseout="style.background='none'">
-                            「窓の杜」にて紹介されました！<br/>
-                            FLV動画に対応し、A-B間リピート機能の使い勝手も向上した「聞々ハヤえもん」v2.66
-                        </a>
-                    </div>
-                    <div style="border-bottom:1px solid #c0c0c0; inline-block; _display: inline;width:340px">
-                        <a href="http://www.forest.impress.co.jp/docs/news/20121217_579112.html" target="_blank"
-                           style="text-decoration: none;display:block;width:340px;padding-top:5px;padding-bottom:5px"
-                           onmouseover="style.background='#e0f0ff'" onmouseout="style.background='none'">
-                            「窓の杜」にて紹介されました！<br/>
-                            “エクスプローラ”ペインが追加されたメディアプレイヤー「聞々ハヤえもん」v2.62
-                        </a>
-                    </div>
-                    <div style="border-bottom:1px solid #c0c0c0; inline-block; _display: inline;width:340px">
-                        <a href="http://www.forest.impress.co.jp/docs/news/20121121_574477.html" target="_blank"
-                           style="text-decoration: none;display:block;width:340px;padding-top:5px;padding-bottom:5px"
-                           onmouseover="style.background='#e0f0ff'" onmouseout="style.background='none'">
-                            「窓の杜」にて紹介されました！<br/>
-                            再生速度や音程、エフェクトなどの設定を保存可能になった「聞々ハヤえもん」v2.60
-                        </a>
-                    </div>
-                    <div style="border-bottom:1px solid #c0c0c0; inline-block; _display: inline;width:340px">
-                        <a href="http://www.forest.impress.co.jp/docs/news/20121105_570950.html" target="_blank"
-                           style="text-decoration: none;display:block;width:340px;padding-top:5px;padding-bottom:5px"
-                           onmouseover="style.background='#e0f0ff'" onmouseout="style.background='none'">
-                            「窓の杜」にて紹介されました！<br/>
-                            音感とリズム感を破壊する“歌へた”モードを搭載した「聞々ハヤえもん」v2.58
-                        </a>
-                    </div>
-                    <div style="border-bottom:1px solid #c0c0c0; inline-block; _display: inline;width:340px">
-                        <a href="http://www.forest.impress.co.jp/docs/news/20120511_532137.html" target="_blank"
-                           style="text-decoration: none;display:block;width:340px;padding-top:5px;padding-bottom:5px"
-                           onmouseover="style.background='#e0f0ff'" onmouseout="style.background='none'">
-                            「窓の杜」にて紹介されました！<br/>
-                            動画再生に対応した“耳コピ”向けメディアプレイヤー「聞々ハヤえもん」v2.44
-                        </a>
-                    </div>
-                    <div style="border-bottom:1px solid #c0c0c0; inline-block; _display: inline;width:340px">
-                        <a href="http://www.forest.impress.co.jp/docs/news/20120216_512545.html" target="_blank"
-                           style="text-decoration: none;display:block;width:340px;padding-top:5px;padding-bottom:5px"
-                           onmouseover="style.background='#e0f0ff'" onmouseout="style.background='none'">
-                            「窓の杜」にて紹介されました！<br/>
-                            ノーマライズ機能が追加された“耳コピ”向けプレイヤー「聞々ハヤえもん」v2.40
-                        </a>
-                    </div>
-                    <div style="border-bottom:1px solid #c0c0c0; inline-block; _display: inline;width:340px">
-                        <a href="http://www.forest.impress.co.jp/docs/news/20110909_476049.html" target="_blank"
-                           style="text-decoration: none;display:block;width:340px;padding-top:5px;padding-bottom:5px"
-                           onmouseover="style.background='#e0f0ff'" onmouseout="style.background='none'">
-                            「窓の杜」にて紹介されました！<br/>
-                            再生速度を徐々に上げる機能を追加した耳コピ用プレイヤー「聞々ハヤえもん」v2.3
-                        </a>
-                    </div>
-                    <div style="border-bottom:1px solid #c0c0c0; inline-block; _display: inline;width:340px">
-                        <a href="http://www.vector.co.jp/magazine/softnews/080223/n0802231.html" target="_blank"
-                           style="text-decoration: none;display:block;width:340px;padding-top:5px;padding-bottom:5px"
-                           onmouseover="style.background='#e0f0ff'" onmouseout="style.background='none'">
-                            「Vector」にて紹介されました！<br/>
-                            再生速度、周波数、音程を個別に変更することが可能なサウンドプレイヤー
-                        </a>
-                    </div>
-                    <div style="border-bottom:1px solid #c0c0c0; inline-block; _display: inline;width:340px">
-                        <a href="http://www.forest.impress.co.jp/article/2006/04/04/hayaemon.html" target="_blank"
-                           style="text-decoration: none;display:block;width:340px;padding-top:5px;padding-bottom:5px"
-                           onmouseover="style.background='#e0f0ff'" onmouseout="style.background='none'">
-                            「窓の杜」にて紹介されました！<br/>
-                            再生速度と音程を個別変更できるWAVE/MP3/WMAプレイヤー「聞々ハヤえもん」
-                        </a>
-                    </div>
+                <div id="news">
+                    <h2>News</h2>
+                    <ul>
+                        <li>「窓の杜」にて紹介されました！<br/>
+                            <a href="http://www.forest.impress.co.jp/docs/news/20130329_593795.html" target="_blank">音程を解析してピアノロール風に表示する機能が追加された「聞々ハヤえもん」v2.72</a></li>
+                        <li>「窓の杜」にて紹介されました！<br/>
+                            <a href="http://www.forest.impress.co.jp/docs/news/20130212_587377.html" target="_blank">各種エフェクトのパラメーターを細かく設定可能になった「聞々ハヤえもん」v2.68</a></li>
+                        <li>「窓の杜」にて紹介されました！<br/>
+                            <a href="http://www.forest.impress.co.jp/docs/news/20130117_582081.html" target="_blank">FLV動画に対応し、A-B間リピート機能の使い勝手も向上した「聞々ハヤえもん」v2.66</a></li>
+                        <li>「窓の杜」にて紹介されました！<br/>
+                            <a href="http://www.forest.impress.co.jp/docs/news/20121217_579112.html" target="_blank">“エクスプローラ”ペインが追加されたメディアプレイヤー「聞々ハヤえもん」v2.62</a></li>
+                        <li>「窓の杜」にて紹介されました！<br/>
+                            <a href="http://www.forest.impress.co.jp/docs/news/20121121_574477.html" target="_blank">再生速度や音程、エフェクトなどの設定を保存可能になった「聞々ハヤえもん」v2.60</a></li>
+                        <li>「窓の杜」にて紹介されました！<br/>
+                            <a href="http://www.forest.impress.co.jp/docs/news/20121105_570950.html" target="_blank">音感とリズム感を破壊する“歌へた”モードを搭載した「聞々ハヤえもん」v2.58</a></li>
+                        <li>「窓の杜」にて紹介されました！<br/>
+                            <a href="http://www.forest.impress.co.jp/docs/news/20120511_532137.html" target="_blank">動画再生に対応した“耳コピ”向けメディアプレイヤー「聞々ハヤえもん」v2.44</a></li>
+                        <li>「窓の杜」にて紹介されました！<br/>
+                            <a href="http://www.forest.impress.co.jp/docs/news/20120216_512545.html" target="_blank">ノーマライズ機能が追加された“耳コピ”向けプレイヤー「聞々ハヤえもん」v2.40</a></li>
+                        <li>「窓の杜」にて紹介されました！<br/>
+                            <a href="http://www.forest.impress.co.jp/docs/news/20110909_476049.html" target="_blank">再生速度を徐々に上げる機能を追加した耳コピ用プレイヤー「聞々ハヤえもん」v2.3</a></li>
+                        <li>「Vector」にて紹介されました！<br/>
+                            <a href="http://www.vector.co.jp/magazine/softnews/080223/n0802231.html" target="_blank">再生速度、周波数、音程を個別に変更することが可能なサウンドプレイヤー</a></li>
+                        <li>「窓の杜」にて紹介されました！<br/>
+                            <a href="http://www.forest.impress.co.jp/article/2006/04/04/hayaemon.html" target="_blank">再生速度と音程を個別変更できるWAVE/MP3/WMAプレイヤー「聞々ハヤえもん」</a></li>
+                    </ul>
                 </div>
                 <div style="float:right;width:340px;margin-right:10px">
                     <div style="font-size:24px;margin-top:20px; padding:10px 0; display: inline-block; _display: inline;width:340px;border-bottom:3px solid #c0c0c0;">
