@@ -76,7 +76,14 @@ function GetHistory($date = 'latest')
     $flag = TRUE;
     $count = 1;
     $html = NULL;
-    $history = htmlspecialchars(file_get_contents("./history/history_${date_year}.txt"), ENT_HTML5);
+    if($date == 'latest') {
+        while (mb_substr_count($history, '#') <= 5) {
+            $history .= htmlspecialchars(file_get_contents("./history/history_${date_year}.txt"), ENT_HTML5);
+            $date_year--;
+
+        }
+    }
+
     if (empty($history)) {
         $html = "<div class='history'>指定された期間のアップデートログは見つかりませんでした</div>";
     }
