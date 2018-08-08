@@ -11,7 +11,7 @@
 // TRUEに設定すると変数のダンプが有効になり、コードを編集する事無くデバッグができます
 // default: TRUE
 // recommend: FALSE
-$set['Debug'] = TRUE;
+$set['Debug'] = FALSE;
 
 // [WIP]
 // is_Securityは本モジュールが読み込まれているページ全体を通してセキュリティー機構を有効にするか選択できます
@@ -37,14 +37,14 @@ $set['Description'] = "再生速度、周波数、音程を変更できる、耳
 // context:{Protocol}://hayaemon.jp
 // default: https
 // recommend: https
-$set['Protocol'] = 'http';
+$set['Protocol'] = 'https';
 
 // Domainは運用ドメインを指定します
 // 内部リンク等様々な場所で使われます
 // context:https://{Domain}
 // default: hayaemon.jp
 // recommend: hayaemon.jp
-$set['Domain'] = 'hayaemon.jp';
+$set['Domain'] = 'ryutaro.000webhostapp.com';
 
 // Directoryはサブディレクトリ以下で動作している場合に必要です
 // ルートディレクトリで動作する場合には設置は不要です
@@ -85,7 +85,7 @@ if($o['is_Security']) {
     ini_set('session.cookie_httponly', 1);
     ini_set('session.cookie_secure', 1);
     header("Cache-Control: no-cache");
-    header("Content-Security-Policy: default-src 'self'; script-src 'self' 'unsafe-inline' static.ak.fbcdn.net b.st-hatena.com www.googletagmanager.com; img-src 'self' data:; style-src 'self' 'unsafe-inline' ");
+    header("Content-Security-Policy: default-src 'self'; script-src 'self' 'unsafe-inline' static.ak.fbcdn.net b.st-hatena.com www.googletagmanager.com code.jquery.com cdnjs.cloudflare.com; img-src 'self' data:; style-src 'self' 'unsafe-inline' cdnjs.cloudflare.com;");
     header('Access-Control-Allow-Origin: *');
     header("X-XSS-Protection: 1; mode=block");
     header("X-Content-Type-Options: nosniff");

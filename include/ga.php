@@ -29,6 +29,9 @@
     googletag.cmd.push(function () {
         googletag.defineSlot('/127817812/How_About_Bottom_728x90', [728, 90], 'div-gpt-ad-1353715793997-0').addService(googletag.pubads());
         googletag.defineSlot('/127817812/How_About_Top_728x90', [728, 90], 'div-gpt-ad-1353715793997-1').addService(googletag.pubads());
+        googletag.defineSlot('/127817812/How_Index_Bottom_728x90', [728, 90], 'div-gpt-ad-1355537191471-0').addService(googletag.pubads());
+        googletag.defineSlot('/127817812/How_Index_Right_336x280', [336, 280], 'div-gpt-ad-1355537191471-1').addService(googletag.pubads());
+        googletag.defineSlot('/127817812/How_Index_Top_728x90', [728, 90], 'div-gpt-ad-1355537191471-2').addService(googletag.pubads());
         googletag.pubads().enableSingleRequest();
         googletag.enableServices();
     });
