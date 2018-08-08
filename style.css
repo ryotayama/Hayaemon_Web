@@ -32,6 +32,14 @@
    margin-left: 10px;
 }
 
+a[target="_blank"] {
+    text-decoration:none;
+}
+
+a[target="_blank"]:hover, a.btn, a.lbtn{
+    text-decoration: underline;
+}
+
 .lbtn:before{
     content: '';
     display: inline-block;
