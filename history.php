@@ -39,7 +39,7 @@ $date = $_GET['date'];
                     <br/>
                     <br/>
                     <div id="cal">
-                        <?php echo GetCalener(); ?>
+                        <?php echo GetCalender(); ?>
                     </div>
                     <br/>
 

@@ -6,7 +6,7 @@
  * @return string HTML
  */
 
-function GetCalener()
+function GetCalender()
 {
     $cal = NULL;
     $cal_html = NULL;

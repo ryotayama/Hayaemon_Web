@@ -1,11 +1,10 @@
 <?php
 $callFile = basename(debug_backtrace($limit = 2)[0]['file']);
 ?>
-    <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
     <html lang="ja">
     <head>
         <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
-        <script async src="http://static.ak.fbcdn.net/connect.php/js/FB.Share"></script>
         <script async src="https://b.st-hatena.com/js/bookmark_button.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.10.0/js/lightbox.min.js" integrity="sha384-jMjIgt4QdA1WrA0unG7/GNeNM9zeGeaOReuG/uSElOfCEqYxDuvSqzMpNfcwz8aI" crossorigin="anonymous"></script>
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
@@ -22,6 +21,7 @@ $callFile = basename(debug_backtrace($limit = 2)[0]['file']);
         <meta name="twitter:card" content="summary_large_image">
         <meta name="twitter:site" content="@ryota_yama">
         <meta name="twitter:creator" content="@ryota_yama">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.10.0/css/lightbox.min.css" integrity="sha384-mnWS6DJx6vyJAb7LXaJbmCkyINB2DDFohOPy28Nxh31ZJc76e7LWvvj6gQa/mCZW" crossorigin="anonymous">
         <link rel="stylesheet" href="<?php echo $o['Url']; ?>/styles-site.css" type="text/css">
         <link rel="stylesheet" type="text/css" href="<?php echo $o['Url']; ?>/style.css">
@@ -71,7 +71,7 @@ $callFile = basename(debug_backtrace($limit = 2)[0]['file']);
 <?php } ?>
     <div id="fb-root"></div>
 <div id="box">
-<?php if($o['type'] == 'index') { ?>
+<?php if ($o['type'] == 'index') { ?>
     <div style="float:left">
 <?php } ?>
     <div id="banner">
