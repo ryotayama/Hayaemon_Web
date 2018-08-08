@@ -1,5 +1,8 @@
 <?php
 /**
+ * カレンダーを作成します
+ * 引数とかは特にありません
+ *
  * @return string HTML
  */
 
@@ -36,10 +39,10 @@ function GetCalener()
     }
 
     for ($i = 2005; $i <= date('Y'); $i++) {
-        if(!empty($cal_array[$i])) {
+        if (!empty($cal_array[$i])) {
             $cal_html .= "<div> ${i} 年 [";
             for ($m = 1; $m <= 12; $m++) {
-                $mp = str_pad($m,2,0,STR_PAD_LEFT);
+                $mp = str_pad($m, 2, 0, STR_PAD_LEFT);
                 if (array_search($m, $cal_array[$i]) !== FALSE) {
                     $cal_html .= " <a href='{$GLOBALS['o']['Url']}/history.php?date=${i}${mp}'>${mp}</a>";
                 } else {
@@ -53,8 +56,12 @@ function GetCalener()
 }
 
 /**
- * @param string $date
+ * 指定された期間の更新ログを解析しHTMLに整形して戻す
+ * 期間指定が無い場合は最新5件を返す
+ *
+ * @param string $date "YYYYmm"形式で データを渡すと指定時期の更新ログを表示します
  * @return string HTML
+ * @todo 綺麗なコードにしないとやばい
  */
 function GetHistory($date = 'latest')
 {
@@ -76,7 +83,7 @@ function GetHistory($date = 'latest')
     $flag = TRUE;
     $count = 1;
     $html = NULL;
-    if($date == 'latest') {
+    if ($date == 'latest') {
         while (mb_substr_count($history, '#') <= 5) {
             $history .= htmlspecialchars(file_get_contents("./history/history_${date_year}.txt"), ENT_HTML5);
             $date_year--;
@@ -135,6 +142,9 @@ function GetHistory($date = 'latest')
 }
 
 /**
+ * 入力されたMarkdown 互換のデータをHTMLに整形します
+ *
+ * @access     private
  * @param      $content
  * @param      $year
  * @param      $mon
