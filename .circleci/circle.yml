@@ -1,0 +1,40 @@
+# PHP CircleCI 2.0 configuration file
+# Enviroment Variables
+# - USER_NAME
+# - PASSWORD
+# - FTP_SERVER
+# - HOST_NAME
+
+version: 2
+jobs:
+  build:
+    docker:
+      # specify the version you desire here
+      - image: circleci/php:7.1.5-browsers
+      
+      # Specify service dependencies here if necessary
+      # CircleCI maintains a library of pre-built images
+      # documented at https://circleci.com/docs/2.0/circleci-images/
+      # - image: circleci/mysql:9.4
+    branches:
+      only:
+        - workspace
+
+    steps
+      - checkout
+
+      - tests
+
+      - deploy
+        name: start deploy
+        command: |
+          if["${CIRCLE_BRANCH}" == "workspace"]; then
+            apt-get update
+            apt-get -qq install git-ftp
+            echo "config settingup"
+            sed -i s/\=\ \'hayaemon.jp/\=\ \'$HOST_NAME/ ./config.inc.php
+            echo "Initiating Push"
+            git ftp init --user "$USER_NAME" --passwd "$PASSWORD" $FTP_SERVER
+          else
+            echo "Not workspace branch so not deploying"
+          fi
