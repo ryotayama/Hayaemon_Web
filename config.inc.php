@@ -86,8 +86,9 @@ if ($o['is_Security']) {
     ini_set('session.cookie_secure', 1);
     header("Cache-Control: no-cache");
     header("Content-Security-Policy: default-src 'self';".
-        "script-src 'self' 'unsafe-inline' static.ak.fbcdn.net b.st-hatena.com www.googletagmanager.com code.jquery.com cdnjs.cloudflare.com;".
-        "img-src 'self' data:; style-src 'self' 'unsafe-inline' cdnjs.cloudflare.com;");
+        "script-src 'self' 'unsafe-inline' static.ak.fbcdn.net b.st-hatena.com www.googletagmanager.com code.jquery.com cdnjs.cloudflare.com ;".
+        "img-src 'self' data:;".
+        "style-src 'self' 'unsafe-inline' cdnjs.cloudflare.com use.fontawesome.com;");
     header('Access-Control-Allow-Origin: *');
     header("X-XSS-Protection: 1; mode=block");
     header("X-Content-Type-Options: nosniff");

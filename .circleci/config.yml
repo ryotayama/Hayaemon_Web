@@ -6,28 +6,30 @@
 # - HOST_NAME
 version: 2
 jobs:
-   build:
-     docker:
-       - image: circleci/php:7.1.5-browsers
-     steps:
-       - checkout
-       - run: sudo apt-get update
-       - run: sudo apt-get -qq install git-ftp
-       - run: ls
-       - run: sed -i s/\=\ \'hayaemon.jp/\=\ \'$HOST_NAME/ ./config.inc.php
-       - run: cat ./config.inc.php
-       - run: git add config.inc.php
-       - run: git config --global user.email circle@ci
-       - run: git config --global user.name circleci
-       - run: git commit -m commit
-       - run: git ftp init --user "$USER_NAME" --passwd "$PASSWORD" $FTP_SERVER/public_html
+  build:
+    docker:
+    - image: circleci/php:7.1.5-browsers
+    steps:
+    - checkout
+    - run: sudo apt-get update
+    - run: sudo apt-get -qq install git-ftp
+    - run: ls
+    - run: sed -i s/\=\ \'hayaemon.jp/\=\ \'$HOST_NAME/ ./config.inc.php
+    - run: sed -i s/\=\ TRUE/\=\ FALSE/ ./config.inc.php
+    - run: cat ./config.inc.php
+    - run: git add config.inc.php
+    - run: git config --global user.email circle@ci
+    - run: git config --global user.name circleci
+    - run: git commit -m commit
+    - run: cat ./config.inc.php
+    - run: git ftp init --user "$USER_NAME" --passwd "$PASSWORD" $FTP_SERVER/public_html
 
 workflows:
   version: 2
   deploy:
     jobs:
-      - build:
-          filters:
-            branches:
-              only:
-                - master
+    - build:
+        filters:
+          branches:
+            only:
+            - master
