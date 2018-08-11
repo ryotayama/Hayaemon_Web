@@ -30,7 +30,7 @@ include('./include/header.php');
                     <a href="about.php" class="font25 lbtn" style="text-decoration:underline">聞々ハヤえもんについて</a>
                 </div>
                 <div style="float:right;text-align:right">
-                    <a href="howtodownload.html" class="font25 btn" style="text-decoration:underline">聞々ハヤえもんをダウンロードする方法</a>
+                    <a href="howtodownload.php" class="font25 btn" style="text-decoration:underline">聞々ハヤえもんをダウンロードする方法</a>
                 </div>
                 <br /><br />
                 <center>

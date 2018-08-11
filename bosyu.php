@@ -46,7 +46,7 @@ google_ad_height = 90;
                     <br />
                     また、聞々ハヤえもんをたくさんの人に知っていただくことにより、便利な使い方などを紹介した記事が増える可能性があります。そこには、聞々ハヤえもんを使った音楽の練習方法や、裏ワザ的な使い方などが紹介されているかもしれません。<br />
                     <br />
-                    <a href="introduce.html" class="btn" style="text-decoration:underline">ソフトの紹介方法について、さらに詳しく</a>
+                    <a href="introduce.php" class="btn" style="text-decoration:underline">ソフトの紹介方法について、さらに詳しく</a>
                 </div>
                 <div class="font26" style="margin-top:40px;font-weight:bold">アイデアや不具合報告を連絡すること。</div>
                 <div class="font18" style="margin-top:15px;margin-bottom:20px;font-weight:bold;color:#808080">

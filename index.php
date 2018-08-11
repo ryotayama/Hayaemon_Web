@@ -375,7 +375,7 @@ include('./include/header.php');
                 </div>
                 <div style="font-size:14px;border-bottom:1px solid #f0f0f0"><a href="morainaki.html" style="display:block;width:326px;padding:10px 10px 10px 15px">一青窈「もらい泣き」
                         ⇒ 平井堅</a></div>
-                <div style="font-size:14px"><a href="heavyrotation.html" style="display:block;width:326px;padding:10px 10px 5px 15px">AKB48「ヘビーローテーション」
+                <div style="font-size:14px"><a href="heavyrotation.php" style="display:block;width:326px;padding:10px 10px 5px 15px">AKB48「ヘビーローテーション」
                         ⇒ TOKIO</a></div>
                 <b style="font-size:1px;display:block; overflow:hidden;height:1px;"></b>
             </div>
@@ -523,7 +523,7 @@ include('./include/header.php');
                 <ol>
                     <li><a target="_blank" href="about.php">はじめに</a></li>
                     <li><a target="_blank" href="environment.php">動作環境について</a></li>
-                    <li><a target="_blank" href="howtodownload.html">ダウンロードしてみよう</a></li>
+                    <li><a target="_blank" href="howtodownload.php">ダウンロードしてみよう</a></li>
                     <li><a target="_blank" href="boot.php">起動してみよう</a></li>
                     <li><a target="_blank" href="play.html">音楽を聴いてみよう</a></li>
                     <li><a target="_blank" href="changespeed.php">再生速度を変更してみよう</a></li>
@@ -536,8 +536,8 @@ include('./include/header.php');
                     <li><a target="_blank" href="lyrics.html">歌詞を表示させてみよう</a></li>
                     <li><a target="_blank" href="effects.php">エフェクト機能を使ってみよう</a></li>
                     <li><a target="_blank" href="playrange.html">再生範囲を指定してみよう</a></li>
-                    <li><a target="_blank" href="incspeed.html">だんだん速くする機能を使ってみよう</a></li>
-                    <li><a target="_blank" href="eqpreset.html">EQプリセット機能を使ってみよう</a></li>
+                    <li><a target="_blank" href="incspeed.php">だんだん速くする機能を使ってみよう</a></li>
+                    <li><a target="_blank" href="eqpreset.php">EQプリセット機能を使ってみよう</a></li>
                     <li><a target="_blank" href="soundeffects.html">効果音機能を使ってみよう</a></li>
                     <li><a target="_blank" href="normalize.html">ノーマライズ機能を使ってみよう</a></li>
                     <li><a target="_blank" href="vocalcancel.html">ボーカルキャンセル機能を使ってみよう</a></li>
