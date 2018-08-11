@@ -1,4 +1,4 @@
-﻿<?php
+<?php
 $set['PageTitle'] = 'トップページ';
 $set['column'] = 'one';
 $set['type'] = 'index';
@@ -340,7 +340,7 @@ include('./include/header.php');
                 </div>
                 <div style="font-size:14px;border-bottom:1px solid #f0f0f0"><a href="about.php" style="display:block;width:326px;padding:10px 10px 10px 15px">聞々ハヤえもんとは</a>
                 </div>
-                <div style="font-size:14px;border-bottom:1px solid #f0f0f0"><a href="environment.html" style="display:block;width:326px;padding:10px 10px 5px 15px">動作環境</a>
+                <div style="font-size:14px;border-bottom:1px solid #f0f0f0"><a href="environment.php" style="display:block;width:326px;padding:10px 10px 5px 15px">動作環境</a>
                 </div>
                 <div style="font-size:14px;border-bottom:1px solid #f0f0f0"><a href="manual.html" style="display:block;width:326px;padding:10px 10px 5px 15px">Windows版公式マニュアル</a>
                 </div>
@@ -522,7 +522,7 @@ include('./include/header.php');
 
                 <ol>
                     <li><a target="_blank" href="about.php">はじめに</a></li>
-                    <li><a target="_blank" href="environment.html">動作環境について</a></li>
+                    <li><a target="_blank" href="environment.php">動作環境について</a></li>
                     <li><a target="_blank" href="howtodownload.html">ダウンロードしてみよう</a></li>
                     <li><a target="_blank" href="boot.php">起動してみよう</a></li>
                     <li><a target="_blank" href="play.html">音楽を聴いてみよう</a></li>
@@ -534,7 +534,7 @@ include('./include/header.php');
                     <li><a target="_blank" href="abloop.php">ABループ機能を使ってみよう</a></li>
                     <li><a target="_blank" href="controls.php">コントロールの表示／非表示</a></li>
                     <li><a target="_blank" href="lyrics.html">歌詞を表示させてみよう</a></li>
-                    <li><a target="_blank" href="effects.html">エフェクト機能を使ってみよう</a></li>
+                    <li><a target="_blank" href="effects.php">エフェクト機能を使ってみよう</a></li>
                     <li><a target="_blank" href="playrange.html">再生範囲を指定してみよう</a></li>
                     <li><a target="_blank" href="incspeed.html">だんだん速くする機能を使ってみよう</a></li>
                     <li><a target="_blank" href="eqpreset.html">EQプリセット機能を使ってみよう</a></li>

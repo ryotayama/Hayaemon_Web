@@ -1,4 +1,4 @@
-﻿<?php
+<?php
 $set['PageTitle'] = '聞々ハヤえもんについて';
 $set['column'] = 'one';
 $set['type'] = 'manual';
@@ -81,7 +81,7 @@ include('./include/header.php');
                 </div>
                 <br /><br />
                 <div align="right">
-                    <a href="environment.html" class="font25 btn" style="text-decoration:underline">聞々ハヤえもんの動作環境について</a>
+                    <a href="environment.php" class="font25 btn" style="text-decoration:underline">聞々ハヤえもんの動作環境について</a>
                 </div>
                 <br />
                 <center>

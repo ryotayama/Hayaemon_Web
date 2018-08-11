@@ -1,4 +1,4 @@
-﻿<?php
+<?php
 $set['PageTitle'] = '更新履歴';
 $set['column'] = 'one';
 $set['type'] = 'history';

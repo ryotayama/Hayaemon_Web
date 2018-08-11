@@ -1,4 +1,4 @@
-﻿<?php
+<?php
 $set['PageTitle'] = '聞々ハヤえもんでABループ機能を使う方法';
 $set['column'] = 'one';
 $set['type'] = 'manual';

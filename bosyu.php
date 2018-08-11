@@ -1,4 +1,4 @@
-﻿<?php
+<?php
 $set['PageTitle'] = '聞々ハヤえもん開発協力者、募集中！';
 $set['column'] = 'one';
 $set['type'] = 'manual';
@@ -89,7 +89,7 @@ google_ad_height = 90;
                     <br />
                     そのためには、開発環境が必要となります。金額は問いませんので、どうか開発費の寄付をお願いします。<br />
                     <br />
-                    <a href="donate.html" class="btn" style="text-decoration:underline">開発費を寄付する方法について、さらに詳しく</a>
+                    <a href="donate.php" class="btn" style="text-decoration:underline">開発費を寄付する方法について、さらに詳しく</a>
                 </div>
                 <br />
                 <div style="text-align:center">
