@@ -1,4 +1,4 @@
-﻿<?php
+<?php
 $set['PageTitle'] = '聞々ハヤえもんで再生速度を変更する方法';
 $set['column'] = 'one';
 $set['type'] = 'manual';

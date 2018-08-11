@@ -533,7 +533,7 @@ include('./include/header.php');
                     <li><a target="_blank" href="savefile.html">変換ファイルを保存してみよう</a></li>
                     <li><a target="_blank" href="abloop.php">ABループ機能を使ってみよう</a></li>
                     <li><a target="_blank" href="controls.php">コントロールの表示／非表示</a></li>
-                    <li><a target="_blank" href="lyrics.html">歌詞を表示させてみよう</a></li>
+                    <li><a target="_blank" href="lyrics.php">歌詞を表示させてみよう</a></li>
                     <li><a target="_blank" href="effects.php">エフェクト機能を使ってみよう</a></li>
                     <li><a target="_blank" href="playrange.html">再生範囲を指定してみよう</a></li>
                     <li><a target="_blank" href="incspeed.php">だんだん速くする機能を使ってみよう</a></li>

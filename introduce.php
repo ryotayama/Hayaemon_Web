@@ -1,4 +1,4 @@
-﻿<?php
+<?php
 $set['PageTitle'] = '聞々ハヤえもんをご紹介ください。';
 $set['column'] = 'one';
 $set['type'] = 'manual';

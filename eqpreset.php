@@ -1,4 +1,4 @@
-﻿<?php
+<?php
 $set['PageTitle'] = 'EQプリセット機能を使ってみよう';
 $set['column'] = 'one';
 $set['type'] = 'manual';

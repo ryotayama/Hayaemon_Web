@@ -1,4 +1,4 @@
-﻿<?php
+<?php
 $set['PageTitle'] = '聞々ハヤえもんでコントロールの表示状態を切り替える方法';
 $set['column'] = 'one';
 $set['type'] = 'manual';
@@ -33,7 +33,7 @@ include('./include/header.php');
                     <a href="abloop.php" class="font23 lbtn" style="text-decoration:underline">聞々ハヤえもんでABループ機能を使う方法</a>
                 </div>
                 <div style="float:right;text-align:right">
-                    <a href="lyrics.html" class="font23 btn" style="text-decoration:underline">聞々ハヤえもんで歌詞を表示させる方法</a>
+                    <a href="lyrics.php" class="font23 btn" style="text-decoration:underline">聞々ハヤえもんで歌詞を表示させる方法</a>
                 </div>
                 <br /><br />
                 <center>

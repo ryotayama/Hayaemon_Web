@@ -1,4 +1,4 @@
-﻿<?php
+<?php
 $set['PageTitle'] = 'AKB48「ヘビーローテーション」をTOKIOが歌っているように再生する方法';
 $set['column'] = 'one';
 $set['type'] = 'manual';
