@@ -43,10 +43,10 @@ include('./include/header.php');
                 </div>
                 <br /><br />
                 <div style="float:left">
-                    <a href="play.html" class="font25 lbtn" style="text-decoration:underline">聞々ハヤえもんで音楽を聴く方法</a>
+                    <a href="play.php" class="font25 lbtn" style="text-decoration:underline">聞々ハヤえもんで音楽を聴く方法</a>
                 </div>
                 <div style="float:right;text-align:right">
-                    <a href="whychangespeed.html" class="font25 btn" style="text-decoration:underline">音声の再生速度を変えることで何ができるのか</a>
+                    <a href="whychangespeed.php" class="font25 btn" style="text-decoration:underline">音声の再生速度を変えることで何ができるのか</a>
                 </div>
                 <br /><br />
                 <center>

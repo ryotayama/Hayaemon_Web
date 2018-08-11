@@ -113,7 +113,7 @@
                 </div>
                 <br /><br />
                 <div style="float:left">
-                    <a href="whychangespeed.html" class="font23 lbtn" style="text-decoration:underline">音声の再生速度を変えることで何ができるのか</a>
+                    <a href="whychangespeed.php" class="font23 lbtn" style="text-decoration:underline">音声の再生速度を変えることで何ができるのか</a>
                 </div>
                 <div style="float:right;text-align:right">
                     <a href="changepitch.php" class="font23 btn" style="text-decoration:underline">聞々ハヤえもんで音程を変更する方法</a>

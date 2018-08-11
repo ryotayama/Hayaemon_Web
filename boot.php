@@ -55,7 +55,7 @@ include('./include/header.php');
                 </div>
                 <br/><br/>
                 <div align="right">
-                    <a href="play.html" class="font25 btn" style="text-decoration:underline">聞々ハヤえもんで音楽を聴く方法</a>
+                    <a href="play.php" class="font25 btn" style="text-decoration:underline">聞々ハヤえもんで音楽を聴く方法</a>
                 </div>
                 <br/>
                 <center>

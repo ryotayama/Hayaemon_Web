@@ -299,7 +299,7 @@ include('./include/header.php');
             <br/>
             <iframe width="730" height="545" src="https://www.youtube.com/embed/bvn-Vd095KA?rel=0&wmode=transparent"
                     frameborder="0" allowfullscreen></iframe>
-            <div style="font-size:16px;margin-top:5px"><a href="manual.html" class="btn">マニュアル詳細</a>
+            <div style="font-size:16px;margin-top:5px"><a href="manual.php" class="btn">マニュアル詳細</a>
             </div>
             <!-- マニュアル動画　ここまで -->
             <div class="entry-footer">
@@ -342,7 +342,7 @@ include('./include/header.php');
                 </div>
                 <div style="font-size:14px;border-bottom:1px solid #f0f0f0"><a href="environment.php" style="display:block;width:326px;padding:10px 10px 5px 15px">動作環境</a>
                 </div>
-                <div style="font-size:14px;border-bottom:1px solid #f0f0f0"><a href="manual.html" style="display:block;width:326px;padding:10px 10px 5px 15px">Windows版公式マニュアル</a>
+                <div style="font-size:14px;border-bottom:1px solid #f0f0f0"><a href="manual.php" style="display:block;width:326px;padding:10px 10px 5px 15px">Windows版公式マニュアル</a>
                 </div>
                 <div style="font-size:14px;border-bottom:1px solid #f0f0f0"><a href="<?php echo $o['Url']; ?>/blog/" style="display:block;width:326px;padding:10px 10px 5px 15px">開発者ブログ</a>
                 </div>
@@ -373,7 +373,7 @@ include('./include/header.php');
                 <div style="font-size:14px;padding-top:5px;padding-bottom:5px;font-weight:bold;padding-left:5px;border-bottom:1px solid #f0f0f0;text-align:center">
                     ボーカルチェンジ
                 </div>
-                <div style="font-size:14px;border-bottom:1px solid #f0f0f0"><a href="morainaki.html" style="display:block;width:326px;padding:10px 10px 10px 15px">一青窈「もらい泣き」
+                <div style="font-size:14px;border-bottom:1px solid #f0f0f0"><a href="morainaki.php" style="display:block;width:326px;padding:10px 10px 10px 15px">一青窈「もらい泣き」
                         ⇒ 平井堅</a></div>
                 <div style="font-size:14px"><a href="heavyrotation.php" style="display:block;width:326px;padding:10px 10px 5px 15px">AKB48「ヘビーローテーション」
                         ⇒ TOKIO</a></div>
@@ -518,33 +518,33 @@ include('./include/header.php');
             <div style="background:#fcfcfc; border-color: #e0e0e0; color: inherit; display:block; border-style: solid ; border-width: 0 1px;">
                 <b style="font-size:1px;display:block; overflow:hidden;height:1px;"></b>
                 <div style="font-size:14px;padding-top:5px;padding-bottom:5px;font-weight:bold;padding-left:5px;border-bottom:1px solid #f0f0f0;text-align:center">
-                    <a href="manual.html" style="font-weight:bold">聞々ハヤえもん オンラインマニュアル</a></div>
+                    <a href="manual.php" style="font-weight:bold">聞々ハヤえもん オンラインマニュアル</a></div>
 
                 <ol>
                     <li><a target="_blank" href="about.php">はじめに</a></li>
                     <li><a target="_blank" href="environment.php">動作環境について</a></li>
                     <li><a target="_blank" href="howtodownload.php">ダウンロードしてみよう</a></li>
                     <li><a target="_blank" href="boot.php">起動してみよう</a></li>
-                    <li><a target="_blank" href="play.html">音楽を聴いてみよう</a></li>
+                    <li><a target="_blank" href="play.php">音楽を聴いてみよう</a></li>
                     <li><a target="_blank" href="changespeed.php">再生速度を変更してみよう</a></li>
-                    <li><a target="_blank" href="whychangespeed.html">何の為に再生速度を変更するのか</a></li>
+                    <li><a target="_blank" href="whychangespeed.php">何の為に再生速度を変更するのか</a></li>
                     <li><a target="_blank" href="changefrequency.php">再生周波数を変更してみよう</a></li>
                     <li><a target="_blank" href="changepitch.php">音程を変更してみよう</a></li>
-                    <li><a target="_blank" href="savefile.html">変換ファイルを保存してみよう</a></li>
+                    <li><a target="_blank" href="savefile.php">変換ファイルを保存してみよう</a></li>
                     <li><a target="_blank" href="abloop.php">ABループ機能を使ってみよう</a></li>
                     <li><a target="_blank" href="controls.php">コントロールの表示／非表示</a></li>
                     <li><a target="_blank" href="lyrics.php">歌詞を表示させてみよう</a></li>
                     <li><a target="_blank" href="effects.php">エフェクト機能を使ってみよう</a></li>
-                    <li><a target="_blank" href="playrange.html">再生範囲を指定してみよう</a></li>
+                    <li><a target="_blank" href="playrange.php">再生範囲を指定してみよう</a></li>
                     <li><a target="_blank" href="incspeed.php">だんだん速くする機能を使ってみよう</a></li>
                     <li><a target="_blank" href="eqpreset.php">EQプリセット機能を使ってみよう</a></li>
-                    <li><a target="_blank" href="soundeffects.html">効果音機能を使ってみよう</a></li>
-                    <li><a target="_blank" href="normalize.html">ノーマライズ機能を使ってみよう</a></li>
-                    <li><a target="_blank" href="vocalcancel.html">ボーカルキャンセル機能を使ってみよう</a></li>
-                    <li><a target="_blank" href="reverse.html">逆回転再生をしてみよう</a></li>
-                    <li><a target="_blank" href="record.html">古びたレコード再生を使ってみよう</a></li>
-                    <li><a target="_blank" href="versionup.html">バージョンアップをしてみよう</a></li>
-                    <li><a target="_blank" href="uninstall.html">アンインストールする方法</a></li>
+                    <li><a target="_blank" href="soundeffects.php">効果音機能を使ってみよう</a></li>
+                    <li><a target="_blank" href="normalize.php">ノーマライズ機能を使ってみよう</a></li>
+                    <li><a target="_blank" href="vocalcancel.php">ボーカルキャンセル機能を使ってみよう</a></li>
+                    <li><a target="_blank" href="reverse.php">逆回転再生をしてみよう</a></li>
+                    <li><a target="_blank" href="record.php">古びたレコード再生を使ってみよう</a></li>
+                    <li><a target="_blank" href="versionup.php">バージョンアップをしてみよう</a></li>
+                    <li><a target="_blank" href="uninstall.php">アンインストールする方法</a></li>
                 </ol>
 
                 <b style="font-size:1px;display:block; overflow:hidden;height:1px;"></b>

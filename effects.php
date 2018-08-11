@@ -35,7 +35,7 @@ include('./include/header.php');
                     <a href="controls.php" class="font19 lbtn" style="text-decoration:underline">聞々ハヤえもんで歌詞を表示させる方法</a>
                 </div>
                 <div style="float:right;text-align:right">
-                    <a href="playrange.html" class="font19 btn" style="text-decoration:underline">聞々ハヤえもんで再生範囲を指定する方法</a>
+                    <a href="playrange.php" class="font19 btn" style="text-decoration:underline">聞々ハヤえもんで再生範囲を指定する方法</a>
                 </div>
                 <br /><br />
                 <center>

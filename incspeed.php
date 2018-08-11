@@ -34,7 +34,7 @@ include('./include/header.php');
                 </div>
                 <br/><br/>
                 <div style="float:left">
-                    <a href="playrange.html" class="font23 lbtn" style="text-decoration:underline">聞々ハヤえもんで再生範囲を指定する方法</a>
+                    <a href="playrange.php" class="font23 lbtn" style="text-decoration:underline">聞々ハヤえもんで再生範囲を指定する方法</a>
                 </div>
                 <div style="float:right;text-align:right">
                     <a href="eqpreset.php" class="font23 btn" style="text-decoration:underline">聞々ハヤえもんでEQプリセットを使う方法</a>

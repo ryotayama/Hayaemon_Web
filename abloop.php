@@ -36,7 +36,7 @@ include('./include/header.php');
                 </div>
                 <br/><br/>
                 <div style="float:left">
-                    <a href="savefile.html" class="font19 lbtn" style="text-decoration:underline">聞々ハヤえもんで変換ファイルを保存する方法</a>
+                    <a href="savefile.php" class="font19 lbtn" style="text-decoration:underline">聞々ハヤえもんで変換ファイルを保存する方法</a>
                 </div>
                 <div style="float:right;text-align:right">
                     <a href="controls.php" class="font19 btn" style="text-decoration:underline">聞々ハヤえもんでコントロールの表示状態を切り替える方法</a>
