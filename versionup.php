@@ -22,9 +22,9 @@ include('./include/header.php');
                     <br/><br/>
                     このページでは、聞々ハヤえもんを最新版にバージョンアップする方法を説明します。<br/>
                     聞々ハヤえもんをご存知無い方は、まず以下のページをご覧ください。<br/>
-                    <a href="about.php" class="btn" style="text-decoration:underline">聞々ハヤえもんについて</a><br/>
+                    <a href="about.php" class="btn">聞々ハヤえもんについて</a><br/>
                     まだ聞々ハヤえもんをダウンロードしていない方は、以下のページをご覧ください。<br/>
-                    <a href="howtodownload.php" class="btn" style="text-decoration:underline">聞々ハヤえもんをダウンロードする方法</a>
+                    <a href="howtodownload.php" class="btn">聞々ハヤえもんをダウンロードする方法</a>
                 </div>
                 <div class="font26" style="margin-top:40px;margin-bottom:20px;font-weight:bold">①ダウンロードしたファイルを解凍。</div>
                 <div style="margin-left:20px">

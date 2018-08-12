@@ -46,7 +46,7 @@ google_ad_height = 90;
                     <br />
                     また、聞々ハヤえもんをたくさんの人に知っていただくことにより、便利な使い方などを紹介した記事が増える可能性があります。そこには、聞々ハヤえもんを使った音楽の練習方法や、裏ワザ的な使い方などが紹介されているかもしれません。<br />
                     <br />
-                    <a href="introduce.php" class="btn" style="text-decoration:underline">ソフトの紹介方法について、さらに詳しく</a>
+                    <a href="introduce.php" class="btn">ソフトの紹介方法について、さらに詳しく</a>
                 </div>
                 <div class="font26" style="margin-top:40px;font-weight:bold">アイデアや不具合報告を連絡すること。</div>
                 <div class="font18" style="margin-top:15px;margin-bottom:20px;font-weight:bold;color:#808080">
@@ -57,7 +57,7 @@ google_ad_height = 90;
                     <br />
                     あなたのご意見によって、聞々ハヤえもんはよりよいソフトへと成長していきます。<br />
                     <br />
-                    <a href="https://twitter.com/ryota_yama" class="btn" style="text-decoration:underline">開発者りょーたのTwitterはこちら</a>
+                    <a href="https://twitter.com/ryota_yama" class="btn">開発者りょーたのTwitterはこちら</a>
                 </div>
                 <div class="font26" style="margin-top:40px;font-weight:bold">開発／テストをすること。</div>
                 <div class="font18" style="margin-top:15px;margin-bottom:20px;font-weight:bold;color:#808080">
@@ -73,9 +73,9 @@ google_ad_height = 90;
                     どうかあなたの力をお貸しください。<br />
                     <br />
                     <ul>
-                        <li style="list-style-type:disc"><a class="btn" href="https://github.com/ryotayama/Hayaemon/" style="text-decoration:underline;">GitHub（Windows版）</a></li>
-                        <li style="list-style-type:disc"><a class="btn" href="https://github.com/ryotayama/Hayaemon_Android/" style="text-decoration:underline">GitHub（Android版）</a></li>
-                        <li style="list-style-type:disc"><a class="btn" href="https://github.com/ryotayama/Hayaemon_macOS/" style="text-decoration:underline">GitHub（macOS版）</a></li>
+                        <li style="list-style-type:disc"><a class="btn" href="https://github.com/ryotayama/Hayaemon/">GitHub（Windows版）</a></li>
+                        <li style="list-style-type:disc"><a class="btn" href="https://github.com/ryotayama/Hayaemon_Android/">GitHub（Android版）</a></li>
+                        <li style="list-style-type:disc"><a class="btn" href="https://github.com/ryotayama/Hayaemon_macOS/">GitHub（macOS版）</a></li>
                     </ul>
                 </div>
                 <div class="font26" style="margin-top:40px;font-weight:bold">開発費を寄付すること。</div>
@@ -89,7 +89,7 @@ google_ad_height = 90;
                     <br />
                     そのためには、開発環境が必要となります。金額は問いませんので、どうか開発費の寄付をお願いします。<br />
                     <br />
-                    <a href="donate.php" class="btn" style="text-decoration:underline">開発費を寄付する方法について、さらに詳しく</a>
+                    <a href="donate.php" class="btn">開発費を寄付する方法について、さらに詳しく</a>
                 </div>
                 <br />
                 <div style="text-align:center">

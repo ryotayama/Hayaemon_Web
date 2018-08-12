@@ -23,9 +23,9 @@ include('./include/header.php');
                     <br/><br/>
                     このページでは、聞々ハヤえもんでABループ機能を使う方法を説明します。<br/>
                     聞々ハヤえもんをご存知無い方は、まず以下のページをご覧ください。<br/><br/>
-    <a href="about.php" class="font25 btn" style="text-decoration:underline">聞々ハヤえもんについて</a><br/><br/>
+    <a href="about.php" class="font25 btn">聞々ハヤえもんについて</a><br/><br/>
                     まだ聞々ハヤえもんをダウンロードしていない方は、以下のページをご覧ください。<br/><br/>
-                    <a href="howtodownload.php" class="font25 btn" style="text-decoration:underline">聞々ハヤえもんをダウンロードする方法</a>
+                    <a href="howtodownload.php" class="font25 btn">聞々ハヤえもんをダウンロードする方法</a>
                 </div>
                 <div class="font26" style="margin-top:60px;margin-bottom:20px;font-weight:bold">ツールバーの「Ａ」「Ｂ」ボタンを押すだけ。
                 </div>
@@ -36,10 +36,10 @@ include('./include/header.php');
                 </div>
                 <br/><br/>
                 <div style="float:left">
-                    <a href="savefile.php" class="font19 lbtn" style="text-decoration:underline">聞々ハヤえもんで変換ファイルを保存する方法</a>
+                    <a href="savefile.php" class="font19 lbtn">聞々ハヤえもんで変換ファイルを保存する方法</a>
                 </div>
                 <div style="float:right;text-align:right">
-                    <a href="controls.php" class="font19 btn" style="text-decoration:underline">聞々ハヤえもんでコントロールの表示状態を切り替える方法</a>
+                    <a href="controls.php" class="font19 btn">聞々ハヤえもんでコントロールの表示状態を切り替える方法</a>
                 </div>
                 <br/><br/>
                 <center>

@@ -74,7 +74,7 @@ include('./include/header.php');
                     <iframe width="320" height="240" src="http://www.youtube.com/embed/bvn-Vd095KA" frameborder="0"
                             allowfullscreen></iframe>
                     <br/>
-                    <a href="manual.php" class="btn" style="text-decoration:underline">ソフトの使い方について、さらに詳しく</a>
+                    <a href="manual.php" class="btn">ソフトの使い方について、さらに詳しく</a>
                 </div>
                 <div class="font26" style="margin-top:40px;font-weight:bold">開発者に感想を伝えてみる。</div>
                 <div class="font18" style="margin-top:15px;margin-bottom:20px;font-weight:bold;color:#808080">
@@ -85,7 +85,7 @@ include('./include/header.php');
                     <br/>
                     感想をいただくことで開発意欲があがり、さらに良いソフトを作るためのモチベーションにつながります。<br/>
                     <br/>
-                    <a href="./wiki/" class="btn" style="text-decoration:underline">聞々ハヤえもんユーザーコミュニティはこちら</a>
+                    <a href="./wiki/" class="btn">聞々ハヤえもんユーザーコミュニティはこちら</a>
                 </div>
                 <div class="font26" style="margin-top:40px;font-weight:bold">アイデアや不具合報告を投稿。</div>
                 <div class="font18" style="margin-top:15px;margin-bottom:20px;font-weight:bold;color:#808080">
@@ -98,7 +98,7 @@ include('./include/header.php');
                     <br/>
                     あなたのご意見によって、聞々ハヤえもんはよりよいソフトへと成長していきます。<br/>
                     <br/>
-                    <a href="./wiki/" class="btn" style="text-decoration:underline">聞々ハヤえもんユーザーコミュニティはこちら</a>
+                    <a href="./wiki/" class="btn">聞々ハヤえもんユーザーコミュニティはこちら</a>
                 </div>
                 <div class="font26" style="margin-top:40px;font-weight:bold">開発に協力する。</div>
                 <div class="font18" style="margin-top:15px;margin-bottom:20px;font-weight:bold;color:#808080">
@@ -111,7 +111,7 @@ include('./include/header.php');
                     <br/>
                     どんな些細なことでも構いません。最高の音楽プレイヤーを完成させる為、どうか聞々ハヤえもんの開発にご協力ください。<br/>
                     <br/>
-                    <a href="bosyu.php" class="btn" style="text-decoration:underline">聞々ハヤえもんの開発にご協力いただける場合はこちら</a>
+                    <a href="bosyu.php" class="btn">聞々ハヤえもんの開発にご協力いただける場合はこちら</a>
                 </div>
                 <br/>
                 <center>

@@ -20,9 +20,9 @@ include('./include/header.php');
                     <br /><br />
                     このページでは、再生範囲を指定する方法を説明します。<br />
                     聞々ハヤえもんをご存知無い方は、まず以下のページをご覧ください。<br /><br />
-                    <a href="about.php" class="font25 btn" style="text-decoration:underline">聞々ハヤえもんについて</a><br/><br/>
+                    <a href="about.php" class="font25 btn">聞々ハヤえもんについて</a><br/><br/>
                     まだ聞々ハヤえもんをダウンロードしていない方は、以下のページをご覧ください。<br /><br />
-                    <a href="howtodownload.php" class="font25 btn" style="text-decoration:underline">聞々ハヤえもんをダウンロードする方法</a>
+                    <a href="howtodownload.php" class="font25 btn">聞々ハヤえもんをダウンロードする方法</a>
                 </div>
                 <div class="font26" style="margin-top:40px;margin-bottom:20px;font-weight:bold">システム ⇒ 再生範囲メニューをクリック。</div>
                 <div style="margin-left:20px">
@@ -32,10 +32,10 @@ include('./include/header.php');
                 </div>
                 <br /><br />
                 <div style="float:left">
-                    <a href="effects.php" class="font21 lbtn" style="text-decoration:underline">聞々ハヤえもんでエフェクト機能を使ってみよう</a>
+                    <a href="effects.php" class="font21 lbtn">聞々ハヤえもんでエフェクト機能を使ってみよう</a>
                 </div>
                 <div style="float:right;text-align:right">
-                    <a href="incspeed.php" class="font21 btn" style="text-decoration:underline">聞々ハヤえもんでだんだん速くする機能を使う方法</a>
+                    <a href="incspeed.php" class="font21 btn">聞々ハヤえもんでだんだん速くする機能を使う方法</a>
                 </div>
                 <br /><br />
                 <center>
