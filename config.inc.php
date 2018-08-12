@@ -85,10 +85,15 @@ if ($o['is_Security']) {
     ini_set('session.cookie_httponly', 1);
     ini_set('session.cookie_secure', 1);
     header("Cache-Control: no-cache");
-    header("Content-Security-Policy: default-src 'self';".
-        "script-src 'self' 'unsafe-inline' static.ak.fbcdn.net b.st-hatena.com www.googletagmanager.com code.jquery.com cdnjs.cloudflare.com ;".
-        "img-src 'self' data:;".
-        "style-src 'self' 'unsafe-inline' cdnjs.cloudflare.com use.fontawesome.com;");
+    header("Content-Security-Policy: default-src 'self' *.googlesyndication.com;".
+        "script-src 'self' 'unsafe-inline' static.ak.fbcdn.net b.st-hatena.com www.googletagmanager.com code.jquery.com cdnjs.cloudflare.com connect.facebook.net platform.twitter.com *.amazon.co.jp ".
+            "www.googletagservices.com  www.google-analytics.com www.googleadservices.com *.google.co.jp *.google.com *.doubleclick.net *.googlesyndication.com;".
+        "img-src 'self' data: b.st-hatena.com nabettu.github.io cdnjs.cloudflare.com *.linksynergy.com *.google.co.jp *.google.com *.assoc-amazon.jp *.amazon-adsystem.com *.gstatic.com;".
+        "style-src 'self' 'unsafe-inline' cdnjs.cloudflare.com use.fontawesome.com;".
+        "font-src use.fontawesome.com;".
+        "frame-src www.youtube.com apis.google.com platform.twitter.com accounts.google.com cdn.api.b.hatena.ne.jp staticxx.facebook.com syndication.twitter.com www.facebook.com amazon-adsystem.com *.assoc-amazon.jp *.doubleclick.net;".
+        "connect-src *.doubleclick.net *.googlesyndication.com;".
+        "prefetch-src *.googlesyndication.com;");
     header('Access-Control-Allow-Origin: *');
     header("X-XSS-Protection: 1; mode=block");
     header("X-Content-Type-Options: nosniff");
