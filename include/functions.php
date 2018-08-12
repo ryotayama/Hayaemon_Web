@@ -80,20 +80,21 @@ function GetHistory($date = 'latest')
     } else {
         trigger_error("ERROR:Invalid argument", E_USER_ERROR);
     }
-    $flag = TRUE;
+    $flag = $html = $history = TRUE;
     $count = 1;
-    $html = NULL;
     if ($date == 'latest') {
         while (mb_substr_count($history, '#') <= 5) {
             $history .= htmlspecialchars(file_get_contents("./history/history_${date_year}.txt"), ENT_HTML5);
             $date_year--;
 
         }
+    }else{
+        $history .= htmlspecialchars(file_get_contents("./history/history_${date_year}.txt"), ENT_HTML5);
     }
 
-    if (empty($history)) {
+/*    if (empty($history)) {
         $html = "<div class='history'>指定された期間のアップデートログは見つかりませんでした</div>";
-    }
+    }*/
 
     $history = str_replace(array("\r\n", "\r", "\n"), "\n", $history);
     $history = explode("\n\n", $history);

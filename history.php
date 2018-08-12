@@ -6,7 +6,7 @@ include('config.inc.php');
 
 include('./include/functions.php');
 include('./include/header.php');
-$date = $_GET['date'];
+$date = @$_GET['date'];
 ?>
     <style>
         h3 {
