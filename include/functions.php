@@ -80,7 +80,7 @@ function GetHistory($date = 'latest')
     } else {
         trigger_error("ERROR:Invalid argument", E_USER_ERROR);
     }
-    $flag = $html = $history = TRUE;
+    $flag = $html = $history = null;
     $count = 1;
     if ($date == 'latest') {
         while (mb_substr_count($history, '#') <= 5) {
