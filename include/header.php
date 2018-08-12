@@ -1,4 +1,5 @@
 <?php
+// todo : パンクズリストが二つ以上の長さを持つ事を考慮してない
 $callFile = basename(debug_backtrace($limit = 2)[0]['file']);
 ?>
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
