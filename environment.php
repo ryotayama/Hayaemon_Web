@@ -19,7 +19,7 @@ include('./include/header.php');
                     <br /><br />
                     このページでは、聞々ハヤえもんが動作する環境について説明します。<br />
                     聞々ハヤえもんをご存知無い方は、まず以下のページをご覧ください。<br /><br />
-                    <a href="about.php" class="font25 btn" style="text-decoration:underline">聞々ハヤえもんについて</a>
+                    <a href="about.php" class="font25 btn">聞々ハヤえもんについて</a>
                 </div>
                 <div class="font26" style="margin-top:60px;margin-bottom:20px;font-weight:bold">聞々ハヤえもんの動作環境について。</div>
                 <div style="margin-left:20px">
@@ -27,10 +27,10 @@ include('./include/header.php');
                 </div>
                 <br /><br />
                 <div style="float:left">
-                    <a href="about.php" class="font25 lbtn" style="text-decoration:underline">聞々ハヤえもんについて</a>
+                    <a href="about.php" class="font25 lbtn">聞々ハヤえもんについて</a>
                 </div>
                 <div style="float:right;text-align:right">
-                    <a href="howtodownload.php" class="font25 btn" style="text-decoration:underline">聞々ハヤえもんをダウンロードする方法</a>
+                    <a href="howtodownload.php" class="font25 btn">聞々ハヤえもんをダウンロードする方法</a>
                 </div>
                 <br /><br />
                 <center>

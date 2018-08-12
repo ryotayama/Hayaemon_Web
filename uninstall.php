@@ -1,5 +1,5 @@
 ﻿<?php
-$set['PageTitle'] = '聞々ハヤえもんをアンインストールする方';
+$set['PageTitle'] = '聞々ハヤえもんをアンインストールする方法';
 $set['column'] = 'one';
 $set['type'] = 'manual';
 include('config.inc.php');

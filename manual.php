@@ -72,7 +72,7 @@ include('./include/header.php');
                 </div>
                 <div style="margin-top:10px;margin-left:40px">
                     聞々ハヤえもんユーザーコミュニティには、「質問」というカテゴリが存在している為、そちらにご投稿ください。開発者であるりょーた、または、親切なユーザー様から答えが得られるかもしれません。<br/><br/>
-                    <a href="./wiki/" target="_blank" class="font20 btn" style="text-decoration:underline">聞々ハヤえもんユーザーコミュニティ</a>
+                    <a href="./wiki/" target="_blank" class="font20 btn">聞々ハヤえもんユーザーコミュニティ</a>
                     <br/>
                 </div>
                 <div class="font24" style="margin-top:40px;margin-left:20px;font-weight:bold">②開発者にメールを送ってみる。</div>

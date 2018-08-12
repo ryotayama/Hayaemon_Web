@@ -22,7 +22,7 @@ include('./include/header.php');
                     <br/><br/>
                     このページでは、聞々ハヤえもんをダウンロードする方法を説明します。<br/>
                     聞々ハヤえもんをご存知無い方は、まず以下のページをご覧ください。<br/><br/>
-                    <a href="about.php" class="font25 btn" style="text-decoration:underline">聞々ハヤえもんについて</a>
+                    <a href="about.php" class="font25 btn">聞々ハヤえもんについて</a>
                 </div>
                 <div class="font26" style="margin-top:60px;font-weight:bold;margin-bottom:20px">①聞々ハヤえもん公式サイトにアクセス。
                 </div>
@@ -48,7 +48,7 @@ include('./include/header.php');
                 </div>
                 <br/><br/>
                 <div align="right">
-                    <a href="boot.php" class="font25 btn" style="text-decoration:underline">聞々ハヤえもんを起動する方法</a>
+                    <a href="boot.php" class="font25 btn">聞々ハヤえもんを起動する方法</a>
                 </div>
                 <br/>
                 <center>

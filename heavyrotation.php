@@ -20,7 +20,7 @@ include('./include/header.php');
                     <br /><br />
                     このページでは、AKB48「ヘビーローテーション」をTOKIOが歌っているように再生する方法を説明します。<br />
                     まだ聞々ハヤえもんをダウンロードしていない方は、以下のページをご覧ください。<br />
-                    <a href="howtodownload.php" class="btn" style="text-decoration:underline">聞々ハヤえもんをダウンロードする方法</a>
+                    <a href="howtodownload.php" class="btn">聞々ハヤえもんをダウンロードする方法</a>
                 </div>
                 <div class="font26" style="margin-top:40px;margin-bottom:20px;font-weight:bold">音程を♭3.8にするだけ。</div>
                 <div style="margin-left:20px">

@@ -81,7 +81,7 @@ include('./include/header.php');
                 </div>
                 <br /><br />
                 <div align="right">
-                    <a href="environment.php" class="font25 btn" style="text-decoration:underline">聞々ハヤえもんの動作環境について</a>
+                    <a href="environment.php" class="font25 btn">聞々ハヤえもんの動作環境について</a>
                 </div>
                 <br />
                 <center>
