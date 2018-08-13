@@ -11,7 +11,7 @@
 // TRUEに設定すると変数のダンプが有効になり、コードを編集する事無くデバッグができます
 // default: TRUE
 // recommend: FALSE
-$set['Debug'] = FALSE;
+$set['Debug'] = TRUE;
 
 // [WIP]
 // is_Securityは本モジュールが読み込まれているページ全体を通してセキュリティー機構を有効にするか選択できます
@@ -37,14 +37,14 @@ $set['Description'] = "再生速度、周波数、音程を変更できる、耳
 // context:{Protocol}://hayaemon.jp
 // default: https
 // recommend: https
-$set['Protocol'] = 'http';
+$set['Protocol'] = 'https';
 
 // Domainは運用ドメインを指定します
 // 内部リンク等様々な場所で使われます
 // context:https://{Domain}
 // default: hayaemon.jp
 // recommend: hayaemon.jp
-$set['Domain'] = 'localhost:88';
+$set['Domain'] = 'hayaemon.jp';
 
 // Directoryはサブディレクトリ以下で動作している場合に必要です
 // ルートディレクトリで動作する場合には設置は不要です
@@ -53,7 +53,7 @@ $set['Domain'] = 'localhost:88';
 // context:https://hayaemon.jp{Directory}/
 // default: /
 // recommend: /
-$set['Directory'] = '/';
+$set['Directory'] = '';
 
 // AnalyticsIdはGoogle Analyticsとの連携に使われます
 // context:gtag('config', '{AnalyticsId}');
