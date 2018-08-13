@@ -148,4 +148,5 @@ a[target="_blank"]:hover, a.btn, a.lbtn{
     text-rendering: auto;
     line-height: 1;
     font-weight: 900;
+    margin-left: 5px;
 }
