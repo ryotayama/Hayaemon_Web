@@ -155,3 +155,38 @@ a[target="_blank"]:hover, a.btn, a.lbtn{
     font-weight: 900;
     margin-left: 5px;
 }
+
+.twitter::after{
+    content: "\f081";  /* twitter-square */
+    content: "\f099";  /* twitter */
+    
+    font-family:"Font Awesome 5 Brands";
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    display: inline-block;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    line-height: 1;
+    margin-left: 5px;
+}
+
+.github::before{
+    content: "\f09b";
+    font-family:"Font Awesome 5 Brands";
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    display: inline-block;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    line-height: 1;
+    margin-right: 5px;
+    color: #333;
+    background-color: #f5f5f5;
+    border-radius:50%;
+}
+
+.listStyleType_none li{
+   list-style-type:none;
+}
