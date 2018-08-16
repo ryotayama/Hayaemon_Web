@@ -9,11 +9,11 @@ include('./include/header.php');
 ?>
                     <div class="font30" style="color:#808080;font-weight:bold">ソフトを使い始める、原点となる場所。</div>
                     <br/>
-                    <div style="text-align:center;vertical-align: top"><a href="http://b.hatena.ne.jp/entry/"
+                    <div style="text-align:center;vertical-align: top"><a href="https://b.hatena.ne.jp/entry/"
                                                                           class="hatena-bookmark-button"
                                                                           data-hatena-bookmark-layout="standard"
                                                                           title="このエントリーをはてなブックマークに追加"><img
-                            src="http://b.st-hatena.com/images/entry-button/button-only.gif" alt="このエントリーをはてなブックマークに追加"
+                            src="https://b.st-hatena.com/images/entry-button/button-only.gif" alt="このエントリーをはてなブックマークに追加"
                             width="20" height="20" style="border: none"/></a>　
                         <div class="fb-like" data-send="false" data-layout="button_count" data-width="450"
                              data-show-faces="true"
@@ -82,7 +82,7 @@ include('./include/header.php');
                 <div class="font24" style="margin-top:40px;margin-left:20px;font-weight:bold">③メールフォームから質問してみる。</div>
                 <div style="margin-top:10px;margin-left:40px">
                     下記のメールフォームからも簡単にメールをお送りいただく事ができます。返信が必要な場合は、あなたのメールアドレスを併せてご記入ください。
-                    <form action="http://hayaemon.jp/cgi-bin/postmail.cgi" method="POST">
+                    <form action="<?php echo $o['Url']; ?>/cgi-bin/postmail.cgi" method="POST">
                         <input type=hidden name="need" value="">
                         <textarea name="メッセージ" rows="4" ACCESSKEY="M" style="width:480px"></textarea><br>
                         <input type=submit value="送信する">

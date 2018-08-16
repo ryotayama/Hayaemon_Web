@@ -32,7 +32,7 @@ include('./include/header.php');
                     <br/>
                     もしよろしければ、下記メールフォームにてあなたが聞々ハヤえもんをアンインストールする理由を教えていただけませんか？　あなたの一言で、聞々ハヤえもんはよりよいソフトへと成長していきます。<br/>
                     <br/>
-                    <form action="http://hayaemon.jp/cgi-bin/postmail.cgi" method="POST">
+                    <form action="<?php echo $o['Url']; ?>/cgi-bin/postmail.cgi" method="POST">
                         <input type=hidden name="need" value="">
                         <textarea name="メッセージ" rows="4" ACCESSKEY="M" style="width:480px"></textarea><br>
                         <input type=submit value="送信する">
