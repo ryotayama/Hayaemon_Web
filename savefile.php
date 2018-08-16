@@ -7,7 +7,6 @@ include('config.inc.php');
 include('./include/header.php');
 
 ?>
-                    </div>
                     <div class="font30" style="color:#808080;font-weight:bold">再生速度や音程を変更したお気に入りの音楽を、そのままの形で。</div>
                     <br/>
                     <center>
