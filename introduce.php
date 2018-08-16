@@ -19,7 +19,7 @@ include('./include/header.php');
                     //-->
                     </script>
                     <script type="text/javascript"
-                            src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+                            src="https://pagead2.googlesyndication.com/pagead/show_ads.js">
                     </script>
                     <!-- グーグル・アドセンス終了-->
                 </div>
@@ -43,16 +43,16 @@ include('./include/header.php');
                     <br/>
                     以下のリンクにより、各種ＳＮＳで共有することができます。<br/>
                     <br/>
-                    <a href="http://b.hatena.ne.jp/entry/http://hayaemon.jp/" class="hatena-bookmark-button" data-hatena-bookmark-title="聞々ハヤえもん公式サイト／MP3プレイヤー フリーソフト" data-hatena-bookmark-layout="standard" title="このエントリーをはてなブックマークに追加">
-                       <img src="http://b.st-hatena.com/images/entry-button/button-only.gif" alt="このエントリーをはてなブックマークに追加" width="20" height="20" style="border: none;"/></a>　
-                    <div class="fb-like" data-href="http://hayaemon.jp/" data-send="false" data-layout="button_count" data-width="450" data-show-faces="true" style="vertical-align: top"></div>
+                    <a href="https://b.hatena.ne.jp/entry/<?php echo $o['Url']; ?>/" class="hatena-bookmark-button" data-hatena-bookmark-title="聞々ハヤえもん公式サイト／MP3プレイヤー フリーソフト" data-hatena-bookmark-layout="standard" title="このエントリーをはてなブックマークに追加">
+                       <img src="https://b.st-hatena.com/images/entry-button/button-only.gif" alt="このエントリーをはてなブックマークに追加" width="20" height="20" style="border: none;"/></a>　
+                    <div class="fb-like" data-href="<?php echo $o['Url']; ?>/" data-send="false" data-layout="button_count" data-width="450" data-show-faces="true" style="vertical-align: top"></div>
                     　
                     <div style="display:inline-block;_display:inline;vertical-align:top">
-                        <a name="fb_share" type="button" share_url="http://hayaemon.jp/"></a>
+                        <a name="fb_share" type="button" share_url="<?php echo $o['Url']; ?>/"></a>
                     </div>
-                    　<a href="https://twitter.com/share" class="twitter-share-button" data-url="http://hayaemon.jp/" data-text="聞々ハヤえもん公式サイト／MP3プレイヤー フリーソフト" data-lang="ja"></a>　
+                    　<a href="https://twitter.com/share" class="twitter-share-button" data-url="<?php echo $o['Url']; ?>/" data-text="聞々ハヤえもん公式サイト／MP3プレイヤー フリーソフト" data-lang="ja"></a>　
                     <div style="display: inline-block; _display: inline;vertical-align: top;width:70px !important">
-                        <g:plusone size="medium" href="http://hayaemon.jp/"></g:plusone>
+                        <g:plusone size="medium" href="<?php echo $o['Url']; ?>/"></g:plusone>
                     </div>
                     <a href="mailto:ryota.yamauch@gmail.com"><img src="mail.png"></a>
                     <script type="text/javascript">
@@ -77,8 +77,8 @@ include('./include/header.php');
                     <br/>
                     リンクを貼るには、以下のコードをあなたのウェブサイトにそのまま貼り付けるだけでＯＫです。<br/>
                     <br/>
-                    <a href="http://hayaemon.jp/"><img src="http://soft.edolfzoku.com/link/hayaemon-L.gif" alt="聞々ハヤえもん公式サイト／MP3プレイヤー フリーソフト" width="200" height="40"></a>
-                    <textarea cols="120" rows="3" onclick="this.focus();this.select()">&lt;a href="http://hayaemon.jp/"&gt;&lt;img src="http://soft.edolfzoku.com/link/hayaemon-L.gif" alt="聞々ハヤえもん公式サイト／MP3プレイヤー フリーソフト" width="200" height="40"&gt;&lt;/a&gt;</textarea>
+                    <a href="<?php echo $o['Url']; ?>/"><img src="http://soft.edolfzoku.com/link/hayaemon-L.gif" alt="聞々ハヤえもん公式サイト／MP3プレイヤー フリーソフト" width="200" height="40"></a>
+                    <textarea cols="120" rows="3" onclick="this.focus();this.select()">&lt;a href="<?php echo $o['Url']; ?>/"&gt;&lt;img src="http://soft.edolfzoku.com/link/hayaemon-L.gif" alt="聞々ハヤえもん公式サイト／MP3プレイヤー フリーソフト" width="200" height="40"&gt;&lt;/a&gt;</textarea>
                 </div>
                 <div class="font26" style="margin-top:40px;font-weight:bold">ブログに紹介記事を書くこと。</div>
                 <div class="font18" style="margin-top:15px;margin-bottom:20px;font-weight:bold;color:#808080">
@@ -100,7 +100,7 @@ include('./include/header.php');
                     google_ad_height = 90;
                     //-->
                     </script>
-                    <script type="text/javascript" src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+                    <script type="text/javascript" src="https://pagead2.googlesyndication.com/pagead/show_ads.js">
                     </script>
                     <!-- グーグル・アドセンス終了-->
                 </div>

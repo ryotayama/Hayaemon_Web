@@ -308,7 +308,7 @@ include('./include/header.php');
             <!-- /entry-footer -->
         </div><!-- /entry -->
         <div style="text-align:right"><a href="http://soft.edolfzoku.com/"><img
-                        src="<?php echo $o['Url']; ?>/freesoft.png" alt="フリーソフト開発所" border=0></a>　<a href="http://hayaemon.jp/"><img src="<?php echo $o['Url']; ?>/hayaemon-L.gif" alt="音楽を、もっと楽しく！！／聞々ハヤえもん公式サイト" border=0 width="200" height="40"></a>
+                        src="<?php echo $o['Url']; ?>/freesoft.png" alt="フリーソフト開発所" border=0></a>　<a href="<?php echo $o['Url']; ?>/"><img src="<?php echo $o['Url']; ?>/hayaemon-L.gif" alt="音楽を、もっと楽しく！！／聞々ハヤえもん公式サイト" border=0 width="200" height="40"></a>
         </div>
     </div><!-- /blog -->
 </div><!-- /content -->

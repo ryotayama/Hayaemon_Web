@@ -19,7 +19,7 @@ google_ad_height = 90;
 //-->
                     </script>
                     <script type="text/javascript"
-                            src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+                            src="https://pagead2.googlesyndication.com/pagead/show_ads.js">
                     </script>
                     <!-- グーグル・アドセンス終了-->
                 </div>
@@ -47,7 +47,7 @@ google_ad_height = 90;
                     <br />
                     <script type="text/javascript"><!--
 amazon_ad_tag = "edolfzoku-22"; amazon_ad_width = "300"; amazon_ad_height = "250"; amazon_ad_link_target = "new";//--></script>
-                    <script type="text/javascript" src="http://www.assoc-amazon.jp/s/ads.js"></script>
+                    <script type="text/javascript" src="https://www.assoc-amazon.jp/s/ads.js"></script>
                 </div>
                 <div class="font26" style="margin-top:40px;font-weight:bold">開発費を振り込むこと。</div>
                 <div class="font18" style="margin-top:15px;margin-bottom:20px;font-weight:bold;color:#808080">
@@ -73,7 +73,7 @@ google_ad_height = 90;
 //-->
                     </script>
                     <script type="text/javascript"
-                            src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+                            src="https://pagead2.googlesyndication.com/pagead/show_ads.js">
                     </script>
                     <!-- グーグル・アドセンス終了-->
                 </div>

@@ -32,7 +32,7 @@ include('./include/header.php');
                     </div>
                     <br />
                     操作方法は、これだけです。たったのこれだけで、まるでTOKIOが歌っているように聴こえます。ぜひ一度お試しください。<br />
-                    <a class="btn" target="_blank" href="http://www.amazon.co.jp/gp/product/B003M0NQ4C/ref=as_li_qf_sp_asin_il_tl?ie=UTF8&tag=edolfzoku-22&linkCode=as2&camp=247&creative=1211&creativeASIN=B003M0NQ4C">Amazon.co.jpでこの曲を探す</a>
+                    <a class="btn" target="_blank" href="https://www.amazon.co.jp/gp/product/B003M0NQ4C/ref=as_li_qf_sp_asin_il_tl?ie=UTF8&tag=edolfzoku-22&linkCode=as2&camp=247&creative=1211&creativeASIN=B003M0NQ4C">Amazon.co.jpでこの曲を探す</a>
                 </div>
                 <br /><br />
                 <center>
