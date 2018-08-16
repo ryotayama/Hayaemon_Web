@@ -80,7 +80,7 @@ function GetHistory($date = 'latest')
     } else {
         trigger_error("ERROR:Invalid argument", E_USER_ERROR);
     }
-    $flag = $html = $history = null;
+    $flag = $html = $history = NULL;
     $count = 1;
     if ($date == 'latest') {
         while (mb_substr_count($history, '#') <= 5) {
@@ -88,13 +88,10 @@ function GetHistory($date = 'latest')
             $date_year--;
 
         }
-    }else{
+    } else {
         $history .= htmlspecialchars(file_get_contents("./history/history_${date_year}.txt"), ENT_HTML5);
     }
 
-/*    if (empty($history)) {
-        $html = "<div class='history'>指定された期間のアップデートログは見つかりませんでした</div>";
-    }*/
 
     $history = str_replace(array("\r\n", "\r", "\n"), "\n", $history);
     $history = explode("\n\n", $history);
@@ -184,7 +181,7 @@ function GetMd($content, $year, $mon, $flag = FALSE)
         case '$':
             if ($flag == TRUE) {
                 $str = str_replace('$ ', '', $content);
-                $return .= "<a href = '{$GLOBALS['o']['Url']}${str}' class='downloadlink'> このバージョンをダウンロード</a> ";
+                $return .= "<a href='{$GLOBALS['o']['Url']}${str}' class='downloadlink'> このバージョンをダウンロード</a> ";
             }
             break;
     }
