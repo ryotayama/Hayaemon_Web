@@ -18,11 +18,11 @@ include('../include/header.php');
             <div class="content">
                 <div class="i18n-ja">
                     <p>このファイルは、公開期限が終了したか・セキュリティー上の問題を含んでいるためダウンロードできません。</p>
-                    <p>別のファイルを選択するか、<a href="<?php echo $o['Url']; ?>//download/latest">最新のファイル</a>をダウンロードしてください</p>
+                    <p>別のファイルを選択するか、<a href="<?php echo $o['Url']; ?>//download/latest">最新のファイル</a>をダウンロードしてください。</p>
                 </div>
-                <div class="i18n-en">
+                <div class="i18n-en" lang="en-US">
                     <p>This file can not be downloaded because the publication deadline has ended and security problems are included.</p>
-                    <p>Please choose another file or download the <a href="/download/latest">latest file</a></p>
+                    <p>Please choose another file or download the <a href="/download/latest">latest file</a>.</p>
                 </div>
             </div>
         </div>

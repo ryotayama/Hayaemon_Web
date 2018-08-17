@@ -11,7 +11,7 @@
 // TRUEに設定すると変数のダンプが有効になり、コードを編集する事無くデバッグができます
 // default: TRUE
 // recommend: FALSE
-$set['Debug'] = false;
+$set['Debug'] = FALSE;
 
 // [WIP]
 // is_Securityは本モジュールが読み込まれているページ全体を通してセキュリティー機構を有効にするか選択できます
@@ -44,7 +44,7 @@ $set['Protocol'] = 'http';
 // context:https://{Domain}
 // default: hayaemon.jp
 // recommend: hayaemon.jp
-$set['Domain'] = '192.168.0.109';
+$set['Domain'] = 'localhost:88';
 
 // Directoryはサブディレクトリ以下で動作している場合に必要です
 // ルートディレクトリで動作する場合には設置は不要です
@@ -53,7 +53,7 @@ $set['Domain'] = '192.168.0.109';
 // context:https://hayaemon.jp{Directory}/
 // default: /
 // recommend: /
-$set['Directory'] = '/hayaemon';
+$set['Directory'] = '';
 
 // AnalyticsIdはGoogle Analyticsとの連携に使われます
 // context:gtag('config', '{AnalyticsId}');
