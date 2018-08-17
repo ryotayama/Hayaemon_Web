@@ -10,23 +10,23 @@ $date = @$_GET['date'];
 ?>
     <style>
         h3 {
-            border-top: 3px solid;
-            border-image: linear-gradient(to right, rgba(128, 128, 128, 1) 0%, rgba(128, 128, 128, 1) 30%, rgba(128, 128, 128, 0.1) 100%);
-            border-image-slice: 1;
-            padding-top: 10px;
-            padding-bottom: 10px;
+            border-top         : 3px solid;
+            border-image       : linear-gradient(to right, rgba(128, 128, 128, 1) 0%, rgba(128, 128, 128, 1) 30%, rgba(128, 128, 128, 0.1) 100%);
+            border-image-slice : 1;
+            padding-top        : 10px;
+            padding-bottom     : 10px;
         }
 
         .history {
-            padding-bottom: 20px;
+            padding-bottom : 20px;
         }
 
         li {
-            list-style-position: outside;
+            list-style-position : outside;
         }
 
         .cal.disable {
-            color: #ccc;
+            color : #ccc;
         }
     </style>
 
@@ -39,25 +39,26 @@ $date = @$_GET['date'];
                     <br/>
                     <br/>
                     <div id="cal">
-                        <?php echo GetCalender(); ?>
+						<?php echo GetCalender(); ?>
                     </div>
                     <br/>
-
-                    <?php echo GetHistory($date); ?>
+					<?php echo GetHistory($date); ?>
                 </div>
             </div>
         </div>
-        <br/>
     </div>
     <br/>
 <?php
-if (is_numeric($date) && '6' == strlen($date)) {
-    $date = substr_replace($date, '/', 4, 0);
-    $date .= '/01';
-    $date_mon = date("m", strtotime($date));
-    $date_year = date("Y", strtotime($date));
-    $o['PageTitle'] = "<a href='${o['Url']}/history.php'>更新履歴</a> &gt; ${date_year}年 &gt; ${date_mon}月";
+if(is_numeric($date) && '6' == strlen($date)) {
+	$date = substr_replace($date, '/', 4, 0);
+	$date .= '/01';
+	$date_mon = date("m", strtotime($date));
+	$date_year = date("Y", strtotime($date));
+	$o['PageTitle'] = "<a href='${o['Url']}/history.php'>更新履歴</a> &gt; <a href='${o['Url']}/history.php?date=${date_year}'>${date_year}年</a> &gt; ${date_mon}月";
 }
-
+if(is_numeric($date) && '4' == strlen($date)) {
+	$date_year = $date;
+	$o['PageTitle'] = "<a href='${o['Url']}/history.php'>更新履歴</a> &gt; ${date_year}年";
+}
 include('./include/footer.php');
 ?>
