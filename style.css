@@ -140,7 +140,7 @@ a[target="_blank"]:hover, a.btn, a.lbtn{
 #history .history .downloadlink{
     margin-left: auto;
     display: block;
-    width: 177px;
+    width: 185px;
 }
 .downloadlink::after{
     content: '\f56d';
