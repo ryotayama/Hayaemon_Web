@@ -116,13 +116,13 @@ function GetHistory ($date = 'latest') {
 function getHistoryItem2html ($history, $month = 'any') {
 	$content = explode("\n", $history);
 	if($month == 'any' || preg_match("/# \d{4}\/${month}\//", $content[0])) {
-		$html = '<div class="history">';
+		$html = '<div class="history"><ol>';
 		foreach ($content as $version_detail) {
 			$html .= getMd($version_detail);
 		}
-		$html .= '</div>';
+		$html .= '</ol></div>';
 	}
-	if($html == '<div class="history"></div>') {
+	if($html == '<div class="history"><ol></ol></div>') {
 		$html = NULL;
 	}
 	return $html;
