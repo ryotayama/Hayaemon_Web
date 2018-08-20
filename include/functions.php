@@ -92,6 +92,8 @@ function GetHistory ($date = 'latest') {
 			if($count <= 5) {
 				$html .= getHistoryItem2html($value);
 				$count++;
+			}else{
+				break(1);
 			}
 		} else {
 			$html .= getHistoryItem2html($value, $date_mon);
