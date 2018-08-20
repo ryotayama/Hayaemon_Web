@@ -156,7 +156,7 @@ function getHistoryFile ($period, $is_latest = FALSE, $limit = 5) {
 /**
  * 入力されたMarkdown 互換のデータをHTMLに整形します
  *
- * @param      $content Markdown
+ * @param string $content Markdown
  *
  * @return string html
  */
@@ -169,7 +169,7 @@ function GetMd ($content) {
 			$str = str_replace('# ', '', $content);
 			$str_split = explode("\t", $str);
 			$release_timing = date("Y/m/d", strtotime($str_split[0]));
-			$date = explode('/', $release_timing);
+			//$date = explode('/', $release_timing);
 			$return .= " <h3>${release_timing} ${str_split[1]} </h3> ";
 			break;
 		case '*':
@@ -187,14 +187,21 @@ function GetMd ($content) {
 /**
  * SearchHyperLink
  *
- * @param $str Search Text
+ * @param string $str Search Text
  *
  * @return string html or plain
  */
 function SearchLink ($str) {
-	$atag = preg_replace("/\((.+)\)\[(.+)\]/", "<a href='{$GLOBALS['o']['Url']}/$2' class='history alternate'>$1</a>", $str);
-	if(empty($atag)) {
+	$matches = null;
+	if(preg_match("/\((.+)\)\[(.+)\]/",$str, $matches) === 0) {
 		$atag = $str;
+	}else{
+		if(preg_match('/^(http|https):\/\/([\w-]+\.)+[\w-]+(\/[\w-.\/?%&=]*)?$/',$matches[2]) === 0) {
+			$atag = "<a href='{$GLOBALS['o']['Url']}${matches[2]}' class='history alternate'>${matches[1]}</a>";
+		}else{
+			$atag = "<a href='${matches[2]}' class='history alternate'>${matches[1]}</a>";
+
+		}
 	}
 	if($GLOBALS['debug']) {
 		var_dump($atag);
