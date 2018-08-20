@@ -195,14 +195,13 @@ function GetMd ($content) {
  */
 function SearchLink ($str) {
 	$matches = null;
-	if(preg_match("/\((.+)\)\[(.+)\]/",$str, $matches) === 0) {
+	if(preg_match("/(.+)\((.+)\)\[(.+)\](.+)/",$str, $matches) === 0) {
 		$atag = $str;
 	}else{
-		if(preg_match('/^(http|https):\/\/([\w-]+\.)+[\w-]+(\/[\w-.\/?%&=]*)?$/',$matches[2]) === 0) {
-			$atag = "<a href='{$GLOBALS['o']['Url']}${matches[2]}' class='history alternate'>${matches[1]}</a>";
+		if(preg_match('/^(http|https):\/\/([\w-]+\.)+[\w-]+(\/[\w-.\/?%&=]*)?$/',$matches[3]) === 0) {
+			$atag = "${matches[1]}<a href='{$GLOBALS['o']['Url']}${matches[3]}' class='history alternate'>${matches[2]}</a>${matches[4]}";
 		}else{
-			$atag = "<a href='${matches[2]}' class='history alternate'>${matches[1]}</a>";
-
+			$atag = "${matches[1]}<a href='${matches[3]}' class='history alternate'>${matches[2]}</a>${matches[4]}";
 		}
 	}
 	if($GLOBALS['debug']) {
