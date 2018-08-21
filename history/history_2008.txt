@@ -1,103 +1,103 @@
 # 2008/01/30	Version 2.21 β 1 開発版
-$ /download/Hayaemon221b1.lzh
+$ /download/Windows/Hayaemon221b1.lzh
 * 位置／サイズ復元の際に一瞬、デフォルトの位置／サイズでウィンドウが表示されてしまっていたのを修正しました。
 
 # 2008/01/29	Version 2.20 安定版
-$ /download/Hayaemon220.lzh
+$ /download/Windows/Hayaemon220.lzh
 * 安定版として公開しました。
 
 # 2008/01/28	Version 2.19 β 6 開発版
-$ /download/Hayaemon219b6.lzh
+$ /download/Windows/Hayaemon219b6.lzh
 * 多重起動の設定内容が復元できていなかったのを修正しました。
 
 # 2008/01/27	Version 2.19 β 5 開発版
-$ /download/Hayaemon219b5.lzh
+$ /download/Windows/Hayaemon219b5.lzh
 * 音程を 0.1 単位で指定できるようにしました。
 
 # 2008/01/25	Version 2.19 β 4 開発版
-$ /download/Hayaemon219b4.lzh
+$ /download/Windows/Hayaemon219b4.lzh
 * キー設定が復元されるようにしました。
 
 # 2008/01/23	Version 2.19 β 3 開発版
-$ /download/Hayaemon219b3.lzh
+$ /download/Windows/Hayaemon219b3.lzh
 * 早送りと巻き戻しが同時にできてしまっていたのを修正しました。
 
 # 2008/01/22	Version 2.19 β 2 開発版
-$ /download/Hayaemon219b2.lzh
+$ /download/Windows/Hayaemon219b2.lzh
 * 再生リストに再生順という内部制御用の列が表示されていたのを修正しました。
 
 # 2008/01/21	Version 2.19 β 1 開発版
-$ /download/Hayaemon219b1.lzh
+$ /download/Windows/Hayaemon219b1.lzh
 * キーカスタマイズ機能を追加しました。
 
 # 2008/01/13	Version 2.18 安定版
-$ /download/Hayaemon218.lzh
+$ /download/Windows/Hayaemon218.lzh
 * 安定版として公開しました。
 
 # 2008/02/03	Version 2.21 β 2 開発版
-$ /download/Hayaemon221b2.lzh
+$ /download/Windows/Hayaemon221b2.lzh
 * 再生／一時停止用のキーボードショートカットとしてデフォルトでスペースキーを追加しました。
 
 # 2008/03/09	Version 2.21 β 3 開発版
-$ /download/Hayaemon221b3.lzh
+$ /download/Windows/Hayaemon221b3.lzh
 * ABループをキーボードショートカットにより操作できるようにしました。
 
 # 2008/05/06	Version 2.21 β 4 開発版
-$ /download/Hayaemon221b4.lzh
+$ /download/Windows/Hayaemon221b4.lzh
 * システム→外部キー設定メニューによる外部ウィンドウからのキー操作に対応しました。
 
 # 2008/06/22	Version 2.23 β 1 開発版
-$ /download/Hayaemon223b1.lzh
+$ /download/Windows/Hayaemon223b1.lzh
 * 目覚まし機能（タイマー再生）を追加しました。
 
 # 2008/06/22	Version 2.22 安定版
-$ /download/Hayaemon222.lzh
+$ /download/Windows/Hayaemon222.lzh
 * 安定版として公開しました。
 
 # 2008/07/22	Version 2.24 安定版
-$ /download/Hayaemon224.lzh
+$ /download/Windows/Hayaemon224.lzh
 * 安定版として公開しました。
 
 # 2008/07/21	Version 2.23 β 8 開発版
-$ /download/Hayaemon223b8.lzh
+$ /download/Windows/Hayaemon223b8.lzh
 * 再生位置を2秒進める機能を追加しました。
 * 再生位置を3秒進める機能を追加しました。
 * 再生位置を5秒進める機能を追加しました。
 * 再生位置を10秒進める機能を追加しました。
 
 # 2008/07/21	Version 2.23 β 7 開発版
-$ /download/Hayaemon223b7.lzh
+$ /download/Windows/Hayaemon223b7.lzh
 * 再生位置を1秒進める機能を追加しました。
 
 # 2008/07/06	Version 2.23 β 6 開発版
-$ /download/Hayaemon223b6.lzh
+$ /download/Windows/Hayaemon223b6.lzh
 * 再生位置を1秒戻す機能を追加しました。
 
 # 2008/07/06	Version 2.23 β 5 開発版
-$ /download/Hayaemon223b5.lzh
+$ /download/Windows/Hayaemon223b5.lzh
 * 再生位置を2秒戻す機能を追加しました。
 
 # 2008/07/06	Version 2.23 β 4 開発版
-$ /download/Hayaemon223b4.lzh
+$ /download/Windows/Hayaemon223b4.lzh
 * 再生位置を3秒戻す機能を追加しました。
 
 # 2008/07/06	Version 2.23 β 3 開発版
-$ /download/Hayaemon223b3.lzh
+$ /download/Windows/Hayaemon223b3.lzh
 * 再生位置を5秒戻す機能を追加しました。
 
 # 2008/07/06	Version 2.23 β 2 開発版
-$ /download/Hayaemon223b2.lzh
+$ /download/Windows/Hayaemon223b2.lzh
 * 再生位置を10秒戻す機能を追加しました。
 
 # 2008/08/31	Version 2.25 β 5 開発版
-$ /download/Hayaemon225b5.lzh
+$ /download/Windows/Hayaemon225b5.lzh
 * 音程を半音下げる機能を追加しました。
 * 音程を全音下げる機能を追加しました。
 * 音程を半音上げる機能を追加しました。
 * 音程を全音上げる機能を追加しました。
 
 # 2008/08/30	Version 2.25 β 4 開発版
-$ /download/Hayaemon225b4.lzh
+$ /download/Windows/Hayaemon225b4.lzh
 * 再生周波数を1%下げる機能を追加しました。
 * 再生周波数を2%下げる機能を追加しました。
 * 再生周波数を3%下げる機能を追加しました。
@@ -110,7 +110,7 @@ $ /download/Hayaemon225b4.lzh
 * 再生周波数を10%上げる機能を追加しました。
 
 # 2008/08/29	Version 2.25 β 3 開発版
-$ /download/Hayaemon225b3.lzh
+$ /download/Windows/Hayaemon225b3.lzh
 * 再生速度を1%下げる機能を追加しました。
 * 再生速度を2%下げる機能を追加しました。
 * 再生速度を3%下げる機能を追加しました。
@@ -123,15 +123,15 @@ $ /download/Hayaemon225b3.lzh
 * 再生速度を10%上げる機能を追加しました。
 
 # 2008/08/28	Version 2.25 β 2 開発版
-$ /download/Hayaemon225b2.lzh
+$ /download/Windows/Hayaemon225b2.lzh
 * 現在の再生位置をクリップボードにコピーする機能を追加しました。
 
 # 2008/08/25	Version 2.25 β 1 開発版
-$ /download/Hayaemon225b1.lzh
+$ /download/Windows/Hayaemon225b1.lzh
 * ウィンドウを最前面に表示する機能を追加しました。
 
 # 2008/09/28	Version 2.25 β 9 開発版
-$ /download/Hayaemon225b9.lzh
+$ /download/Windows/Hayaemon225b9.lzh
 * 一時停止後に再生位置を1秒戻すショートカットを追加しました。
 * 一時停止後に再生位置を2秒戻すショートカットを追加しました。
 * 一時停止後に再生位置を3秒戻すショートカットを追加しました。
@@ -139,22 +139,22 @@ $ /download/Hayaemon225b9.lzh
 * 一時停止後に再生位置を10秒戻すショートカットを追加しました。
 
 # 2008/09/23	Version 2.25 β 8 開発版
-$ /download/Hayaemon225b8.lzh
+$ /download/Windows/Hayaemon225b8.lzh
 * 外部キー設定が復元されるようにしました。
 
 # 2008/09/14	Version 2.25 β 7 開発版
-$ /download/Hayaemon225b7.lzh
+$ /download/Windows/Hayaemon225b7.lzh
 * 再生速度をデフォルトに戻すメニューを追加しました。
 * 再生周波数をデフォルトに戻すメニューを追加しました。
 * 音程をデフォルトに戻すメニューを追加しました。
 
 # 2008/09/07	Version 2.25 β 6 開発版
-$ /download/Hayaemon225b6.lzh
+$ /download/Windows/Hayaemon225b6.lzh
 * 再生速度を0.1%下げる機能を追加しました。
 * 再生速度を0.1%上げる機能を追加しました。
 * 再生周波数を0.1%下げる機能を追加しました。
 * 再生周波数を0.1%上げる機能を追加しました。
 
 # 2008/10/11	Version 2.26 安定版
-$ /download/Hayaemon226.lzh
+$ /download/Windows/Hayaemon226.lzh
 * 安定版として公開しました。

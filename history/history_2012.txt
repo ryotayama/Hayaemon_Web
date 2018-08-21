@@ -1,743 +1,743 @@
 # 2012/01/29	Version 2.39 β 9 開発版
-$ /download/Hayaemon239b9.zip
+$ /download/Windows/Hayaemon239b9.zip
 * ノーマライズ機能を追加しました。
 
 # 2012/01/26	Version 2.39 β 8 開発版
-$ /download/Hayaemon239b8.zip
+$ /download/Windows/Hayaemon239b8.zip
 * 大容量のファイルを読み込んだ時にスライダが動かなくなる不具合があったのを修正しました。
 
 # 2012/01/17	Version 2.39 β 7 開発版
-$ /download/Hayaemon239b7.zip
+$ /download/Windows/Hayaemon239b7.zip
 * グラフィックイコライザの各コントロールについて、横位置がずれていたのを修正しました。
 
 # 2012/01/16	Version 2.39 β 6 開発版
-$ /download/Hayaemon239b6.zip
+$ /download/Windows/Hayaemon239b6.zip
 * ソースコードを整理し、実行ファイルのサイズを削減しました。
 
 # 2012/01/14	Version 2.39 β 5 開発版
-$ /download/Hayaemon239b5.zip
+$ /download/Windows/Hayaemon239b5.zip
 * 再生速度をだんだん遅くする機能について、秒数を0.01秒単位で指定できるようにしました。
 
 # 2012/01/14	Version 2.39 β 4 開発版
-$ /download/Hayaemon239b4.zip
+$ /download/Windows/Hayaemon239b4.zip
 * 再生速度をだんだん速くする機能について、秒数を0.01秒単位で指定できるようにしました。
 
 # 2012/01/13	Version 2.39 β 3 開発版
-$ /download/Hayaemon239b3.zip
+$ /download/Windows/Hayaemon239b3.zip
 * 再生周波数をだんだん遅くする機能について、秒数を0.01秒単位で指定できるようにしました。
 
 # 2012/01/12	Version 2.39 β 2 開発版
-$ /download/Hayaemon239b2.zip
+$ /download/Windows/Hayaemon239b2.zip
 * 再生周波数をだんだん速くする機能について、秒数を0.01秒単位で指定できるようにしました。
 
 # 2012/01/11	Version 2.39 β 1 開発版
-$ /download/Hayaemon239b1.zip
+$ /download/Windows/Hayaemon239b1.zip
 * ツールバーのカスタマイズ機能を追加しました。
 
 # 2012/01/10	Version 2.38 安定版
-$ /download/Hayaemon238.zip
+$ /download/Windows/Hayaemon238.zip
 * 安定版として公開しました。
 
 # 2012/01/5	Version 2.37 β 7 開発版
-$ /download/Hayaemon237b7.zip
+$ /download/Windows/Hayaemon237b7.zip
 * 多数の要望があったＡＢループ機能の復活を実現しました。今後のバージョンでは、ＡＢループ／マーカー機能の両方を使用可能です。
 
 # 2012/01/4	Version 2.37 β 6 開発版
-$ /download/Hayaemon237b6.zip
+$ /download/Windows/Hayaemon237b6.zip
 * 音程の設定範囲（最大値／最小値）をカスタマイズできるようにしました。
 
 # 2012/01/2	Version 2.37 β 5 開発版
-$ /download/Hayaemon237b5.zip
+$ /download/Windows/Hayaemon237b5.zip
 * 再生周波数の設定範囲（最大値／最小値）をカスタマイズできるようにしました。
 
 # 2012/01/2	Version 2.37 β 4 開発版
-$ /download/Hayaemon237b4.zip
+$ /download/Windows/Hayaemon237b4.zip
 * 再生速度の設定範囲（最大値／最小値）をカスタマイズできるようにしました。
 
 # 2012/02/28	Version 2.41 β 4 開発版
-$ /download/Hayaemon241b4.zip
+$ /download/Windows/Hayaemon241b4.zip
 * 編集→削除メニューを追加しました。
 
 # 2012/02/27	Version 2.41 β 3 開発版
-$ /download/Hayaemon241b3.zip
+$ /download/Windows/Hayaemon241b3.zip
 * 編集→すべて選択メニューを追加しました。
 
 # 2012/02/25	Version 2.41 β 2 開発版
-$ /download/Hayaemon241b2.zip
+$ /download/Windows/Hayaemon241b2.zip
 * 再生リスト内のドラッグによる並び替え時の挙動を改善しました。
 
 # 2012/02/21	Version 2.41 β 1 開発版
-$ /download/Hayaemon241b1.zip
+$ /download/Windows/Hayaemon241b1.zip
 * 再生リストをタブで管理できる機能を追加しました。
 
 # 2012/02/15	Version 2.40 安定版
-$ /download/Hayaemon240.zip
+$ /download/Windows/Hayaemon240.zip
 * 安定版として公開しました。
 
 # 2012/02/12	Version 2.39 β 14 開発版
-$ /download/Hayaemon239b14.zip
+$ /download/Windows/Hayaemon239b14.zip
 * 保存時にパンの変更が反映されていなかったのを修正しました。
 
 # 2012/02/7	Version 2.39 β 13 開発版
-$ /download/Hayaemon239b13.zip
+$ /download/Windows/Hayaemon239b13.zip
 * 起動時に画面表示がおかしくなる事があったのを修正しました。
 
 # 2012/02/1	Version 2.39 β 12 開発版
-$ /download/Hayaemon239b12.zip
+$ /download/Windows/Hayaemon239b12.zip
 * 再生位置スライダを非表示にできるようにしました。
 
 # 2012/02/1	Version 2.39 β 11 開発版
-$ /download/Hayaemon239b11.zip
+$ /download/Windows/Hayaemon239b11.zip
 * ファイルの追加時に再生リスト内の「再生中」を表すマークが再生中以外のファイルにも表示されてしまう不具合があったのを修正しました。
 
 # 2012/02/1	Version 2.39 β 10 開発版
-$ /download/Hayaemon239b10.zip
+$ /download/Windows/Hayaemon239b10.zip
 * 再生リストに「No.」「タイトル」「アーティスト」「年」「長さ」を表示するようにしました。
 * 再生リストの列の幅／並び順を復元するようにしました。
 
 # 2012/03/6	Version 2.42 安定版
-$ /download/Hayaemon242.zip
+$ /download/Windows/Hayaemon242.zip
 * 安定版として公開しました。
 
 # 2012/03/4	Version 2.41 β 5 開発版
-$ /download/Hayaemon241b5.zip
+$ /download/Windows/Hayaemon241b5.zip
 * 再生リストで選択ファイルを右クリックする事により、再生リスト間のコピーができるようにしました。
 
 # 2012/04/30	Version 2.43 β 8 開発版
-$ /download/Hayaemon243b8.zip
+$ /download/Windows/Hayaemon243b8.zip
 * ショートカットキーによるＡＢループの操作ができなかったのを修正しました。
 
 # 2012/04/30	Version 2.43 β 7 開発版
-$ /download/Hayaemon243b7.zip
+$ /download/Windows/Hayaemon243b7.zip
 * 複数のタブが存在している時にウィンドウ上にファイルをドロップすると、ドロップしたファイルが再生されない事があったのを修正しました。
 
 # 2012/04/30	Version 2.43 β 6 開発版
-$ /download/Hayaemon243b6.zip
+$ /download/Windows/Hayaemon243b6.zip
 * 複数のタブが存在している時にファイルを開くと、開いたファイルが再生されない事があったのを修正しました。
 
 # 2012/04/30	Version 2.43 β 5 開発版
-$ /download/Hayaemon243b5.zip
+$ /download/Windows/Hayaemon243b5.zip
 * 再生リスト上で選択中のアイテムを右クリックして「削除」メニューを選択する事により、選択中のアイテムを削除できるようにしました。
 
 # 2012/04/30	Version 2.43 β 4 開発版
-$ /download/Hayaemon243b4.zip
+$ /download/Windows/Hayaemon243b4.zip
 * タブを右クリックして「新しいタブ」メニューを選択する事により、新しいタブを作成できるようにしました。
 
 # 2012/04/30	Version 2.43 β 3 開発版
-$ /download/Hayaemon243b3.zip
+$ /download/Windows/Hayaemon243b3.zip
 * 動画再生中にビデオ画面をダブルクリックする事により、フルスクリーンにできるようにしました。
 
 # 2012/04/25	Version 2.43 β 2 開発版
-$ /download/Hayaemon243b2.zip
+$ /download/Windows/Hayaemon243b2.zip
 * 動画の再生が完了しても次のファイルの再生が始まらなかったのを修正しました。
 
 # 2012/04/24	Version 2.43 β 1 開発版
-$ /download/Hayaemon243b1.zip
+$ /download/Windows/Hayaemon243b1.zip
 * 動画の読み込みに対応しました。
 
 # 2012/04/1	英語版 Version 2.42 安定版
 * 英語版を公開しました。
 
 # 2012/05/27	Version 2.45 β 9 開発版
-$ /download/Hayaemon245b9.zip
+$ /download/Windows/Hayaemon245b9.zip
 * タブ名の編集中に別のタブをクリックすると、タブ名の編集状態が解除されなかったのを修正しました。
 
 # 2012/05/27	Version 2.45 β 8 開発版
-$ /download/Hayaemon245b8.zip
+$ /download/Windows/Hayaemon245b8.zip
 * 再生リストからの削除時に再生が停止してしまう事があったのを修正しました。
 
 # 2012/05/27	Version 2.45 β 7 開発版
-$ /download/Hayaemon245b7.zip
+$ /download/Windows/Hayaemon245b7.zip
 * 再生リストのタブをドラッグ＆ドロップする事により、並び替えができるようにしました。
 
 # 2012/05/26	Version 2.45 β 6 開発版
-$ /download/Hayaemon245b6.zip
+$ /download/Windows/Hayaemon245b6.zip
 * 再生リストからの削除時の挙動を高速化しました。
 
 # 2012/05/23	Version 2.45 β 5 開発版
-$ /download/Hayaemon245b5.zip
+$ /download/Windows/Hayaemon245b5.zip
 * 早送り、巻き戻しの挙動を改善しました。
 
 # 2012/05/20	Version 2.45 β 4 開発版
-$ /download/Hayaemon245b4.zip
+$ /download/Windows/Hayaemon245b4.zip
 * メトロノーム機能を追加しました。
 
 # 2012/05/16	Version 2.45 β 3 開発版
-$ /download/Hayaemon245b3.zip
+$ /download/Windows/Hayaemon245b3.zip
 * 起動を高速化しました。
 
 # 2012/05/12	Version 2.45 β 2 開発版
-$ /download/Hayaemon245b2.zip
+$ /download/Windows/Hayaemon245b2.zip
 * 再生位置表示用ラベルにちらつきがあったのを修正しました。
 
 # 2012/05/12	Version 2.45 β 1 開発版
-$ /download/Hayaemon245b1.zip
+$ /download/Windows/Hayaemon245b1.zip
 * 動画と音声のずれを軽減しました。
 
 # 2012/05/10	Version 2.44 安定版
-$ /download/Hayaemon244.zip
+$ /download/Windows/Hayaemon244.zip
 * 安定版として公開しました。
 
 # 2012/05/10	Version 2.43 β 12 開発版
-$ /download/Hayaemon243b12.zip
+$ /download/Windows/Hayaemon243b12.zip
 * 動画の再生完了時にアプリケーションが固まる事があったのを修正しました。
 
 # 2012/05/5	Version 2.43 β 11 開発版
-$ /download/Hayaemon243b11.zip
+$ /download/Windows/Hayaemon243b11.zip
 * 動画の再生速度、音程、グラフィックイコライザを変更できるようにしました。
 
 # 2012/05/4	Version 2.43 β 10 開発版
-$ /download/Hayaemon243b10.zip
+$ /download/Windows/Hayaemon243b10.zip
 * Windows XP で動画が再生できなかったのを修正しました。
 
 # 2012/05/3	Version 2.43 β 9 開発版
-$ /download/Hayaemon243b9.zip
+$ /download/Windows/Hayaemon243b9.zip
 * 動画再生中、次のファイルへの切り替え時に画面がちらつく事があったのを修正しました。
 
 # 2012/06/30	Version 2.47 β 3 開発版
-$ /download/Hayaemon247b3.zip
+$ /download/Windows/Hayaemon247b3.zip
 * offsetタグ使用時に歌詞の表示がおかしくなる事があったのを修正しました。
 
 # 2012/06/30	Version 2.47 β 2 開発版
-$ /download/Hayaemon247b2.zip
+$ /download/Windows/Hayaemon247b2.zip
 * 再生終了後、歌詞の表示が消えない事があったのを修正しました。
 
 # 2012/06/30	Version 2.47 β 1 開発版
-$ /download/Hayaemon247b1.zip
+$ /download/Windows/Hayaemon247b1.zip
 * LRCフォーマットによる歌詞ファイルの表示に対応しました。現バージョンでは、Shift_JIS形式に対応しています。音声ファイルと同じフォルダにLRCフォーマットの歌詞ファイル（*.lrc、*.kra、*.txt）を置く事で歌詞を表示する事ができます。拡張子以外のファイル名は音声ファイルと同一にする必要があります。
 
 # 2012/06/7	Version 2.46 安定版
-$ /download/Hayaemon246.zip
+$ /download/Windows/Hayaemon246.zip
 * 安定版として公開しました。
 
 # 2012/06/2	Version 2.45 β 10 開発版
-$ /download/Hayaemon245b10.zip
+$ /download/Windows/Hayaemon245b10.zip
 * 再生リストにファイルをドロップした際に、再生が停止してしまう事があったのを修正しました。
 
 # 2012/07/28	Version 2.49 β 10 開発版
-$ /download/Hayaemon249b10.zip
+$ /download/Windows/Hayaemon249b10.zip
 * 曲の切替時にフェードアウト機能について、再生中以外の場合はフェードアウトさせないように修正しました。
 
 # 2012/07/28	Version 2.49 β 9 開発版
-$ /download/Hayaemon249b9.zip
+$ /download/Windows/Hayaemon249b9.zip
 * 歌詞の表示が大きすぎる事があったのを修正しました。
 
 # 2012/07/28	Version 2.49 β 8 開発版
-$ /download/Hayaemon249b8.zip
+$ /download/Windows/Hayaemon249b8.zip
 * 曲の切替時にフェードアウト機能を追加しました。
 
 # 2012/07/28	Version 2.49 β 7 開発版
-$ /download/Hayaemon249b7.zip
+$ /download/Windows/Hayaemon249b7.zip
 * 再生停止時にフェードアウト機能を追加しました。
 
 # 2012/07/22	Version 2.49 β 6 開発版
-$ /download/Hayaemon249b6.zip
+$ /download/Windows/Hayaemon249b6.zip
 * 起動を高速化しました。
 
 # 2012/07/16	Version 2.49 β 5 開発版
-$ /download/Hayaemon249b5.zip
+$ /download/Windows/Hayaemon249b5.zip
 * ソースコードを整理し、実行ファイルのサイズを削減しました。
 
 # 2012/07/15	Version 2.49 β 4 開発版
-$ /download/Hayaemon249b4.zip
+$ /download/Windows/Hayaemon249b4.zip
 * 「左右入れ替え」機能を追加しました。
 
 # 2012/07/15	Version 2.49 β 3 開発版
-$ /download/Hayaemon249b3.zip
+$ /download/Windows/Hayaemon249b3.zip
 * Ctrl + Tabキーでタブを切り替えられるようにしました。
 
 # 2012/07/14	Version 2.49 β 2 開発版
-$ /download/Hayaemon249b2.zip
+$ /download/Windows/Hayaemon249b2.zip
 * 複数のタブが存在している時にフォルダを開くと、開いたフォルダ内の曲が再生されない事があったのを修正しました。
 
 # 2012/07/14	Version 2.49 β 1 開発版
-$ /download/Hayaemon249b1.zip
+$ /download/Windows/Hayaemon249b1.zip
 * 起動を高速化しました。
 
 # 2012/07/13	Version 2.48 安定版
-$ /download/Hayaemon248.zip
+$ /download/Windows/Hayaemon248.zip
 * 安定版として公開しました。
 
 # 2012/07/8	Version 2.47 β 8 開発版
-$ /download/Hayaemon247b8.zip
+$ /download/Windows/Hayaemon247b8.zip
 * エフェクトの一種「Delay」のプリセットを12種類追加しました。
 
 # 2012/07/7	Version 2.47 β 7 開発版
-$ /download/Hayaemon247b7.zip
+$ /download/Windows/Hayaemon247b7.zip
 * ビデオ画面の背景色がおかしくなる事があったのを修正しました。
 
 # 2012/07/7	Version 2.47 β 6 開発版
-$ /download/Hayaemon247b6.zip
+$ /download/Windows/Hayaemon247b6.zip
 * エフェクトの一種「Reverb」のプリセットを29種類追加しました。
 
 # 2012/07/1	Version 2.47 β 5 開発版
-$ /download/Hayaemon247b5.zip
+$ /download/Windows/Hayaemon247b5.zip
 * 再生位置の変更時に歌詞表示がおかしくなる事があったのを修正しました。
 
 # 2012/07/1	Version 2.47 β 4 開発版
-$ /download/Hayaemon247b4.zip
+$ /download/Windows/Hayaemon247b4.zip
 * 歌詞表示時のフォントサイズの自動判定機能を改善しました。
 
 # 2012/12/31	Version 2.65 β 8 開発版
-$ /download/Hayaemon265b8.zip
+$ /download/Windows/Hayaemon265b8.zip
 * 効果音の一種として、「波音」メニューを追加しました。
 
 # 2012/12/31	Version 2.65 β 7 開発版
-$ /download/Hayaemon265b7.zip
+$ /download/Windows/Hayaemon265b7.zip
 * 効果音の一種として、「レコードノイズ」メニューを追加しました。
 
 # 2012/12/30	Version 2.65 β 6 開発版
-$ /download/Hayaemon265b6.zip
+$ /download/Windows/Hayaemon265b6.zip
 * 「ABループ(A)の位置設定」「ABループ(B)の位置設定」メニューにより、ABループ位置の微調整が可能になりました。
 
 # 2012/12/30	Version 2.65 β 5 開発版
-$ /download/Hayaemon265b5.zip
+$ /download/Windows/Hayaemon265b5.zip
 * 「現在位置をABループ(A)に設定」「現在位置をABループ(B)に設定」メニューを追加しました。
 
 # 2012/12/30	Version 2.65 β 4 開発版
-$ /download/Hayaemon265b4.zip
+$ /download/Windows/Hayaemon265b4.zip
 * ツールバーのリセット時に全てのボタンがリセットされていなかったのを修正しました。
 
 # 2012/12/30	Version 2.65 β 3 開発版
-$ /download/Hayaemon265b3.zip
+$ /download/Windows/Hayaemon265b3.zip
 * 曲の停止時のフェードアウト時間を1～10秒の間で選択できるようにしました。
 
 # 2012/12/29	Version 2.65 β 2 開発版
-$ /download/Hayaemon265b2.zip
+$ /download/Windows/Hayaemon265b2.zip
 * 曲の切替時のフェードアウト時間を1～10秒の間で選択できるようにしました。
 
 # 2012/12/28	Version 2.65 β 1 開発版
-$ /download/Hayaemon265b1.zip
+$ /download/Windows/Hayaemon265b1.zip
 * 再生範囲の指定機能を追加しました。
 
 # 2012/12/27	Version 2.64 安定版
-$ /download/Hayaemon264.zip
+$ /download/Windows/Hayaemon264.zip
 * 安定版として公開しました。
 
 # 2012/12/26	Version 2.63 β 16 開発版
-$ /download/Hayaemon263b16.zip
+$ /download/Windows/Hayaemon263b16.zip
 * 「高音カット（超最強）」メニューを追加しました。
 
 # 2012/12/26	Version 2.63 β 15 開発版
-$ /download/Hayaemon263b15.zip
+$ /download/Windows/Hayaemon263b15.zip
 * 「中音カット（超最強）」メニューを追加しました。
 
 # 2012/12/25	Version 2.63 β 14 開発版
-$ /download/Hayaemon263b14.zip
+$ /download/Windows/Hayaemon263b14.zip
 * 全曲ループが正常に機能していなかったのを修正しました。
 
 # 2012/12/25	Version 2.63 β 13 開発版
-$ /download/Hayaemon263b13.zip
+$ /download/Windows/Hayaemon263b13.zip
 * 「低音カット（超最強）」メニューを追加しました。
 
 # 2012/12/25	Version 2.63 β 12 開発版
-$ /download/Hayaemon263b12.zip
+$ /download/Windows/Hayaemon263b12.zip
 * 「ドラム（ハイハット、シンバル）の耳コピ」メニューを追加しました。
 
 # 2012/12/24	Version 2.63 β 11 開発版
-$ /download/Hayaemon263b11.zip
+$ /download/Windows/Hayaemon263b11.zip
 * 「高音強調（超最強）」メニューを追加しました。
 
 # 2012/12/24	Version 2.63 β 10 開発版
-$ /download/Hayaemon263b10.zip
+$ /download/Windows/Hayaemon263b10.zip
 * 「中音強調（超最強）」メニューを追加しました。
 
 # 2012/12/24	Version 2.63 β 9 開発版
-$ /download/Hayaemon263b9.zip
+$ /download/Windows/Hayaemon263b9.zip
 * 「ベースの耳コピ」の品質を改善し、もっと耳コピしやすくしました。
 
 # 2012/12/24	Version 2.63 β 8 開発版
-$ /download/Hayaemon263b8.zip
+$ /download/Windows/Hayaemon263b8.zip
 * 「低音強調（超最強）」メニューを追加しました。
 
 # 2012/12/24	Version 2.63 β 7 開発版
-$ /download/Hayaemon263b7.zip
+$ /download/Windows/Hayaemon263b7.zip
 * グラフィックイコライザの調整範囲を-15～15から、-30～30に変更しました。
 
 # 2012/12/23	Version 2.63 β 6 開発版
-$ /download/Hayaemon263b6.zip
+$ /download/Windows/Hayaemon263b6.zip
 * 「１オクターブ上げる」「１オクターブ下げる」メニューを追加しました。
 
 # 2012/12/23	Version 2.63 β 5 開発版
-$ /download/Hayaemon263b5.zip
+$ /download/Windows/Hayaemon263b5.zip
 * ツイッターへの投稿機能を追加しました。
 
 # 2012/12/23	Version 2.63 β 4 開発版
-$ /download/Hayaemon263b4.zip
+$ /download/Windows/Hayaemon263b4.zip
 * 正常に終了できない事があったのを修正しました。
 
 # 2012/12/19	Version 2.63 β 3 開発版
-$ /download/Hayaemon263b3.zip
+$ /download/Windows/Hayaemon263b3.zip
 * ベースの耳コピ選択時、メニューにチェックマークがつくようにしました。
 
 # 2012/12/18	Version 2.63 β 2 開発版
-$ /download/Hayaemon263b2.zip
+$ /download/Windows/Hayaemon263b2.zip
 * ランダム再生時、全ての再生が終わると最後の曲が繰り返し再生されてしまっていたのを修正しました。
 
 # 2012/12/17	Version 2.63 β 1 開発版
-$ /download/Hayaemon263b1.zip
+$ /download/Windows/Hayaemon263b1.zip
 * ランダム再生時、読込不能なファイルがあると再生が停止してしまっていたのを修正しました。
 
 # 2012/12/16	Version 2.62 安定版
-$ /download/Hayaemon262.zip
+$ /download/Windows/Hayaemon262.zip
 * 安定版として公開しました。
 
 # 2012/12/15	Version 2.61 β 20 開発版
-$ /download/Hayaemon261b20.zip
+$ /download/Windows/Hayaemon261b20.zip
 * ノーマライズメニュー選択時にボーカルキャンセル機能が働いてしまっていたのを修正しました。
 
 # 2012/12/14	Version 2.61 β 19 開発版
-$ /download/Hayaemon261b19.zip
+$ /download/Windows/Hayaemon261b19.zip
 * 再生位置のレジューム機能を追加しました。再生停止時に再生リストの１曲目に戻ってしまっていたのを修正しました。
 
 # 2012/12/13	Version 2.61 β 18 開発版
-$ /download/Hayaemon261b18.zip
+$ /download/Windows/Hayaemon261b18.zip
 * タブ非表示時にエクスプローラの幅を調整できなかったのを修正しました。
 
 # 2012/12/12	Version 2.61 β 17 開発版
-$ /download/Hayaemon261b17.zip
+$ /download/Windows/Hayaemon261b17.zip
 * ALACファイルの読み込みに対応しました。
 
 # 2012/12/11	Version 2.61 β 16 開発版
-$ /download/Hayaemon261b16.zip
+$ /download/Windows/Hayaemon261b16.zip
 * 再生リストの右クリックメニューから再生中のアーティストの曲をiTunes Storeで検索できるようにしました。
 
 # 2012/12/10	Version 2.61 β 15 開発版
-$ /download/Hayaemon261b15.zip
+$ /download/Windows/Hayaemon261b15.zip
 * 再生リストの右クリックメニューから再生中の曲の歌詞をインターネットで検索できるようにしました。
 
 # 2012/12/9	Version 2.61 β 14 開発版
-$ /download/Hayaemon261b14.zip
+$ /download/Windows/Hayaemon261b14.zip
 * 曲の切替時に雑音がする事があったのを修正しました。
 
 # 2012/12/8	Version 2.61 β 13 開発版
-$ /download/Hayaemon261b13.zip
+$ /download/Windows/Hayaemon261b13.zip
 * エクスプローラ表示時、画面表示がおかしくなる事があったのを修正しました。
 
 # 2012/12/7	Version 2.61 β 12 開発版
-$ /download/Hayaemon261b12.zip
+$ /download/Windows/Hayaemon261b12.zip
 * 再生リストの右クリックメニューから再生中のアーティストの曲をAmazonで検索できるようにしました。
 
 # 2012/12/6	Version 2.61 β 11 開発版
-$ /download/Hayaemon261b11.zip
+$ /download/Windows/Hayaemon261b11.zip
 * エクスプローラの右クリックメニューからファイルを追加できるようにしました。
 
 # 2012/12/5	Version 2.61 β 10 開発版
-$ /download/Hayaemon261b10.zip
+$ /download/Windows/Hayaemon261b10.zip
 * エクスプローラの右クリックメニューからファイルを開けるようにしました。
 
 # 2012/12/4	Version 2.61 β 9 開発版
-$ /download/Hayaemon261b9.zip
+$ /download/Windows/Hayaemon261b9.zip
 * エクスプローラの右クリックメニューからファイルが存在するフォルダを開けるようにしました。
 
 # 2012/12/3	Version 2.61 β 8 開発版
-$ /download/Hayaemon261b8.zip
+$ /download/Windows/Hayaemon261b8.zip
 * エクスプローラの右クリックメニューからファイルのプロパティを表示できるようにしました。
 
 # 2012/12/2	Version 2.61 β 7 開発版
-$ /download/Hayaemon261b7.zip
+$ /download/Windows/Hayaemon261b7.zip
 * 再生リストの右クリックメニューから音声ファイルが存在するフォルダを開けるようにしました。
 
 # 2012/12/1	Version 2.61 β 6 開発版
-$ /download/Hayaemon261b6.zip
+$ /download/Windows/Hayaemon261b6.zip
 * ツールバーからエクスプローラの表示状態を切り替えられるようにしました。
 
 # 2012/11/29	Version 2.61 β 5 開発版
-$ /download/Hayaemon261b5.zip
+$ /download/Windows/Hayaemon261b5.zip
 * 再生リストの右クリックメニューからファイルのプロパティを表示できるようにしました。
 
 # 2012/11/29	Version 2.61 β 4 開発版
-$ /download/Hayaemon261b4.zip
+$ /download/Windows/Hayaemon261b4.zip
 * コントロールの表示状態を切り替えた際に、ウィンドウサイズがおかしくなる事があったのを修正しました。
 
 # 2012/11/28	Version 2.61 β 3 開発版
-$ /download/Hayaemon261b3.zip
+$ /download/Windows/Hayaemon261b3.zip
 * タブ非表示時に再生リスト上部に余分なスペースがあったのを修正しました。
 
 # 2012/11/26	Version 2.61 β 2 開発版
-$ /download/Hayaemon261b2.zip
+$ /download/Windows/Hayaemon261b2.zip
 * エクスプローラ機能を追加しました。エクスプローラ風のコントロールから簡単に曲を開く事が出来るようになりました。
 
 # 2012/11/21	Version 2.61 β 1 開発版
-$ /download/Hayaemon261b1.zip
+$ /download/Windows/Hayaemon261b1.zip
 * タブを非表示にできるようにしました。
 
 # 2012/11/21	Version 2.60 安定版
-$ /download/Hayaemon26.zip
+$ /download/Windows/Hayaemon26.zip
 * 安定版として公開しました。
 
 # 2012/11/19	Version 2.59 β 12 開発版
-$ /download/Hayaemon259b12.zip
+$ /download/Windows/Hayaemon259b12.zip
 * エフェクトのプリセット管理機能を追加しました。お気に入りのエフェクトを瞬時に呼び出せるようになりました。
 
 # 2012/11/19	Version 2.59 β 11 開発版
-$ /download/Hayaemon259b11.zip
+$ /download/Windows/Hayaemon259b11.zip
 * 一部の環境で起動しない事があったのを修正しました。
 
 # 2012/11/11	Version 2.59 β 10 開発版
-$ /download/Hayaemon259b10.zip
+$ /download/Windows/Hayaemon259b10.zip
 * 環境の違いにより、設定状態が正しく読み込めない事があったのを修正しました。
 
 # 2012/11/10	Version 2.59 β 9 開発版
-$ /download/Hayaemon259b9.zip
+$ /download/Windows/Hayaemon259b9.zip
 * 数多くの要望があった「設定状態の書き出し／読み込み機能」を追加しました。「ファイル→保存」メニューから書き出した設定状態を「ファイル→開く」からいつでも読み込む事ができます。
 
 # 2012/11/10	Version 2.59 β 8 開発版
-$ /download/Hayaemon259b8.zip
+$ /download/Windows/Hayaemon259b8.zip
 * 好評だったVersion 2.46のリバーブを復活させました。
 
 # 2012/11/10	Version 2.59 β 7 開発版
-$ /download/Hayaemon259b7.zip
+$ /download/Windows/Hayaemon259b7.zip
 * 「全てのコントロールを閉じる」メニューを追加しました。
 
 # 2012/11/9	Version 2.59 β 6 開発版
-$ /download/Hayaemon259b6.zip
+$ /download/Windows/Hayaemon259b6.zip
 * エフェクトメニューに「高音カット」メニューを追加しました。
 
 # 2012/11/9	Version 2.59 β 5 開発版
-$ /download/Hayaemon259b5.zip
+$ /download/Windows/Hayaemon259b5.zip
 * エフェクトメニューに「中音カット」メニューを追加しました。
 
 # 2012/11/9	Version 2.59 β 4 開発版
-$ /download/Hayaemon259b4.zip
+$ /download/Windows/Hayaemon259b4.zip
 * エフェクトメニューに「低音カット」メニューを追加しました。
 
 # 2012/11/8	Version 2.59 β 3 開発版
-$ /download/Hayaemon259b3.zip
+$ /download/Windows/Hayaemon259b3.zip
 * エフェクトメニューに「聴覚トレーニング」メニューを追加しました。
 
 # 2012/11/7	Version 2.59 β 2 開発版
-$ /download/Hayaemon259b2.zip
+$ /download/Windows/Hayaemon259b2.zip
 * グラフィックイコライザが一部復元されなかったのを修正しました。
 
 # 2012/11/6	Version 2.59 β 1 開発版
-$ /download/Hayaemon259b1.zip
+$ /download/Windows/Hayaemon259b1.zip
 * 一括保存時、ファイル名に「_h001」が付加されないようにしました。
 
 # 2012/11/4	Version 2.58 安定版
-$ /download/Hayaemon258.zip
+$ /download/Windows/Hayaemon258.zip
 * 安定版として公開しました。
 
 # 2012/11/4	Version 2.57 β 16 開発版
-$ /download/Hayaemon257b16.zip
+$ /download/Windows/Hayaemon257b16.zip
 * コントロールの表示状態を切り替えた際に、再生リストのサイズが変わってしまっていたのを修正しました。
 
 # 2012/11/4	Version 2.57 β 15 開発版
-$ /download/Hayaemon257b15.zip
+$ /download/Windows/Hayaemon257b15.zip
 * ランダム再生時、一つ前のファイルを開いた際に曲名がウィンドウタイトルに反映されていなかったのを修正しました。
 
 # 2012/11/3	Version 2.57 β 14 開発版
-$ /download/Hayaemon257b14.zip
+$ /download/Windows/Hayaemon257b14.zip
 * 再生リストの表示／非表示を切り替える際に、まだビデオ画面が大きくなる場合があったのを修正しました。
 
 # 2012/10/31	Version 2.57 β 13 開発版
-$ /download/Hayaemon257b13.zip
+$ /download/Windows/Hayaemon257b13.zip
 * 再生リストの表示／非表示を切り替える度にビデオ画面が徐々に大きくなっていたのを修正しました。
 
 # 2012/10/30	Version 2.57 β 12 開発版
-$ /download/Hayaemon257b12.zip
+$ /download/Windows/Hayaemon257b12.zip
 * 歌へたモード解除後に再生速度が小数点2桁のまま戻らなかったのを修正しました。
 
 # 2012/10/30	Version 2.57 β 11 開発版
-$ /download/Hayaemon257b11.zip
+$ /download/Windows/Hayaemon257b11.zip
 * 一つ前のファイルを開いた時に、曲名がウィンドウタイトルに反映されていなかったのを修正しました。
 
 # 2012/10/29	Version 2.57 β 10 開発版
-$ /download/Hayaemon257b10.zip
+$ /download/Windows/Hayaemon257b10.zip
 * 全てのコントロールの表示／非表示を独立して切り替えられるようにしました。
 
 # 2012/10/28	Version 2.57 β 9 開発版
-$ /download/Hayaemon257b9.zip
+$ /download/Windows/Hayaemon257b9.zip
 * ソースコードを整理し、実行ファイルのサイズを約50KB削減しました。
 
 # 2012/10/28	Version 2.57 β 8 開発版
-$ /download/Hayaemon257b8.zip
+$ /download/Windows/Hayaemon257b8.zip
 * ツールバーのボタン数に応じて、ウィンドウサイズをもっと小さくできるようにしました。
 
 # 2012/10/27	Version 2.57 β 7 開発版
-$ /download/Hayaemon257b7.zip
+$ /download/Windows/Hayaemon257b7.zip
 * グラフィックイコライザの各周波数帯域について、各コントロールごとに表示するかどうかを切り替えられるようにしました。
 
 # 2012/10/16	Version 2.57 β 6 開発版
-$ /download/Hayaemon257b6.zip
+$ /download/Windows/Hayaemon257b6.zip
 * グラフィックイコライザの周波数帯域を31バンドに増やしました。
 
 # 2012/10/8	Version 2.57 β 5 開発版
-$ /download/Hayaemon257b5.zip
+$ /download/Windows/Hayaemon257b5.zip
 * コントロールの表示状態を切り替えた際、ウィンドウサイズがおかしくなる事があったのを修正しました。
 
 # 2012/10/6	Version 2.57 β 4 開発版
-$ /download/Hayaemon257b4.zip
+$ /download/Windows/Hayaemon257b4.zip
 * 「再生位置」メニュー使用後、ウィンドウがアクティブになっていなかったのを修正しました。
 
 # 2012/10/4	Version 2.57 β 3 開発版
-$ /download/Hayaemon257b3.zip
+$ /download/Windows/Hayaemon257b3.zip
 * 「歌へたモード」メニューを追加しました。
 
 # 2012/10/4	Version 2.57 β 2 開発版
-$ /download/Hayaemon257b2.zip
+$ /download/Windows/Hayaemon257b2.zip
 * ツールバーのボタンサイズに「中」を追加しました。
 
 # 2012/10/2	Version 2.57 β 1 開発版
-$ /download/Hayaemon257b1.zip
+$ /download/Windows/Hayaemon257b1.zip
 * ツールバーのボタンサイズを変更できるようにしました。
 
 # 2012/09/20	Version 2.56 安定版
-$ /download/Hayaemon256.zip
+$ /download/Windows/Hayaemon256.zip
 * 安定版として公開しました。
 
 # 2012/09/18	Version 2.55 β 5 開発版
-$ /download/Hayaemon255b5.zip
+$ /download/Windows/Hayaemon255b5.zip
 * エフェクトの種類に「電池切れ」を追加しました。
 
 # 2012/09/18	Version 2.55 β 4 開発版
-$ /download/Hayaemon255b4.zip
+$ /download/Windows/Hayaemon255b4.zip
 * 再生速度、再生周波数のデフォルトに戻すメニューについて、挙動がおかしい事があったのを修正しました。
 
 # 2012/09/17	Version 2.55 β 3 開発版
-$ /download/Hayaemon255b3.zip
+$ /download/Windows/Hayaemon255b3.zip
 * 再生速度を5%上げる、10%上げる機能が動作しない事があったのを修正しました。
 
 # 2012/09/14	Version 2.55 β 2 開発版
-$ /download/Hayaemon255b2.zip
+$ /download/Windows/Hayaemon255b2.zip
 * 「ベースの耳コピ」メニューを追加しました。
 
 # 2012/09/12	Version 2.55 β 1 開発版
-$ /download/Hayaemon255b1.zip
+$ /download/Windows/Hayaemon255b1.zip
 * エフェクトメニューに「全てデフォルトに戻す」メニューを追加しました。
 
 # 2012/09/11	Version 2.54 安定版
-$ /download/Hayaemon254.zip
+$ /download/Windows/Hayaemon254.zip
 * 安定版として公開しました。
 
 # 2012/09/9	Version 2.53 β 12 開発版
-$ /download/Hayaemon253b12.zip
+$ /download/Windows/Hayaemon253b12.zip
 * 再生リストの右クリックメニューに「再生」を追加しました。
 
 # 2012/09/9	Version 2.53 β 11 開発版
-$ /download/Hayaemon253b11.zip
+$ /download/Windows/Hayaemon253b11.zip
 * ビデオ画面の右クリックメニューに「全画面表示」を追加しました。
 
 # 2012/09/9	Version 2.53 β 10 開発版
-$ /download/Hayaemon253b10.zip
+$ /download/Windows/Hayaemon253b10.zip
 * 再生リストにおけるタブの右クリックメニューに「名前の変更」を追加しました。
 
 # 2012/09/9	Version 2.53 β 9 開発版
-$ /download/Hayaemon253b9.zip
+$ /download/Windows/Hayaemon253b9.zip
 * マウスホイール使用時の挙動がまだ一部おかしかったのを修正しました。
 
 # 2012/09/9	Version 2.53 β 8 開発版
-$ /download/Hayaemon253b8.zip
+$ /download/Windows/Hayaemon253b8.zip
 * β 2 以降、グラフィックイコライザが機能していなかったのを修正しました。
 
 # 2012/09/8	Version 2.53 β 7 開発版
-$ /download/Hayaemon253b7.zip
+$ /download/Windows/Hayaemon253b7.zip
 * マウスホイール使用時の挙動が一部おかしかったのを修正しました。
 
 # 2012/09/5	Version 2.53 β 6 開発版
-$ /download/Hayaemon253b6.zip
+$ /download/Windows/Hayaemon253b6.zip
 * 再生速度／周波数／音程の設定が上手くいかない事があったのを修正しました。
 
 # 2012/09/4	Version 2.53 β 5 開発版
-$ /download/Hayaemon253b5.zip
+$ /download/Windows/Hayaemon253b5.zip
 * 音程の小数点桁数を0桁～2桁の範囲で選べるようにしました。
 
 # 2012/09/2	Version 2.53 β 4 開発版
-$ /download/Hayaemon253b4.zip
+$ /download/Windows/Hayaemon253b4.zip
 * 再生周波数の小数点桁数を0桁～2桁の範囲で選べるようにしました。
 
 # 2012/09/2	Version 2.53 β 3 開発版
-$ /download/Hayaemon253b3.zip
+$ /download/Windows/Hayaemon253b3.zip
 * 再生速度の小数点桁数を0桁～2桁の範囲で選べるようにしました。
 
 # 2012/08/26	Version 2.53 β 2 開発版
-$ /download/Hayaemon253b2.zip
+$ /download/Windows/Hayaemon253b2.zip
 * 英語版と日本語版のソースを統一化するとともに、コード内容を全面的に見直し、実行ファイルのサイズを削減しました。
 
 # 2012/08/25	Version 2.53 β 1 開発版
-$ /download/Hayaemon253b1.zip
+$ /download/Windows/Hayaemon253b1.zip
 * ソースコードを整理し、実行ファイルのサイズを削減しました。
 
 # 2012/08/24	Version 2.52 安定版
-$ /download/Hayaemon252.zip
+$ /download/Windows/Hayaemon252.zip
 * 安定版として公開しました。
 
 # 2012/08/24	Version 2.51 β 12 開発版
-$ /download/Hayaemon251b12.zip
+$ /download/Windows/Hayaemon251b12.zip
 * 最小化時にタスクトレイに格納する機能を追加しました。
 
 # 2012/08/23	Version 2.51 β 11 開発版
-$ /download/Hayaemon251b11.zip
+$ /download/Windows/Hayaemon251b11.zip
 * メモリリークを起こしていたのを修正しました。
 
 # 2012/08/23	Version 2.51 β 10 開発版
-$ /download/Hayaemon251b10.zip
+$ /download/Windows/Hayaemon251b10.zip
 * エフェクトの一種「ガーグル」を追加しました。
 
 # 2012/08/23	Version 2.51 β 9 開発版
-$ /download/Hayaemon251b9.zip
+$ /download/Windows/Hayaemon251b9.zip
 * エフェクトの一種「フランジャー」を追加しました。
 
 # 2012/08/22	Version 2.51 β 8 開発版
-$ /download/Hayaemon251b8.zip
+$ /download/Windows/Hayaemon251b8.zip
 * エフェクトの一種「コンプレッサー」を追加しました。
 
 # 2012/08/22	Version 2.51 β 7 開発版
-$ /download/Hayaemon251b7.zip
+$ /download/Windows/Hayaemon251b7.zip
 * エフェクトの一種「コーラス」を追加しました。
 
 # 2012/08/21	Version 2.51 β 6 開発版
-$ /download/Hayaemon251b6.zip
+$ /download/Windows/Hayaemon251b6.zip
 * エフェクトの一種「ディストーション」を追加しました。
 
 # 2012/08/19	Version 2.51 β 5 開発版
-$ /download/Hayaemon251b5.zip
+$ /download/Windows/Hayaemon251b5.zip
 * エフェクト系のメニューを整理し、エフェクトメニューとしてまとめました。
 
 # 2012/08/19	Version 2.51 β 4 開発版
-$ /download/Hayaemon251b4.zip
+$ /download/Windows/Hayaemon251b4.zip
 * エフェクトのプリセットを日本語にしました。
 
 # 2012/08/14	Version 2.51 β 3 開発版
-$ /download/Hayaemon251b3.zip
+$ /download/Windows/Hayaemon251b3.zip
 * タイトルバーに現在再生中の曲のタイトルを表示するようにしました。
 
 # 2012/08/12	Version 2.51 β 2 開発版
-$ /download/Hayaemon251b2.zip
+$ /download/Windows/Hayaemon251b2.zip
 * ウィンドウの位置が正しく復元されない事があったのを修正しました。
 
 # 2012/08/12	Version 2.51 β 1 開発版
-$ /download/Hayaemon251b1.zip
+$ /download/Windows/Hayaemon251b1.zip
 * 再生リスト内のアイテムを並び替えると、表示がおかしくなるのを修正しました。
 
 # 2012/08/10	Version 2.50 安定版
-$ /download/Hayaemon250.zip
+$ /download/Windows/Hayaemon250.zip
 * 安定版として公開しました。
 
 # 2012/08/8	Version 2.49 β 17 開発版
-$ /download/Hayaemon249b17.zip
+$ /download/Windows/Hayaemon249b17.zip
 * 一括変換時、大量のダイアログボックスが表示されてしまう事があったのを修正しました。
 
 # 2012/08/7	Version 2.49 β 16 開発版
-$ /download/Hayaemon249b16.zip
+$ /download/Windows/Hayaemon249b16.zip
 * 開いたファイルが全てロックされてしまっていたのを修正しました。
 
 # 2012/08/7	Version 2.49 β 15 開発版
-$ /download/Hayaemon249b15.zip
+$ /download/Windows/Hayaemon249b15.zip
 * コントロールの表示状態を切り替えると、ウィンドウサイズが小さくなってしまっていたのを修正しました。
 
 # 2012/08/6	Version 2.49 β 14 開発版
-$ /download/Hayaemon249b14.zip
+$ /download/Windows/Hayaemon249b14.zip
 * 起動時に余分な「無題」タブが作られてしまう事があったのを修正しました。
 
 # 2012/08/5	Version 2.49 β 13 開発版
-$ /download/Hayaemon249b13.zip
+$ /download/Windows/Hayaemon249b13.zip
 * 全画面表示時、再生リストが表示されない事があったのを修正しました。
 
 # 2012/08/4	Version 2.49 β 12 開発版
-$ /download/Hayaemon249b12.zip
+$ /download/Windows/Hayaemon249b12.zip
 * 再生リストの「長さ」が文字化けする事があったのを修正しました。
 
 # 2012/08/1	Version 2.49 β 11 開発版
-$ /download/Hayaemon249b11.zip
+$ /download/Windows/Hayaemon249b11.zip
 * 動画の再生ができなくなっていたのを修正しました。
