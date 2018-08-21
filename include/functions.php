@@ -116,7 +116,7 @@ function GetHistory ($date = 'latest') {
 function getHistoryItem2html ($history, $month = 'any') {
 	$content = explode("\n", $history);
 	if($month == 'any' || preg_match("/# \d{4}\/${month}\//", $content[0])) {
-		$html = '<div class="history"><ol>';
+		$html = '<div class="history">';
 		foreach ($content as $version_detail) {
 			$html .= getMd($version_detail);
 		}
@@ -172,10 +172,10 @@ function GetMd ($content) {
 			$str_split = explode("\t", $str);
 			$release_timing = date("Y/m/d", strtotime($str_split[0]));
 			//$date = explode('/', $release_timing);
-			$return .= " <h3>${release_timing} ${str_split[1]} </h3> ";
+			$return .= " <h3>${release_timing} ${str_split[1]}</h3><ol>";
 			break;
 		case '*':
-			$return .= "<li> " . str_replace('* ', '', $content) . "</li> ";
+			$return .= "<li>" . str_replace('* ', '', $content) . "</li> ";
 			$return = SearchLink($return);
 			break;
 		case '$':
