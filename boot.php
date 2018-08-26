@@ -1,5 +1,5 @@
 <?php
-$set['PageTitle'] = '聞々ハヤえもんで音楽を聴く方法';
+$set['PageTitle'] = '聞々ハヤえもんを起動する方法';
 $set['column'] = 'one';
 $set['type'] = 'manual';
 include('config.inc.php');
