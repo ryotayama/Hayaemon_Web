@@ -54,7 +54,7 @@ include('./include/header.php');
                     <div style="display: inline-block; _display: inline;vertical-align: top;width:70px !important">
                         <g:plusone size="medium" href="<?php echo $o['Url']; ?>/"></g:plusone>
                     </div>
-                    <a href="mailto:ryota.yamauch@gmail.com"><img src="mail.png"></a>
+                    <a href="mailto:ryota.yamauch@gmail.com"><img src="img/mail.png"></a>
                     <script type="text/javascript">
                         window.___gcfg = {lang: 'ja'};
 

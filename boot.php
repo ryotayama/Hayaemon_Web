@@ -35,7 +35,7 @@ include('./include/header.php');
                     <br/>
                     <div class="font12" style="text-align:center;">
                         ▼右クリックメニューの「すべて展開」をクリック<br/>
-                        <img src="extract.png" style="border:solid 1px #a0a0a0"><br/>
+                        <img src="img/extract.png" style="border:solid 1px #a0a0a0"><br/>
                     </div>
                     <br/>
                     これでZIPファイルが解凍され、「Hayaemon2」というフォルダができるはずです。
@@ -50,7 +50,7 @@ include('./include/header.php');
                     <br/>
                     <div class="font12" style="text-align:center;">
                         ▼聞々ハヤえもん起動画面<br/>
-                        <img src="firstboot.png" style="border:solid 1px #a0a0a0"><br/>
+                        <img src="img/firstboot.png" style="border:solid 1px #a0a0a0"><br/>
                     </div>
                 </div>
                 <br/><br/>

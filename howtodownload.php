@@ -35,7 +35,7 @@ include('./include/header.php');
                     聞々ハヤえもん公式サイトにアクセスすると、以下の画面になります。<br/>
                     <br/>
                     <center class="font12">▼聞々ハヤえもん公式サイトの画面</center>
-                    <img src="<?php echo $o['Url']; ?>/toppage.png" border="1">
+                    <img src="<?php echo $o['Url']; ?>/img/toppage.png" border="1">
                 </div>
                 <div class="font26" style="margin-top:60px;margin-bottom:20px;font-weight:bold">
                     ②「日本語版」ボタンをクリックして、ダウンロード。
@@ -44,7 +44,7 @@ include('./include/header.php');
                     「日本語版」というボタンをクリックする事で、聞々ハヤえもんをダウンロードする事ができます。<br/>
                     <br/>
                     <center class="font12">▼「日本語版」ボタンをクリック</center>
-                    <img src="<?php echo $o['Url']; ?>/nihongo.png" border="1">
+                    <img src="<?php echo $o['Url']; ?>/img/nihongo.png" border="1">
                 </div>
                 <br/><br/>
                 <div align="right">

@@ -141,20 +141,20 @@ include('./include/header.php');
                         </div>
                         <!-- Windows版スクリーンショット -->
                         <div style="text-align:center;margin-top:20px">
-                            <a href="images/hayaemonscreenshot2.jpg" rel="lightbox[top]"
-                               title="聞々ハヤえもんのスクリーンショット"><img src="images/hayaemonscreenshot2_s.jpg" alt=""
+                            <a href="img/hayaemonscreenshot2.jpg" rel="lightbox[top]"
+                               title="聞々ハヤえもんのスクリーンショット"><img src="img/hayaemonscreenshot2_s.jpg" alt=""
                                                               width="320" height="240" border="0"
                                                               style="margin-bottom:10px"></a><a
-                                    href="images/hayaemonscreenshot.jpg" rel="lightbox[top]"
-                                    title="聞々ハヤえもんのスクリーンショット"><img src="images/hayaemonscreenshot_s.jpg" alt=""
+                                    href="img/hayaemonscreenshot.jpg" rel="lightbox[top]"
+                                    title="聞々ハヤえもんのスクリーンショット"><img src="img/hayaemonscreenshot_s.jpg" alt=""
                                                                    width="320" height="240" border="0"
                                                                    style="margin-left:20px;margin-bottom:10px"></a><a
-                                    href="images/hayaemonscreenshot3.jpg" rel="lightbox[top]"
+                                    href="img/hayaemonscreenshot3.jpg" rel="lightbox[top]"
                                     title="聞々ハヤえもんのスクリーンショット"></a>
                         </div>
                         <!-- MacOS版スクリーンショット
                         <div style="text-align:center;margin-top:10px">
-                        <a href="images/hayaemonscreenshot2.jpg" rel="lightbox[top]" title="聞々ハヤえもんのスクリーンショット"><img src="images/hayaemonscreenshot2_s.jpg" width="320" height="240" border="0" style="margin-bottom:10px"></a><a href="images/hayaemonscreenshot.jpg" rel="lightbox[top]" title="聞々ハヤえもんのスクリーンショット"><img src="images/hayaemonscreenshot_s.jpg" width="320" height="240" border="0" style="margin-left:20px;margin-bottom:10px"></a><a href="images/hayaemonscreenshot3.jpg" rel="lightbox[top]" title="聞々ハヤえもんのスクリーンショット"></a>
+                        <a href="img/hayaemonscreenshot2.jpg" rel="lightbox[top]" title="聞々ハヤえもんのスクリーンショット"><img src="img/hayaemonscreenshot2_s.jpg" width="320" height="240" border="0" style="margin-bottom:10px"></a><a href="img/hayaemonscreenshot.jpg" rel="lightbox[top]" title="聞々ハヤえもんのスクリーンショット"><img src="img/hayaemonscreenshot_s.jpg" width="320" height="240" border="0" style="margin-left:20px;margin-bottom:10px"></a><a href="img/hayaemonscreenshot3.jpg" rel="lightbox[top]" title="聞々ハヤえもんのスクリーンショット"></a>
                         </div> -->
                         <div style="text-align:center; font-size:26px; padding:1.5em 0 .2em 0;">音楽を、もっと楽しく！！</div>
                         <div style="font-size:13px; padding:1em 3em 2em 2em; line-height: 120%;">
@@ -196,11 +196,11 @@ include('./include/header.php');
                                     最新安定版：Version 2.76（2018/06/12）
                                 </div>
                                 <a onclick="window.location='thanks.html';" target="_blank"
-                                   href="Hayaemon276.zip"><img src="download_windows_japanese.png" width="160"
+                                   href="Hayaemon276.zip"><img src="img/download_windows_japanese.png" width="160"
                                                                top="70" style="margin:0"
                                                                alt="聞々ハヤえもんWindows日本語安定版を無料ダウンロード"></a> <a
                                         onclick="window.location='thanks.html';" target="_blank"
-                                        href="Hayaemon276_en.zip"><img src="download_windows_english.png" width="160"
+                                        href="Hayaemon276_en.zip"><img src="img/download_windows_english.png" width="160"
                                                                        top="70" style="margin:0"
                                                                        alt="聞々ハヤえもんWindows英語安定版を無料ダウンロード"></a><br/>
                                 <br/>
@@ -226,7 +226,7 @@ include('./include/header.php');
                                 <div style="font-size:14px;margin:15px 0;">
                                     最新beta版：Version 0.01β4（2018/07/11）
                                 </div>
-                                <a href="Hayaemon001b4.app.zip"><img src="download_macos.png" width="160" top="70"
+                                <a href="Hayaemon001b4.app.zip"><img src="img/download_macos.png" width="160" top="70"
                                                                      style="margin:0" alt="聞々ハヤえもんMacOS版を無料ダウンロード"></a><br/>
                                 <br/>
                             </div>
@@ -255,7 +255,7 @@ include('./include/header.php');
             <div style="text-align:center">
 
                 <!-- リンクバナー
-                <a href="wiki/index.php" target="_blank"><img src="community.png" style="margin-right:20px" alt="聞々ハヤえもんユーザーコミュニティ"></a><a href="bosyu.php" target="_blank"><img src="bosyu.png" alt="協力者募集中！！"></a> -->
+                <a href="wiki/index.php" target="_blank"><img src="img/community.png" style="margin-right:20px" alt="聞々ハヤえもんユーザーコミュニティ"></a><a href="bosyu.php" target="_blank"><img src="img/bosyu.png" alt="協力者募集中！！"></a> -->
             </div>
             <div id="news">
                 <h2>News</h2>
@@ -308,7 +308,7 @@ include('./include/header.php');
             <!-- /entry-footer -->
         </div><!-- /entry -->
         <div style="text-align:right"><a href="http://soft.edolfzoku.com/"><img
-                        src="<?php echo $o['Url']; ?>/freesoft.png" alt="フリーソフト開発所" border=0></a>　<a href="<?php echo $o['Url']; ?>/"><img src="<?php echo $o['Url']; ?>/hayaemon-L.gif" alt="音楽を、もっと楽しく！！／聞々ハヤえもん公式サイト" border=0 width="200" height="40"></a>
+                        src="<?php echo $o['Url']; ?>/img/freesoft.png" alt="フリーソフト開発所" border=0></a>　<a href="<?php echo $o['Url']; ?>/"><img src="<?php echo $o['Url']; ?>/img/hayaemon-L.gif" alt="音楽を、もっと楽しく！！／聞々ハヤえもん公式サイト" border=0 width="200" height="40"></a>
         </div>
     </div><!-- /blog -->
 </div><!-- /content -->
@@ -434,7 +434,7 @@ include('./include/header.php');
             <div style="background:#fcfcfc; border-color: #e0e0e0; color: inherit; display:block; border-style: solid ; border-width: 0 1px;">
                 <b style="font-size:1px;display:block; overflow:hidden;height:1px;"></b>
                 <div style="margin:10px;font-size:12px">
-                    <img src="face.png" width="63" height="73" align="left" style="margin-right:10px">
+                    <img src="img/face.png" width="63" height="73" align="left" style="margin-right:10px">
                     <div style="font-weight:bold;margin-bottom:5px">山内良太（りょーた）</div>
                     <div style="margin-bottom:5px">1982年10月28日 愛知県生まれ。</div>
                     大学時代、些細な出来事がきっかけで人間不信になり、孤独な日々を過ごしていたところ、大学のPCにソフトウェア開発環境がある事を知り、Windows用のソフトを作り始める。様々なソフトを開発していく中、自分に出来る事はこれしか無いと確信するに至り、2006年より愛知県でソフトウェア開発者として働き始める。2011年7月には職場で出会った同僚と結婚、2012年5月には長女、2014年7月には次女、2017年4月には長男が生まれる。ソフトウェア開発に対する情熱は冷める事なく、2018年5月にはついにソフトウェア開発者として独立、『聞々ハヤえもん』という無料音楽再生ソフト（Windows、iPhone、Android、Mac対応）を始めとする様々なソフトウェアの開発を行う日々を過ごしている。
@@ -453,7 +453,7 @@ include('./include/header.php');
                                     fjs.parentNode.insertBefore(js, fjs);
                                 }
                             }(document, "script", "twitter-wjs");</script>
-                        <a href="mailto:Ryota.Yamauch@gmail.com"><img src="mail.png"></a>
+                        <a href="mailto:Ryota.Yamauch@gmail.com"><img src="img/mail.png"></a>
                         <br/>
                         Mail:<a href="mailto:Ryota.Yamauch@gmail.com">Ryota.Yamauch@gmail.com</a><br/>
                         Twitter:<a href="https://twitter.com/ryota_yama" target="_blank">@ryota_yama</a><br/>

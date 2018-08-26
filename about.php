@@ -18,7 +18,7 @@ include('./include/header.php');
                             </script>
                         </div>
                         <br />
-                        <a href="images/hayaemonscreenshot2.jpg" rel="lightbox[top]" title="聞々ハヤえもんのスクリーンショット"><img src="images/hayaemonscreenshot2_s.jpg" width="280" height="210" border="0" style="margin-bottom:10px"></a><a href="images/hayaemonscreenshot.jpg" rel="lightbox[top]" title="聞々ハヤえもんのスクリーンショット"><img src="images/hayaemonscreenshot_s.jpg" width="280" height="210" border="0" style="margin-left:30px;margin-bottom:10px"></a><a href="images/hayaemonscreenshot3.jpg" rel="lightbox[top]" title="聞々ハヤえもんのスクリーンショット"><img src="images/hayaemonscreenshot3_s.jpg" width="280" height="210" border="0" style="margin-left:30px;margin-bottom:10px"></a>
+                        <a href="img/hayaemonscreenshot2.jpg" rel="lightbox[top]" title="聞々ハヤえもんのスクリーンショット"><img src="img/hayaemonscreenshot2_s.jpg" width="280" height="210" border="0" style="margin-bottom:10px"></a><a href="img/hayaemonscreenshot.jpg" rel="lightbox[top]" title="聞々ハヤえもんのスクリーンショット"><img src="img/hayaemonscreenshot_s.jpg" width="280" height="210" border="0" style="margin-left:30px;margin-bottom:10px"></a><a href="img/hayaemonscreenshot3.jpg" rel="lightbox[top]" title="聞々ハヤえもんのスクリーンショット"><img src="img/hayaemonscreenshot3_s.jpg" width="280" height="210" border="0" style="margin-left:30px;margin-bottom:10px"></a>
                     </center>
                 </div>
                 <div class="font26" style="margin-top:40px;font-weight:bold">再生速度、音程を自在に変更可能。</div>

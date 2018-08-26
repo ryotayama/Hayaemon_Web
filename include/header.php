@@ -18,7 +18,7 @@ $callFile = basename(debug_backtrace($limit = 2)[0]['file']);
         <meta property="og:description" content="<?php echo $o['Description']; ?>"/>
         <meta property="og:type" content="website"/>
         <meta property="og:url" content="<?php echo $o['Url']; ?>/<?php echo $callFile; ?>"/>
-        <meta property="og:image" content="<?php echo $o['Url']; ?>/header1080.png"/>
+        <meta property="og:image" content="<?php echo $o['Url']; ?>/img/header1080.png"/>
         <meta name="twitter:card" content="summary_large_image">
         <meta name="twitter:site" content="@ryota_yama">
         <meta name="twitter:creator" content="@ryota_yama">
@@ -77,7 +77,7 @@ $callFile = basename(debug_backtrace($limit = 2)[0]['file']);
 <?php } ?>
     <div id="banner">
         <a href="<?php echo $o['Url']; ?>">
-            <img src="<?php echo $o['Url']; ?>/80.png" align=left alt="アイコン" width=80 height=80 style="margin-right:10px"/>
+            <img src="<?php echo $o['Url']; ?>/img/80.png" align=left alt="アイコン" width=80 height=80 style="margin-right:10px"/>
             MP3プレイヤー フリーソフト<br/>
             <h1>
                 <span class="font13">ぶ ん ぶ ん</span><br/>

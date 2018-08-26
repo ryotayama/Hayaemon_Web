@@ -28,7 +28,7 @@ include('./include/header.php');
                     <br />
                     <div class="font12" style="text-align:center;">
                         ▼音程を♭3.8にするだけ<br />
-                        <img src="heavyrotation.jpg" style="border:solid 1px #a0a0a0">
+                        <img src="img/heavyrotation.jpg" style="border:solid 1px #a0a0a0">
                     </div>
                     <br />
                     操作方法は、これだけです。たったのこれだけで、まるでTOKIOが歌っているように聴こえます。ぜひ一度お試しください。<br />

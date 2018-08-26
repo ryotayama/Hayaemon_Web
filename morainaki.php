@@ -30,7 +30,7 @@ include('./include/header.php');
                     <br/>
                     <div class="font12" style="text-align:center;">
                         ▼再生周波数を80%にするだけ<br/>
-                        <img src="morainaki.jpg" style="border:solid 1px #a0a0a0">
+                        <img src="img/morainaki.jpg" style="border:solid 1px #a0a0a0">
                     </div>
                     <br/>
                     操作方法は、これだけです。たったのこれだけで、まるで平井堅が歌っているように聴こえます。ぜひ一度お試しください。<br/>

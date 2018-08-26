@@ -32,7 +32,7 @@ include('./include/header.php');
                     <br/>
                     <div class="font12" style="text-align:center;">
                         ▼ファイル → 保存メニューをクリック<br/>
-                        <img src="savefile.jpg" style="border:solid 1px #a0a0a0">
+                        <img src="img/savefile.jpg" style="border:solid 1px #a0a0a0">
                     </div>
                     <br/>
                     ファイル名を指定し、ファイルの種類を選択することにより、保存することができます。
@@ -43,7 +43,7 @@ include('./include/header.php');
                     <br/>
                     <div class="font12" style="text-align:center;">
                         ▼ファイル → 一括変換メニューをクリック<br/>
-                        <img src="saveall.jpg" style="border:solid 1px #a0a0a0">
+                        <img src="img/saveall.jpg" style="border:solid 1px #a0a0a0">
                     </div>
                     <br/>
                     ファイルの種類を選択することにより保存することができます。

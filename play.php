@@ -40,7 +40,7 @@ include('./include/header.php');
                     <br />
                     <div class="font12" style="text-align:center;">
                         ▼ファイルメニューをクリック<br />
-                        <img src="clickfile.png" style="border:solid 1px #a0a0a0">
+                        <img src="img/clickfile.png" style="border:solid 1px #a0a0a0">
                     </div>
                     <br />
                     ファイルメニューには、「開く」「追加」の２つがありますが、下記の違いがあります。<br />
@@ -55,7 +55,7 @@ include('./include/header.php');
                     <br />
                     <div class="font12" style="text-align:center;">
                         ▼ツールバーの開くボタンをクリック<br />
-                        <img src="clickopenbutton.png" style="border:solid 1px #a0a0a0"><br />
+                        <img src="img/clickopenbutton.png" style="border:solid 1px #a0a0a0"><br />
                     </div>
                 </div>
                 <div class="font26" style="margin-top:40px;margin-bottom:20px;font-weight:bold">③ドラッグ＆ドロップで追加。</div>
@@ -74,7 +74,7 @@ include('./include/header.php');
                     <br />
                     <div class="font12" style="text-align:center;">
                         ▼表示→エクスプローラメニューを選択<br />
-                        <img src="clickexplorer.png" style="border:solid 1px #a0a0a0"><br />
+                        <img src="img/clickexplorer.png" style="border:solid 1px #a0a0a0"><br />
                     </div>
                 </div>
                 <br /><br />

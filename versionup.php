@@ -34,7 +34,7 @@ include('./include/header.php');
                     <br/>
                     <div class="font12" style="text-align:center;">
                         ▼右クリックメニューの「すべて展開」をクリック<br/>
-                        <img src="extract.png" style="border:solid 1px #a0a0a0">
+                        <img src="img/extract.png" style="border:solid 1px #a0a0a0">
                     </div>
                     <br/>
                 </div>
@@ -46,7 +46,7 @@ include('./include/header.php');
                     <br/>
                     <div class="font12" style="text-align:center;">
                         ▼最新版のフォルダより全てのファイルをコピー<br/>
-                        <img src="versionup.png" style="border:solid 1px #a0a0a0" width="900"><br/>
+                        <img src="img/versionup.png" style="border:solid 1px #a0a0a0" width="900"><br/>
                     </div>
                     <br/>
                     以上でバージョンアップの作業は全て完了です。同じフォルダ内にある「Setting.ini」というファイルにキーボードショートカットなど全ての設定状態を保持している為、バージョンアップ後も今までの設定状態をそのまま引き継いで使用することができます。
