@@ -24,13 +24,11 @@ include('./include/header.php');
                     聞々ハヤえもんをご存知無い方は、まず以下のページをご覧ください。<br><br>
                     <a href="about.php" class="font25 btn">聞々ハヤえもんについて</a>
                 </div>
-                <div class="font26" style="margin-top:60px;font-weight:bold;margin-bottom:20px">①聞々ハヤえもん公式サイトにアクセス。
-                </div>
+                <div class="font26" style="margin-top:60px;font-weight:bold;margin-bottom:20px">①聞々ハヤえもん公式サイトにアクセス。</div>
                 <div style="margin-left:20px">
                     まずは、聞々ハヤえもん公式サイトにアクセスしましょう。<br>
                     <br>
-                    <a href="<?php echo $o['Url']; ?>/" target="_blank"><img
-                            src="http://soft.edolfzoku.com/link/hayaemon-L.gif">←クリックして、聞々ハヤえもん公式サイトにアクセス。</a><br>
+                    <a href="<?php echo $o['Url']; ?>/" target="_blank"><img src="http://soft.edolfzoku.com/link/hayaemon-L.gif">←クリックして、聞々ハヤえもん公式サイトにアクセス。</a><br>
                     <br>
                     聞々ハヤえもん公式サイトにアクセスすると、以下の画面になります。<br>
                     <br>

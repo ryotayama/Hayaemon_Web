@@ -33,27 +33,19 @@ include('./include/header.php');
                     <br>
                     以下のリンクにより、各種ＳＮＳで共有することができます。<br>
                     <br>
-                    <a href="https://b.hatena.ne.jp/entry/<?php echo $o['Url']; ?>/" class="hatena-bookmark-button"
-                       data-hatena-bookmark-title="聞々ハヤえもん公式サイト／MP3プレイヤー フリーソフト" data-hatena-bookmark-layout="standard"
-                       title="このエントリーをはてなブックマークに追加"><img
-                            src="https://b.st-hatena.com/images/entry-button/button-only.gif" alt="このエントリーをはてなブックマークに追加"
-                            width="20" height="20" style="border: none;"/></a>　
-                    <div class="fb-like" data-href="<?php echo $o['Url']; ?>/" data-send="false" data-layout="button_count"
-                         data-width="450" data-show-faces="true" style="vertical-align: top"></div>
+                    <a href="https://b.hatena.ne.jp/entry/<?php echo $o['Url']; ?>/" class="hatena-bookmark-button" data-hatena-bookmark-title="聞々ハヤえもん公式サイト／MP3プレイヤー フリーソフト" data-hatena-bookmark-layout="standard" title="このエントリーをはてなブックマークに追加">
+                      <img src="https://b.st-hatena.com/images/entry-button/button-only.gif" alt="このエントリーをはてなブックマークに追加" width="20" height="20" style="border: none;"/></a>　
+                    <div class="fb-like" data-href="<?php echo $o['Url']; ?>/" data-send="false" data-layout="button_count" data-width="450" data-show-faces="true" style="vertical-align: top"></div>
                     　
-                    <div style="display:inline-block;_display:inline;vertical-align:top"><a name="fb_share"
-                                                                                            type="button"
-                                                                                            share_url="<?php echo $o['Url']; ?>/"></a>
+                    <div style="display:inline-block;_display:inline;vertical-align:top"><a name="fb_share" type="button" share_url="<?php echo $o['Url']; ?>/"></a>
                     </div>
-                    　<a href="https://twitter.com/share" class="twitter-share-button" data-url="<?php echo $o['Url']; ?>/"
-                        data-text="聞々ハヤえもん公式サイト／MP3プレイヤー フリーソフト" data-lang="ja"></a>　
+                    　<a href="https://twitter.com/share" class="twitter-share-button" data-url="<?php echo $o['Url']; ?>/" data-text="聞々ハヤえもん公式サイト／MP3プレイヤー フリーソフト" data-lang="ja"></a>　
                     <div style="display: inline-block; _display: inline;vertical-align: top;width:70px !important">
                         <g:plusone size="medium" href="<?php echo $o['Url']; ?>/"></g:plusone>
                     </div>
                     <a href="mailto:ryota.yamauch@gmail.com"><img src="img/mail.png"></a>
                     <script type="text/javascript">
                         window.___gcfg = {lang: 'ja'};
-
                         (function () {
                             var po = document.createElement('script');
                             po.type = 'text/javascript';
@@ -71,8 +63,7 @@ include('./include/header.php');
                 <div style="margin-left:20px">
                     まずは、聞々ハヤえもんの使い方を動画で覚えましょう。<br>
                     <br>
-                    <iframe width="320" height="240" src="https://www.youtube.com/embed/bvn-Vd095KA" frameborder="0"
-                            allowfullscreen></iframe>
+                    <iframe width="320" height="240" src="https://www.youtube.com/embed/bvn-Vd095KA" frameborder="0" allowfullscreen></iframe>
                     <br>
                     <a href="manual.php" class="btn">ソフトの使い方について、さらに詳しく</a>
                 </div>

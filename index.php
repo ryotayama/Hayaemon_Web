@@ -82,11 +82,8 @@ include('./include/header.php');
                         <br>
                         <div style="text-align:center;vertical-align: top; padding:1em 0;">
                             <a href="https://b.hatena.ne.jp/entry/" class="hatena-bookmark-button" data-hatena-bookmark-layout="standard" title="このエントリーをはてなブックマークに追加"><img src="https://b.st-hatena.com/images/entry-button/button-only.gif" alt="このエントリーをはてなブックマークに追加" width="20" height="20" style="border: none"/></a>　
-                            <div class="fb-like" data-send="false" data-layout="button_count" data-width="450"
-                                 data-show-faces="true"
-                                 style="display: inline-block; _display: inline;vertical-align: top"></div>
-                            　<a href="https://twitter.com/share" class="twitter-share-button" data-via="ryota_yama"
-                                data-lang="ja"></a>
+                            <div class="fb-like" data-send="false" data-layout="button_count" data-width="450" data-show-faces="true" style="display: inline-block; _display: inline;vertical-align: top"></div>
+                            　<a href="https://twitter.com/share" class="twitter-share-button" data-via="ryota_yama" data-lang="ja"></a>
                             <div style="display: inline-block; _display: inline;vertical-align: top;width:70px !important">
                                 <g:plusone size="medium"></g:plusone>
                             </div>
@@ -98,39 +95,24 @@ include('./include/header.php');
                             </div>
                             <!-- アプリーチ 開始 -->
                             <div id="appreach-box" style="text-align:left; display:inline-block; width:420px;">
-                                <img id="appreach-image"
-                                     src="//is3-ssl.mzstatic.com/image/thumb/Purple118/v4/86/5e/f3/865ef37c-5361-6673-8fc6-fc2421911366/source/512x512bb.jpg"
-                                     alt="ハヤえもん"
-                                     style="float:left; margin:10px; width:25%; max-width:120px; border-radius:20%;">
-                                <div class="appreach-info"
-                                     style="margin: 10px; font-size: 12px; line-height: 200%;">
-                                    <div id="appreach-appname"
-                                         style="font-size: 15px; font-weight: bold; line-height: 200%;">ハヤえもん -
+                                <img id="appreach-image" src="//is3-ssl.mzstatic.com/image/thumb/Purple118/v4/86/5e/f3/865ef37c-5361-6673-8fc6-fc2421911366/source/512x512bb.jpg" alt="ハヤえもん" style="float:left; margin:10px; width:25%; max-width:120px; border-radius:20%;">
+                                <div class="appreach-info" style="margin: 10px; font-size: 12px; line-height: 200%;">
+                                    <div id="appreach-appname" style="font-size: 15px; font-weight: bold; line-height: 200%;">ハヤえもん -
                                         音楽プレイヤー
                                     </div>
                                     <div id="appreach-developer">
-                                        開発元:<a id="appreach-developerurl"
-                                               href="https://itunes.apple.com/jp/developer/ryota-yamauchi/id670687994?uo=4"
-                                               target="_blank" rel="nofollow">Ryota Yamauchi</a>
+                                        開発元:<a id="appreach-developerurl" href="https://itunes.apple.com/jp/developer/ryota-yamauchi/id670687994?uo=4" target="_blank" rel="nofollow">Ryota Yamauchi</a>
                                         <span id="appreach-price">無料</span>
                                     </div>
                                     <div class="appreach-links" style="float: left; margin-top: 5px;">
-                                        <div id="appreach-itunes-link"
-                                             style="display: inline-block; _display: inline;">
-                                            <a id="appreach-itunes"
-                                               href="https://itunes.apple.com/jp/app/%E3%83%8F%E3%83%A4%E3%81%88%E3%82%82%E3%82%93/id717639970?mt=8&amp;uo=4&amp;at="
-                                               target="_blank" rel="nofollow">
-                                                <img src="https://nabettu.github.io/appreach/img/itune_ja.svg"
-                                                     style="height:40px;width:135px;">
+                                        <div id="appreach-itunes-link" style="display: inline-block; _display: inline;">
+                                            <a id="appreach-itunes" href="https://itunes.apple.com/jp/app/%E3%83%8F%E3%83%A4%E3%81%88%E3%82%82%E3%82%93/id717639970?mt=8&amp;uo=4&amp;at=" target="_blank" rel="nofollow">
+                                                <img src="https://nabettu.github.io/appreach/img/itune_ja.svg" style="height:40px;width:135px;">
                                             </a>
                                         </div>
-                                        <div id="appreach-gplay-link"
-                                             style="display:inline-block; _display:inline;">
-                                            <a id="appreach-gplay"
-                                               href="https://play.google.com/store/apps/details?id=com.edolfzoku.hayaemon2"
-                                               target="_blank" rel="nofollow">
-                                                <img src="https://nabettu.github.io/appreach/img/gplay_ja.png"
-                                                     style="height:40px;width:134.5px;">
+                                        <div id="appreach-gplay-link" style="display:inline-block; _display:inline;">
+                                            <a id="appreach-gplay" href="https://play.google.com/store/apps/details?id=com.edolfzoku.hayaemon2" target="_blank" rel="nofollow">
+                                                <img src="https://nabettu.github.io/appreach/img/gplay_ja.png" style="height:40px;width:134.5px;">
                                             </a>
                                         </div>
                                     </div>
@@ -141,16 +123,11 @@ include('./include/header.php');
                         </div>
                         <!-- Windows版スクリーンショット -->
                         <div style="text-align:center;margin-top:20px">
-                            <a href="img/hayaemonscreenshot2.jpg" rel="lightbox[top]"
-                               title="聞々ハヤえもんのスクリーンショット"><img src="img/hayaemonscreenshot2_s.jpg" alt=""
-                                                              width="320" height="240" border="0"
-                                                              style="margin-bottom:10px"></a><a
-                                    href="img/hayaemonscreenshot.jpg" rel="lightbox[top]"
-                                    title="聞々ハヤえもんのスクリーンショット"><img src="img/hayaemonscreenshot_s.jpg" alt=""
-                                                                   width="320" height="240" border="0"
-                                                                   style="margin-left:20px;margin-bottom:10px"></a><a
-                                    href="img/hayaemonscreenshot3.jpg" rel="lightbox[top]"
-                                    title="聞々ハヤえもんのスクリーンショット"></a>
+                            <a href="img/hayaemonscreenshot2.jpg" rel="lightbox[top]" title="聞々ハヤえもんのスクリーンショット">
+                            <img src="img/hayaemonscreenshot2_s.jpg" alt="" width="320" height="240" border="0" style="margin-bottom:10px"></a>
+                            <a href="img/hayaemonscreenshot.jpg" rel="lightbox[top]" title="聞々ハヤえもんのスクリーンショット">
+                            <img src="img/hayaemonscreenshot_s.jpg" alt="" width="320" height="240" border="0" style="margin-left:20px;margin-bottom:10px"></a>
+                            <a href="img/hayaemonscreenshot3.jpg" rel="lightbox[top]" title="聞々ハヤえもんのスクリーンショット"></a>
                         </div>
                         <!-- MacOS版スクリーンショット
                         <div style="text-align:center;margin-top:10px">
@@ -181,9 +158,7 @@ include('./include/header.php');
                         <div style="width:340px;float:left;margin:0 0 0 1.5em;">
                             <br>
                             <!-- Youtube -->
-                            <iframe width="340" height="255"
-                                    src="https://www.youtube.com/embed/3qg0-ZfTZAc?rel=0&wmode=transparent"
-                                    frameborder="0" allowfullscreen></iframe>
+                            <iframe width="340" height="255" src="https://www.youtube.com/embed/3qg0-ZfTZAc?rel=0&wmode=transparent" frameborder="0" allowfullscreen></iframe>
                         </div>
                         <div style="float:right;margin:0 1.5em 0 0;">
 
@@ -195,28 +170,21 @@ include('./include/header.php');
                                 <div style="font-size:14px;margin:15px 0;">
                                     最新安定版：Version 2.76（2018/06/12）
                                 </div>
-                                <a onclick="window.location='thanks.html';" target="_blank"
-                                   href="Hayaemon276.zip"><img src="img/download_windows_japanese.png" width="160"
-                                                               top="70" style="margin:0"
-                                                               alt="聞々ハヤえもんWindows日本語安定版を無料ダウンロード"></a> <a
-                                        onclick="window.location='thanks.html';" target="_blank"
-                                        href="Hayaemon276_en.zip"><img src="img/download_windows_english.png" width="160"
-                                                                       top="70" style="margin:0"
-                                                                       alt="聞々ハヤえもんWindows英語安定版を無料ダウンロード"></a><br>
+                                <a onclick="window.location='thanks.html';" target="_blank" href="Hayaemon276.zip">
+                                    <img src="img/download_windows_japanese.png" width="160" top="70" style="margin:0" alt="聞々ハヤえもんWindows日本語安定版を無料ダウンロード"></a>
+                                <a onclick="window.location='thanks.html';" target="_blank" href="Hayaemon276_en.zip">
+                                    <img src="img/download_windows_english.png" width="160" top="70" style="margin:0" alt="聞々ハヤえもんWindows英語安定版を無料ダウンロード"></a>
+                                <br>
                                 <br>
                                 WindowsXP対応版：
-                                <a onclick="window.location='thanks.html';" target="_blank"
-                                   href="Hayaemon276_XP.zip" class="btn">日本語</a>
-                                <a onclick="window.location='thanks.html';" target="_blank"
-                                   href="Hayaemon276_XP_en.zip" class="btn">English</a><br>
+                                <a onclick="window.location='thanks.html';" target="_blank" href="Hayaemon276_XP.zip" class="btn">日本語</a>
+                                <a onclick="window.location='thanks.html';" target="_blank" href="Hayaemon276_XP_en.zip" class="btn">English</a><br>
                                 <br>
                                 <div style="font-size:14px;margin:15px 0;">
                                     最新beta版：Version 2.77β3（2018/7/4）
                                 </div>
-                                <a onclick="window.location='thanks.html';" target="_blank"
-                                   href="Hayaemon277b3.zip" class="btn">通常版</a>
-                                <a onclick="window.location='thanks.html';" target="_blank"
-                                   href="Hayaemon277b3_XP.zip" class="btn">XP対応版</a><br>
+                                <a onclick="window.location='thanks.html';" target="_blank" href="Hayaemon277b3.zip" class="btn">通常版</a>
+                                <a onclick="window.location='thanks.html';" target="_blank" href="Hayaemon277b3_XP.zip" class="btn">XP対応版</a><br>
                                 <!-- MacOS版ダウンロードリンク -->
                                 <div style="font-size:20px;font-weight:bold;margin-top:30px;margin-bottom:20px">
                                     MacOS版
@@ -226,8 +194,7 @@ include('./include/header.php');
                                 <div style="font-size:14px;margin:15px 0;">
                                     最新beta版：Version 0.01β4（2018/07/11）
                                 </div>
-                                <a href="Hayaemon001b4.app.zip"><img src="img/download_macos.png" width="160" top="70"
-                                                                     style="margin:0" alt="聞々ハヤえもんMacOS版を無料ダウンロード"></a><br>
+                                <a href="Hayaemon001b4.app.zip"><img src="img/download_macos.png" width="160" top="70" style="margin:0" alt="聞々ハヤえもんMacOS版を無料ダウンロード"></a><br>
                                 <br>
                             </div>
                         </div>
@@ -253,7 +220,6 @@ include('./include/header.php');
             <!-- end PhpMyBorder -->
             <br>
             <div style="text-align:center">
-
                 <!-- リンクバナー
                 <a href="wiki/index.php" target="_blank"><img src="img/community.png" style="margin-right:20px" alt="聞々ハヤえもんユーザーコミュニティ"></a><a href="bosyu.php" target="_blank"><img src="img/bosyu.png" alt="協力者募集中！！"></a> -->
             </div>
@@ -297,8 +263,7 @@ include('./include/header.php');
                 マニュアル動画公開中！！
             </div>
             <br>
-            <iframe width="730" height="545" src="https://www.youtube.com/embed/bvn-Vd095KA?rel=0&wmode=transparent"
-                    frameborder="0" allowfullscreen></iframe>
+            <iframe width="730" height="545" src="https://www.youtube.com/embed/bvn-Vd095KA?rel=0&wmode=transparent" frameborder="0" allowfullscreen></iframe>
             <div style="font-size:16px;margin-top:5px"><a href="manual.php" class="btn">マニュアル詳細</a>
             </div>
             <!-- マニュアル動画　ここまで -->
@@ -307,8 +272,9 @@ include('./include/header.php');
             </div>
             <!-- /entry-footer -->
         </div><!-- /entry -->
-        <div style="text-align:right"><a href="http://soft.edolfzoku.com/"><img
-                        src="<?php echo $o['Url']; ?>/img/freesoft.png" alt="フリーソフト開発所" border=0></a>　<a href="<?php echo $o['Url']; ?>/"><img src="<?php echo $o['Url']; ?>/img/hayaemon-L.gif" alt="音楽を、もっと楽しく！！／聞々ハヤえもん公式サイト" border=0 width="200" height="40"></a>
+        <div style="text-align:right">
+            <a href="http://soft.edolfzoku.com/"><img src="<?php echo $o['Url']; ?>/img/freesoft.png" alt="フリーソフト開発所" border=0></a>
+            　<a href="<?php echo $o['Url']; ?>/"><img src="<?php echo $o['Url']; ?>/img/hayaemon-L.gif" alt="音楽を、もっと楽しく！！／聞々ハヤえもん公式サイト" border=0 width="200" height="40"></a>
         </div>
     </div><!-- /blog -->
 </div><!-- /content -->
@@ -373,10 +339,8 @@ include('./include/header.php');
                 <div style="font-size:14px;padding-top:5px;padding-bottom:5px;font-weight:bold;padding-left:5px;border-bottom:1px solid #f0f0f0;text-align:center">
                     ボーカルチェンジ
                 </div>
-                <div style="font-size:14px;border-bottom:1px solid #f0f0f0"><a href="morainaki.php" style="display:block;width:326px;padding:10px 10px 10px 15px">一青窈「もらい泣き」
-                        ⇒ 平井堅</a></div>
-                <div style="font-size:14px"><a href="heavyrotation.php" style="display:block;width:326px;padding:10px 10px 5px 15px">AKB48「ヘビーローテーション」
-                        ⇒ TOKIO</a></div>
+                <div style="font-size:14px;border-bottom:1px solid #f0f0f0"><a href="morainaki.php" style="display:block;width:326px;padding:10px 10px 10px 15px">一青窈「もらい泣き」 ⇒ 平井堅</a></div>
+                <div style="font-size:14px"><a href="heavyrotation.php" style="display:block;width:326px;padding:10px 10px 5px 15px">AKB48「ヘビーローテーション」 ⇒ TOKIO</a></div>
                 <b style="font-size:1px;display:block; overflow:hidden;height:1px;"></b>
             </div>
             <b style="font-size:1px;display:block; overflow:hidden;">
@@ -402,16 +366,11 @@ include('./include/header.php');
                     ハヤえもんiOS版 公式PV
                 </div>
                 <div style="margin:10px;font-size:12px">
-                    <a href="https://itunes.apple.com/jp/app/wen-hayaemon/id717639970?mt=8" style="font-weight:bold"
-                       target="_blank">ハヤえもん iOS版</a>の公式プロモーションビデオが公開されました！<br>
+                    <a href="https://itunes.apple.com/jp/app/wen-hayaemon/id717639970?mt=8" style="font-weight:bold" target="_blank">ハヤえもん iOS版</a>の公式プロモーションビデオが公開されました！<br>
                     動画制作してくれた、でらくさん（<a href="https://twitter.com/dx_0913">@dx_0913</a>）、クレナさん（<a href="https://twitter.com/Narumi_KURENAI">@Narumi_KURENAI</a>）、ありがとうございます！٩( ᐛ )و
                 </div>
-                <iframe width="320" height="240" style="margin:7px"
-                        src="https://www.youtube.com/embed/qWSnm7NfmBU?rel=0" frameborder="0"
-                        allow="autoplay; encrypted-media" allowfullscreen></iframe>
-                <iframe width="320" height="240" style="margin:7px"
-                        src="https://www.youtube.com/embed/E-1fM1yJNIk?rel=0" frameborder="0"
-                        allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                <iframe width="320" height="240" style="margin:7px" src="https://www.youtube.com/embed/qWSnm7NfmBU?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                <iframe width="320" height="240" style="margin:7px" src="https://www.youtube.com/embed/E-1fM1yJNIk?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
                 <b style="font-size:1px;display:block; overflow:hidden;height:1px;"></b>
             </div>
             <b style="font-size:1px;display:block; overflow:hidden;">
@@ -441,9 +400,7 @@ include('./include/header.php');
                     <br>
                     <br>
                     <div style="margin-left:1em">
-                        <a href="https://twitter.com/ryota_yama" class="twitter-follow-button"
-                           data-show-count="false" data-lang="ja"
-                           data-show-screen-name="true">@ryota_yamaさんをフォロー</a>
+                        <a href="https://twitter.com/ryota_yama" class="twitter-follow-button" data-show-count="false" data-lang="ja" data-show-screen-name="true">@ryota_yamaさんをフォロー</a>
                         <script>!function (d, s, id) {
                                 var js, fjs = d.getElementsByTagName(s)[0];
                                 if (!d.getElementById(id)) {
@@ -453,12 +410,10 @@ include('./include/header.php');
                                     fjs.parentNode.insertBefore(js, fjs);
                                 }
                             }(document, "script", "twitter-wjs");</script>
-                        <a href="mailto:Ryota.Yamauch@gmail.com"><img src="img/mail.png"></a>
-                        <br>
+                        <a href="mailto:Ryota.Yamauch@gmail.com"><img src="img/mail.png"></a><br>
                         Mail:<a href="mailto:Ryota.Yamauch@gmail.com">Ryota.Yamauch@gmail.com</a><br>
                         Twitter:<a href="https://twitter.com/ryota_yama" target="_blank">@ryota_yama</a><br>
-                        Google+:<a href="https://plus.google.com/102844305957143894856/posts"
-                                   target="_blank">山内良太</a><br>
+                        Google+:<a href="https://plus.google.com/102844305957143894856/posts" target="_blank">山内良太</a><br>
                         YouTube:<a href="https://www.youtube.com/user/taroedolfzoku/" target="_blank">山内良太</a>
                     </div>
                 </div>
@@ -487,14 +442,9 @@ include('./include/header.php');
                     お買い物して開発支援
                 </div>
                 <div style="font-size:14px;margin-left:10px;padding-top:5px;padding-bottom:5px;text-align:center">
-                    <SCRIPT charset="utf-8" type="text/javascript"
-                            src="https://ws.amazon.co.jp/widgets/q?rt=tf_sw&ServiceVersion=20070822&MarketPlace=JP&ID=V20070822/JP/edolfzoku-22/8002/8fee357d-07c2-41bd-bac8-64706ac742a4"></SCRIPT>
-                    <NOSCRIPT><A
-                                HREF="https://ws.amazon.co.jp/widgets/q?rt=tf_sw&ServiceVersion=20070822&MarketPlace=JP&ID=V20070822/JP/edolfzoku-22/8002/8fee357d-07c2-41bd-bac8-64706ac742a4&Operation=NoScript">Amazon.co.jp
-                            ウィジェット</A></NOSCRIPT>
-                    <a href="https://click.linksynergy.com/fs-bin/click?id=K*SWrc0YTzA&offerid=270022.4&subid=0&type=4"><IMG
-                                border="0" alt="楽天市場"
-                                src="https://ad.linksynergy.com/fs-bin/show?id=K*SWrc0YTzA&bids=270022.4&subid=0&type=4&gridnum=6"></a>
+                    <SCRIPT charset="utf-8" type="text/javascript" src="https://ws.amazon.co.jp/widgets/q?rt=tf_sw&ServiceVersion=20070822&MarketPlace=JP&ID=V20070822/JP/edolfzoku-22/8002/8fee357d-07c2-41bd-bac8-64706ac742a4"></SCRIPT>
+                    <NOSCRIPT><A HREF="https://ws.amazon.co.jp/widgets/q?rt=tf_sw&ServiceVersion=20070822&MarketPlace=JP&ID=V20070822/JP/edolfzoku-22/8002/8fee357d-07c2-41bd-bac8-64706ac742a4&Operation=NoScript">Amazon.co.jp ウィジェット</A></NOSCRIPT>
+                    <a href="https://click.linksynergy.com/fs-bin/click?id=K*SWrc0YTzA&offerid=270022.4&subid=0&type=4"><IMG border="0" alt="楽天市場" src="https://ad.linksynergy.com/fs-bin/show?id=K*SWrc0YTzA&bids=270022.4&subid=0&type=4&gridnum=6"></a>
                 </div>
                 <b style="font-size:1px;display:block; overflow:hidden;height:1px;"></b>
             </div>

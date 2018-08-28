@@ -9,17 +9,9 @@ include('./include/header.php');
 ?>
                     <div class="font30" style="color:#808080;font-weight:bold">ソフトを使い始める、原点となる場所。</div>
                     <br>
-                    <div style="text-align:center;vertical-align: top"><a href="https://b.hatena.ne.jp/entry/"
-                                                                          class="hatena-bookmark-button"
-                                                                          data-hatena-bookmark-layout="standard"
-                                                                          title="このエントリーをはてなブックマークに追加"><img
-                            src="https://b.st-hatena.com/images/entry-button/button-only.gif" alt="このエントリーをはてなブックマークに追加"
-                            width="20" height="20" style="border: none"/></a>　
-                        <div class="fb-like" data-send="false" data-layout="button_count" data-width="450"
-                             data-show-faces="true"
-                             style="display: inline-block; _display: inline;vertical-align: top"></div>
-                        　<a href="https://twitter.com/share" class="twitter-share-button" data-via="ryota_yama"
-                            data-lang="ja"></a>
+                    <div style="text-align:center;vertical-align: top"><a href="https://b.hatena.ne.jp/entry/" class="hatena-bookmark-button" data-hatena-bookmark-layout="standard" title="このエントリーをはてなブックマークに追加"><img src="https://b.st-hatena.com/images/entry-button/button-only.gif" alt="このエントリーをはてなブックマークに追加" width="20" height="20" style="border: none"/></a>　
+                        <div class="fb-like" data-send="false" data-layout="button_count" data-width="450" data-show-faces="true" style="display: inline-block; _display: inline;vertical-align: top"></div>
+                        　<a href="https://twitter.com/share" class="twitter-share-button" data-via="ryota_yama" data-lang="ja"></a>
                         <div style="display: inline-block; _display: inline;vertical-align: top;width:70px !important">
                             <g:plusone size="medium"></g:plusone>
                         </div>

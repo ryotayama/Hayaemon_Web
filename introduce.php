@@ -18,8 +18,7 @@ include('./include/header.php');
                     google_ad_height = 90;
                     //-->
                     </script>
-                    <script type="text/javascript"
-                            src="https://pagead2.googlesyndication.com/pagead/show_ads.js">
+                    <script type="text/javascript" src="https://pagead2.googlesyndication.com/pagead/show_ads.js">
                     </script>
                     <!-- グーグル・アドセンス終了-->
                 </div>
