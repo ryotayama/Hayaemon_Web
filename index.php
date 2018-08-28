@@ -52,7 +52,7 @@ include('./include/header.php');
 </style>
 
 <div style="float:right;font-size:24px;margin-right:36px">
-    <br/>
+    <br>
     日本語 | <a href="http://en.edolfzoku.com/hayaemon2/" style="text-decoration:underline">English</a>
 </div>
 <!-- 中央カラム開始 -->
@@ -79,7 +79,7 @@ include('./include/header.php');
                                 });
                             </script>
                         </div>
-                        <br/>
+                        <br>
                         <div style="text-align:center;vertical-align: top; padding:1em 0;">
                             <a href="https://b.hatena.ne.jp/entry/" class="hatena-bookmark-button" data-hatena-bookmark-layout="standard" title="このエントリーをはてなブックマークに追加"><img src="https://b.st-hatena.com/images/entry-button/button-only.gif" alt="このエントリーをはてなブックマークに追加" width="20" height="20" style="border: none"/></a>　
                             <div class="fb-like" data-send="false" data-layout="button_count" data-width="450"
@@ -158,28 +158,28 @@ include('./include/header.php');
                         </div> -->
                         <div style="text-align:center; font-size:26px; padding:1.5em 0 .2em 0;">音楽を、もっと楽しく！！</div>
                         <div style="font-size:13px; padding:1em 3em 2em 2em; line-height: 120%;">
-                            <div style="margin:1em;padding-left:1em">音楽<span style="letter-spacing:-2px">――</span>&nbsp;。それは、音を楽しむこと。<br/>
+                            <div style="margin:1em;padding-left:1em">音楽<span style="letter-spacing:-2px">――</span>&nbsp;。それは、音を楽しむこと。<br>
                             </div>
                             <div style="margin:1em;padding-left:2em">
-                                近年、音楽の大量消費化が進み、次々と新しい音楽が生み出されては、たちまち消えていってしまうような世の中になりました。<br/></div>
-                            <div style="margin:1em;padding-left:3em">しかし、音楽の本質が変わることはありません。<br/></div>
-                            <div style="margin:1em;padding-left:4em">音楽<span style="letter-spacing:-2px">――</span>&nbsp;。それは、音を楽しむこと。<br/>
+                                近年、音楽の大量消費化が進み、次々と新しい音楽が生み出されては、たちまち消えていってしまうような世の中になりました。<br></div>
+                            <div style="margin:1em;padding-left:3em">しかし、音楽の本質が変わることはありません。<br></div>
+                            <div style="margin:1em;padding-left:4em">音楽<span style="letter-spacing:-2px">――</span>&nbsp;。それは、音を楽しむこと。<br>
                             </div>
-                            <div style="margin:1em;padding-left:1em">どうやって？<br/></div>
-                            <div style="margin:1em;padding-left:2em">その答えを用意しました。<br/></div>
-                            <div style="margin:1em;padding-left:3em">「聞々ハヤえもん」です。<br/></div>
+                            <div style="margin:1em;padding-left:1em">どうやって？<br></div>
+                            <div style="margin:1em;padding-left:2em">その答えを用意しました。<br></div>
+                            <div style="margin:1em;padding-left:3em">「聞々ハヤえもん」です。<br></div>
                             <div style="margin:1em;padding-left:1em">
-                                聞々ハヤえもんは、「音楽を、もっと楽しく！！」という目的のためだけに作られた世界でひとつだけのユニークなサウンドプレイヤーです。<br/></div>
-                            <div style="margin:1em;padding-left:2em">さあ、聞々ハヤえもんをダウンロードしてみましょう。<br/></div>
-                            <div style="margin:1em;padding-left:3em">あなたにとっての音楽が、今日から変わります。<br/></div>
+                                聞々ハヤえもんは、「音楽を、もっと楽しく！！」という目的のためだけに作られた世界でひとつだけのユニークなサウンドプレイヤーです。<br></div>
+                            <div style="margin:1em;padding-left:2em">さあ、聞々ハヤえもんをダウンロードしてみましょう。<br></div>
+                            <div style="margin:1em;padding-left:3em">あなたにとっての音楽が、今日から変わります。<br></div>
                             <div style="margin:1em;text-align:right;font-weight:bold;font-size:13px;line-height:120%">
-                                聞々ハヤえもん開発者<br/>
-                                山内　良太<br/>
+                                聞々ハヤえもん開発者<br>
+                                山内　良太<br>
                             </div>
                             <div style="margin:1em;font-size:14px;text-align:center"><a href="about.php" class="btn">聞々ハヤえもんについてさらに詳しく</a></div>
                         </div>
                         <div style="width:340px;float:left;margin:0 0 0 1.5em;">
-                            <br/>
+                            <br>
                             <!-- Youtube -->
                             <iframe width="340" height="255"
                                     src="https://www.youtube.com/embed/3qg0-ZfTZAc?rel=0&wmode=transparent"
@@ -202,21 +202,21 @@ include('./include/header.php');
                                         onclick="window.location='thanks.html';" target="_blank"
                                         href="Hayaemon276_en.zip"><img src="img/download_windows_english.png" width="160"
                                                                        top="70" style="margin:0"
-                                                                       alt="聞々ハヤえもんWindows英語安定版を無料ダウンロード"></a><br/>
-                                <br/>
+                                                                       alt="聞々ハヤえもんWindows英語安定版を無料ダウンロード"></a><br>
+                                <br>
                                 WindowsXP対応版：
                                 <a onclick="window.location='thanks.html';" target="_blank"
                                    href="Hayaemon276_XP.zip" class="btn">日本語</a>
                                 <a onclick="window.location='thanks.html';" target="_blank"
-                                   href="Hayaemon276_XP_en.zip" class="btn">English</a><br/>
-                                <br/>
+                                   href="Hayaemon276_XP_en.zip" class="btn">English</a><br>
+                                <br>
                                 <div style="font-size:14px;margin:15px 0;">
                                     最新beta版：Version 2.77β3（2018/7/4）
                                 </div>
                                 <a onclick="window.location='thanks.html';" target="_blank"
                                    href="Hayaemon277b3.zip" class="btn">通常版</a>
                                 <a onclick="window.location='thanks.html';" target="_blank"
-                                   href="Hayaemon277b3_XP.zip" class="btn">XP対応版</a><br/>
+                                   href="Hayaemon277b3_XP.zip" class="btn">XP対応版</a><br>
                                 <!-- MacOS版ダウンロードリンク -->
                                 <div style="font-size:20px;font-weight:bold;margin-top:30px;margin-bottom:20px">
                                     MacOS版
@@ -227,11 +227,11 @@ include('./include/header.php');
                                     最新beta版：Version 0.01β4（2018/07/11）
                                 </div>
                                 <a href="Hayaemon001b4.app.zip"><img src="img/download_macos.png" width="160" top="70"
-                                                                     style="margin:0" alt="聞々ハヤえもんMacOS版を無料ダウンロード"></a><br/>
-                                <br/>
+                                                                     style="margin:0" alt="聞々ハヤえもんMacOS版を無料ダウンロード"></a><br>
+                                <br>
                             </div>
                         </div>
-                        <br clear="all"/><br/>
+                        <br clear="all"/><br>
                         <!-- How_Index_Bottom_728x90 -->
                         <div id='div-gpt-ad-1355537191471-0' style='width:728px; height:90px;'>
                             <script type='text/javascript'>
@@ -251,7 +251,7 @@ include('./include/header.php');
                 </b>
             </div>
             <!-- end PhpMyBorder -->
-            <br/>
+            <br>
             <div style="text-align:center">
 
                 <!-- リンクバナー
@@ -260,33 +260,33 @@ include('./include/header.php');
             <div id="news">
                 <h2>News</h2>
                 <ul>
-                    <li>「窓の杜」にて紹介されました！<br/>
+                    <li>「窓の杜」にて紹介されました！<br>
                         <a href="https://www.forest.impress.co.jp/docs/news/20130329_593795.html" target="_blank">音程を解析してピアノロール風に表示する機能が追加された「聞々ハヤえもん」v2.72</a></li>
-                    <li>「窓の杜」にて紹介されました！<br/>
+                    <li>「窓の杜」にて紹介されました！<br>
                         <a href="https://www.forest.impress.co.jp/docs/news/20130212_587377.html" target="_blank">各種エフェクトのパラメーターを細かく設定可能になった「聞々ハヤえもん」v2.68</a></li>
-                    <li>「窓の杜」にて紹介されました！<br/>
+                    <li>「窓の杜」にて紹介されました！<br>
                         <a href="https://www.forest.impress.co.jp/docs/news/20130117_582081.html" target="_blank">FLV動画に対応し、A-B間リピート機能の使い勝手も向上した「聞々ハヤえもん」v2.66</a></li>
-                    <li>「窓の杜」にて紹介されました！<br/>
+                    <li>「窓の杜」にて紹介されました！<br>
                         <a href="https://www.forest.impress.co.jp/docs/news/20121217_579112.html" target="_blank">“エクスプローラ”ペインが追加されたメディアプレイヤー「聞々ハヤえもん」v2.62</a></li>
-                    <li>「窓の杜」にて紹介されました！<br/>
+                    <li>「窓の杜」にて紹介されました！<br>
                         <a href="https://www.forest.impress.co.jp/docs/news/20121121_574477.html" target="_blank">再生速度や音程、エフェクトなどの設定を保存可能になった「聞々ハヤえもん」v2.60</a></li>
-                    <li>「窓の杜」にて紹介されました！<br/>
+                    <li>「窓の杜」にて紹介されました！<br>
                         <a href="https://www.forest.impress.co.jp/docs/news/20121105_570950.html" target="_blank">音感とリズム感を破壊する“歌へた”モードを搭載した「聞々ハヤえもん」v2.58</a></li>
-                    <li>「窓の杜」にて紹介されました！<br/>
+                    <li>「窓の杜」にて紹介されました！<br>
                         <a href="https://www.forest.impress.co.jp/docs/news/20120511_532137.html" target="_blank">動画再生に対応した“耳コピ”向けメディアプレイヤー「聞々ハヤえもん」v2.44</a></li>
-                    <li>「窓の杜」にて紹介されました！<br/>
+                    <li>「窓の杜」にて紹介されました！<br>
                         <a href="https://www.forest.impress.co.jp/docs/news/20120216_512545.html" target="_blank">ノーマライズ機能が追加された“耳コピ”向けプレイヤー「聞々ハヤえもん」v2.40</a></li>
-                    <li>「窓の杜」にて紹介されました！<br/>
+                    <li>「窓の杜」にて紹介されました！<br>
                         <a href="https://www.forest.impress.co.jp/docs/news/20110909_476049.html" target="_blank">再生速度を徐々に上げる機能を追加した耳コピ用プレイヤー「聞々ハヤえもん」v2.3</a></li>
-                    <li>「Vector」にて紹介されました！<br/>
+                    <li>「Vector」にて紹介されました！<br>
                         <a href="https://www.vector.co.jp/magazine/softnews/080223/n0802231.html" target="_blank">再生速度、周波数、音程を個別に変更することが可能なサウンドプレイヤー</a></li>
-                    <li>「窓の杜」にて紹介されました！<br/>
+                    <li>「窓の杜」にて紹介されました！<br>
                         <a href="https://www.forest.impress.co.jp/article/2006/04/04/hayaemon.html" target="_blank">再生速度と音程を個別変更できるWAVE/MP3/WMAプレイヤー「聞々ハヤえもん」</a></li>
                 </ul>
             </div>
             <div id="history">
                 <h2>更新履歴</h2>
-                <br/>
+                <br>
                 <?php echo GetHistory($date); ?>
                 <div style="text-align:right"><a href="history.php" class="btn">さらに過去の更新履歴</a>
                 </div>
@@ -296,7 +296,7 @@ include('./include/header.php');
             <div style="font-size:24px;margin-left:10px;margin-top:30px;margin-bottom:10px;border-bottom:3px solid #c0c0c0;display: inline-block; _display: inline;width:320px">
                 マニュアル動画公開中！！
             </div>
-            <br/>
+            <br>
             <iframe width="730" height="545" src="https://www.youtube.com/embed/bvn-Vd095KA?rel=0&wmode=transparent"
                     frameborder="0" allowfullscreen></iframe>
             <div style="font-size:16px;margin-top:5px"><a href="manual.php" class="btn">マニュアル詳細</a>
@@ -324,7 +324,7 @@ include('./include/header.php');
                 });
             </script>
         </div>
-        <br/>
+        <br>
         <!-- メニューリンク ここから -->
         <div id="menu" style="width: 336px;">
             <b style="font-size:1px;display:block; overflow:hidden;">
@@ -358,7 +358,7 @@ include('./include/header.php');
             </b>
         </div>
         <!-- メニューリンク ここまで -->
-        <br/>
+        <br>
         <!-- ボーカルチェンジ　begin PhpMyBorder -->
         <div id="vocalChange" style="width: 336px;">
             <b style="font-size:1px;display:block; overflow:hidden;">
@@ -387,7 +387,7 @@ include('./include/header.php');
             </b>
         </div>
         <!-- ボーカルチェンジ　end PhpMyBorder -->
-        <br/>
+        <br>
         <!-- YOUTUBE　begin PhpMyBorder -->
         <div style="width: 336px;">
             <b style="font-size:1px;display:block; overflow:hidden;">
@@ -403,7 +403,7 @@ include('./include/header.php');
                 </div>
                 <div style="margin:10px;font-size:12px">
                     <a href="https://itunes.apple.com/jp/app/wen-hayaemon/id717639970?mt=8" style="font-weight:bold"
-                       target="_blank">ハヤえもん iOS版</a>の公式プロモーションビデオが公開されました！<br/>
+                       target="_blank">ハヤえもん iOS版</a>の公式プロモーションビデオが公開されました！<br>
                     動画制作してくれた、でらくさん（<a href="https://twitter.com/dx_0913">@dx_0913</a>）、クレナさん（<a href="https://twitter.com/Narumi_KURENAI">@Narumi_KURENAI</a>）、ありがとうございます！٩( ᐛ )و
                 </div>
                 <iframe width="320" height="240" style="margin:7px"
@@ -422,7 +422,7 @@ include('./include/header.php');
             </b>
         </div>
         <!-- YOUTUBE　end PhpMyBorder -->
-        <br/>
+        <br>
         <!-- プロフィール　begin PhpMyBorder -->
         <div style="width: 336px;">
             <b style="font-size:1px;display:block; overflow:hidden;">
@@ -438,8 +438,8 @@ include('./include/header.php');
                     <div style="font-weight:bold;margin-bottom:5px">山内良太（りょーた）</div>
                     <div style="margin-bottom:5px">1982年10月28日 愛知県生まれ。</div>
                     大学時代、些細な出来事がきっかけで人間不信になり、孤独な日々を過ごしていたところ、大学のPCにソフトウェア開発環境がある事を知り、Windows用のソフトを作り始める。様々なソフトを開発していく中、自分に出来る事はこれしか無いと確信するに至り、2006年より愛知県でソフトウェア開発者として働き始める。2011年7月には職場で出会った同僚と結婚、2012年5月には長女、2014年7月には次女、2017年4月には長男が生まれる。ソフトウェア開発に対する情熱は冷める事なく、2018年5月にはついにソフトウェア開発者として独立、『聞々ハヤえもん』という無料音楽再生ソフト（Windows、iPhone、Android、Mac対応）を始めとする様々なソフトウェアの開発を行う日々を過ごしている。
-                    <br/>
-                    <br/>
+                    <br>
+                    <br>
                     <div style="margin-left:1em">
                         <a href="https://twitter.com/ryota_yama" class="twitter-follow-button"
                            data-show-count="false" data-lang="ja"
@@ -454,11 +454,11 @@ include('./include/header.php');
                                 }
                             }(document, "script", "twitter-wjs");</script>
                         <a href="mailto:Ryota.Yamauch@gmail.com"><img src="img/mail.png"></a>
-                        <br/>
-                        Mail:<a href="mailto:Ryota.Yamauch@gmail.com">Ryota.Yamauch@gmail.com</a><br/>
-                        Twitter:<a href="https://twitter.com/ryota_yama" target="_blank">@ryota_yama</a><br/>
+                        <br>
+                        Mail:<a href="mailto:Ryota.Yamauch@gmail.com">Ryota.Yamauch@gmail.com</a><br>
+                        Twitter:<a href="https://twitter.com/ryota_yama" target="_blank">@ryota_yama</a><br>
                         Google+:<a href="https://plus.google.com/102844305957143894856/posts"
-                                   target="_blank">山内良太</a><br/>
+                                   target="_blank">山内良太</a><br>
                         YouTube:<a href="https://www.youtube.com/user/taroedolfzoku/" target="_blank">山内良太</a>
                     </div>
                 </div>
@@ -472,7 +472,7 @@ include('./include/header.php');
             </b>
         </div>
         <!-- プロフィール　end PhpMyBorder -->
-        <br/>
+        <br>
         <!-- begin PhpMyBorder -->
         <div style="width: 336px;">
             <b style="font-size:1px;display:block; overflow:hidden;">
@@ -506,7 +506,7 @@ include('./include/header.php');
             </b>
         </div>
         <!-- end PhpMyBorder -->
-        <br/>
+        <br>
         <!-- マニュアル　begin PhpMyBorder -->
         <div id="manualList" style="width: 336px;">
             <b style="font-size:1px;display:block; overflow:hidden;">
@@ -556,7 +556,7 @@ include('./include/header.php');
                 <b style="background:#e0e0e0; color: inherit; display:block; overflow:hidden;height:1px;margin:0 5px;"></b>
             </b>
         </div>
-        <br/>
+        <br>
         <!-- マニュアル　end PhpMyBorder -->
         <!-- begin PhpMy<div style="border:1px solid #e0e0e0;border-radius:5px"><div style="border:1px solid #e0e0e0;border-radius:5px"><div style="border:1px solid #e0e0e0;border-radius:5px">Border -->
         <div style="width: 336px;">

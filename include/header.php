@@ -78,9 +78,9 @@ $callFile = basename(debug_backtrace($limit = 2)[0]['file']);
     <div id="banner">
         <a href="<?php echo $o['Url']; ?>">
             <img src="<?php echo $o['Url']; ?>/img/80.png" align=left alt="アイコン" width=80 height=80 style="margin-right:10px"/>
-            MP3プレイヤー フリーソフト<br/>
+            MP3プレイヤー フリーソフト<br>
             <h1>
-                <span class="font13">ぶ ん ぶ ん</span><br/>
+                <span class="font13">ぶ ん ぶ ん</span><br>
                 <?php echo $o['GlobalTitle']; ?>
             </h1>
         </a>

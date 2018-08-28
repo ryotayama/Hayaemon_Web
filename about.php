@@ -9,7 +9,7 @@ include('./include/header.php');
 ?>
 
                     <div class="font30" style="color:#808080;font-weight:bold">音楽を、もっと楽しく！！</div>
-                    <br />
+                    <br>
                     <center>
                         <!-- How_About_Top_728x90 -->
                         <div id='div-gpt-ad-1353715793997-1' style='width:728px; height:90px'>
@@ -17,7 +17,7 @@ include('./include/header.php');
                                 googletag.cmd.push(function () { googletag.display('div-gpt-ad-1353715793997-1'); });
                             </script>
                         </div>
-                        <br />
+                        <br>
                         <a href="img/hayaemonscreenshot2.jpg" rel="lightbox[top]" title="聞々ハヤえもんのスクリーンショット"><img src="img/hayaemonscreenshot2_s.jpg" width="280" height="210" border="0" style="margin-bottom:10px"></a><a href="img/hayaemonscreenshot.jpg" rel="lightbox[top]" title="聞々ハヤえもんのスクリーンショット"><img src="img/hayaemonscreenshot_s.jpg" width="280" height="210" border="0" style="margin-left:30px;margin-bottom:10px"></a><a href="img/hayaemonscreenshot3.jpg" rel="lightbox[top]" title="聞々ハヤえもんのスクリーンショット"><img src="img/hayaemonscreenshot3_s.jpg" width="280" height="210" border="0" style="margin-left:30px;margin-bottom:10px"></a>
                     </center>
                 </div>
@@ -26,8 +26,8 @@ include('./include/header.php');
                     音楽を無限に楽しむために、いつもとは違った聴き方を。
                 </div>
                 <div style="margin-left:20px">
-                    聞々ハヤえもんのメイン機能のひとつ、それが再生速度や音程を自由自在に変更できること。通常であれば、音楽の再生速度を変更すると音程まで変わってしまいますが、聞々ハヤえもんを使えば再生速度や音程をそれぞれ独立して変更することができます。<br />
-                    <br />
+                    聞々ハヤえもんのメイン機能のひとつ、それが再生速度や音程を自由自在に変更できること。通常であれば、音楽の再生速度を変更すると音程まで変わってしまいますが、聞々ハヤえもんを使えば再生速度や音程をそれぞれ独立して変更することができます。<br>
+                    <br>
                     さて、それでは再生速度や音程を自由自在に変更できることで、何ができるのでしょうか？
                 </div>
                 <div class="font26" style="margin-top:40px;font-weight:bold">簡単に耳コピができること。</div>
@@ -79,11 +79,11 @@ include('./include/header.php');
                 <div style="margin-left:20px">
                     聞々ハヤえもんは、もちろんデフォルトの音楽プレイヤーとしても充分な機能を備えています。WAVE, MP3, Ogg Vorbis, WMA, AIFF, APE, M3U などの各種フォーマットの読み込みに対応している他、CD の読み込みに対応、WAVE, MP3, Ogg Vorbis 形式での保存、各種エフェクト機能など、便利な機能が盛りだくさんです。音楽をもっと楽しむためのプレイヤー、聞々ハヤえもんをぜひ一度おためしください。
                 </div>
-                <br /><br />
+                <br><br>
                 <div align="right">
                     <a href="environment.php" class="font25 btn">聞々ハヤえもんの動作環境について</a>
                 </div>
-                <br />
+                <br>
                 <center>
                     <!-- How_About_Bottom_728x90 -->
                     <div id='div-gpt-ad-1353715793997-0' style='width:728px; height:90px;'>
@@ -95,7 +95,7 @@ include('./include/header.php');
             </div>
         </div>
 </div>
-        <br />
+        <br>
 <?php
 include('./include/footer.php');
 ?>

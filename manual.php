@@ -8,7 +8,7 @@ include('./include/header.php');
 
 ?>
                     <div class="font30" style="color:#808080;font-weight:bold">ソフトを使い始める、原点となる場所。</div>
-                    <br/>
+                    <br>
                     <div style="text-align:center;vertical-align: top"><a href="https://b.hatena.ne.jp/entry/"
                                                                           class="hatena-bookmark-button"
                                                                           data-hatena-bookmark-layout="standard"
@@ -24,7 +24,7 @@ include('./include/header.php');
                             <g:plusone size="medium"></g:plusone>
                         </div>
                     </div>
-                    <br/>
+                    <br>
                     <center>
                         <!-- How_Manual_Top_728x90 -->
                         <div id='div-gpt-ad-1369654236269-1' style='width:728px; height:90px;'>
@@ -34,7 +34,7 @@ include('./include/header.php');
                                 });
                             </script>
                         </div>
-                        <br/>
+                        <br>
                     </center>
                 </div>
                 <ol id="indexList">
@@ -65,15 +65,15 @@ include('./include/header.php');
                 </ol>
                 <div class="font24" style="margin-top:100px;font-weight:bold">≪マニュアルを読んでも分からないことがあった場合≫</div>
                 <div style="margin-top:10px;margin-left:20px">
-                    マニュアルを読んでも分からないことがあった場合は、下記の方法でお問い合わせいただく事ができます。<br/>
+                    マニュアルを読んでも分からないことがあった場合は、下記の方法でお問い合わせいただく事ができます。<br>
                 </div>
-                <br/>
+                <br>
                 <div class="font24" style="margin-top:20px;margin-left:20px;font-weight:bold">①聞々ハヤえもんユーザーコミュニティで質問する。
                 </div>
                 <div style="margin-top:10px;margin-left:40px">
-                    聞々ハヤえもんユーザーコミュニティには、「質問」というカテゴリが存在している為、そちらにご投稿ください。開発者であるりょーた、または、親切なユーザー様から答えが得られるかもしれません。<br/><br/>
+                    聞々ハヤえもんユーザーコミュニティには、「質問」というカテゴリが存在している為、そちらにご投稿ください。開発者であるりょーた、または、親切なユーザー様から答えが得られるかもしれません。<br><br>
                     <a href="./wiki/" target="_blank" class="font20 btn">聞々ハヤえもんユーザーコミュニティ</a>
-                    <br/>
+                    <br>
                 </div>
                 <div class="font24" style="margin-top:40px;margin-left:20px;font-weight:bold">②開発者にメールを送ってみる。</div>
                 <div style="margin-top:10px;margin-left:40px">
@@ -88,7 +88,7 @@ include('./include/header.php');
                         <input type=submit value="送信する">
                     </form>
                 </div>
-                <br/>
+                <br>
                 <center>
                     <!-- How_Manual_Bottom_728x90 -->
                     <div id='div-gpt-ad-1369654236269-0' style='width:728px; height:90px;'>
@@ -102,7 +102,7 @@ include('./include/header.php');
             </div>
         </div>
     </div>
-    <br/>
+    <br>
 <?php
 include('./include/footer.php');
 ?>

@@ -36,18 +36,18 @@ $date = @$_GET['date'];
             <div style="margin-left:60px;margin-right:60px">
                 <div class="font20" style="text-align:left;margin-bottom:40px;">
                     <div class="font40" style="text-align:center;padding-top:40px;margin-bottom:20px;font-weight:bold"><?php echo $o['PageTitle']; ?></div>
-                    <br/>
-                    <br/>
+                    <br>
+                    <br>
                     <div id="cal">
 						<?php echo GetCalender(); ?>
                     </div>
-                    <br/>
+                    <br>
 					<?php echo GetHistory($date); ?>
                 </div>
             </div>
         </div>
     </div>
-    <br/>
+    <br>
 <?php
 if(is_numeric($date) && '6' == strlen($date)) {
 	$date = substr_replace($date, '/', 4, 0);
