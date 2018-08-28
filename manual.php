@@ -30,18 +30,18 @@ include('./include/header.php');
                     </center>
                 </div>
                 <ol id="indexList">
-                    <li><a href="about.php">はじめに</a></li>
+                <li><a href="about.php">はじめに</a></li>
                 <li><a href="environment.php">動作環境について</a></li>
                 <li><a href="howtodownload.php">ダウンロードしてみよう</a></li>
-                    <li><a href="boot.php">起動してみよう</a></li>
+                <li><a href="boot.php">起動してみよう</a></li>
                 <li><a href="play.php">音楽を聴いてみよう</a></li>
-                    <li><a href="changespeed.php">再生速度を変更してみよう</a></li>
+                <li><a href="changespeed.php">再生速度を変更してみよう</a></li>
                 <li><a href="whychangespeed.php">何の為に再生速度を変更するのか</a></li>
-                    <li><a href="changefrequency.php">再生周波数を変更してみよう</a></li>
-                    <li><a href="changepitch.php">音程を変更してみよう</a></li>
+                <li><a href="changefrequency.php">再生周波数を変更してみよう</a></li>
+                <li><a href="changepitch.php">音程を変更してみよう</a></li>
                 <li><a href="savefile.php">変換ファイルを保存してみよう</a></li>
-                    <li><a href="abloop.php">ABループ機能を使ってみよう</a></li>
-                    <li><a href="controls.php">コントロールの表示／非表示</a></li>
+                <li><a href="abloop.php">ABループ機能を使ってみよう</a></li>
+                <li><a href="controls.php">コントロールの表示／非表示</a></li>
                 <li><a href="lyrics.php">歌詞を表示させてみよう</a></li>
                 <li><a href="effects.php">エフェクト機能を使ってみよう</a></li>
                 <li><a href="playrange.php">再生範囲を指定してみよう</a></li>
