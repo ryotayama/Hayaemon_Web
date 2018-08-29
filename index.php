@@ -17,7 +17,6 @@ include('./include/header.php');
         padding               : 10px 10px 0 10px; /* 枠線内の余白（任意で） */
         border-radius         : 10px; /* 角を丸く */
         -webkit-border-radius : 10px; /* Safari,Google Chrome用 */
-        -moz-border-radius    : 10px;
     }
 
     #appreach-box p {
