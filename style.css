@@ -190,3 +190,11 @@ a[target="_blank"]:hover, a.btn, a.lbtn{
 .listStyleType_none li{
    list-style-type:none;
 }
+
+#banner ruby {
+    margin-left: 110px;
+    font-weight: bold;
+    color: #ff4040;
+    font-size: 32px;
+    line-height: 70%;
+}

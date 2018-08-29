@@ -26,6 +26,12 @@ $set['is_Security'] = TRUE;
 // recommend: 聞々ハヤえもん公式サイト
 $set['GlobalTitle'] = '聞々ハヤえもん公式サイト';
 
+// HeaderTitleはサイト全域で利用されるヘッダータイトルで全てのページに表示されます
+// 読みがなが必要な場合に使用します
+$Kanji = '聞々';
+$yomi = 'ぶんぶん';
+$set['HeaderTitle'] = '<ruby>' . $Kanji . '<rp>(</rp><rt>' . $yomi . '</rt><rp>)</rp></ruby>ハヤえもん公式サイト';
+
 // Descriptionはサイトの説明文ですOpen Graph Protocol等で利用されます
 // context:<meta property="og:description" content="{Description}"/>
 // default: 再生速度、周波数、音程を変更できる、耳コピ、カラオケ／楽器／ダンス／英語のリスニング練習、テープ起こし等に便利なMP3プレーヤとして公開中のオープンソースのフリーソフト
