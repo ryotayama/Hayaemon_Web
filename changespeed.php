@@ -32,7 +32,7 @@ include('./include/header.php');
                     <br>
                     <div class="font12" style="text-align:center;">
                         ▼つまみを動かして再生速度を変更<br>
-                        <img src="./manual/contents/changespeed.png" style="border:solid 1px #a0a0a0">
+                        <img src="img/changespeed.png" style="border:solid 1px #a0a0a0">
                     </div>
                     <br>
                     音楽を再生しながら、いつでもリアルタイムに再生速度を変更することができます。<br>
