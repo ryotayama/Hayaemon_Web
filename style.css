@@ -197,3 +197,8 @@ a[target="_blank"]:hover, a.btn, a.lbtn{
     font-size: 32px;
     line-height: 70%;
 }
+
+.footer{
+    font-size:14px;
+    margin-top:14px;
+}
