@@ -46,7 +46,6 @@ $date = @$_GET['date'];
             </div>
         </div>
     </div>
-    <br>
 <?php
 if(is_numeric($date) && '6' == strlen($date)) {
 	$date = substr_replace($date, '/', 4, 0);
