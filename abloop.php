@@ -55,7 +55,6 @@ include('./include/header.php');
             </div>
         </div>
     </div>
-    <br>
 <?php
 include('./include/footer.php');
 ?>

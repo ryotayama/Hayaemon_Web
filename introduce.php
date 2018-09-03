@@ -106,7 +106,6 @@ include('./include/header.php');
             </div>
         </div>
     </div>
-    <br>
 <?php
 $o['PageTitle'] = "<a href='${o['Url']}/bosyu.php'>開発協力者、募集中！</a> &gt; ${o['PageTitle']}";
 include('./include/footer.php');
