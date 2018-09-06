@@ -25,14 +25,10 @@ include('./include/header.php');
                 <div style="margin-left:20px">
                     聞々ハヤえもんは、Windows、macOS、iOS、Androidに対応しています。
                 </div>
-                <br><br>
-                <div style="float:left">
-                    <a href="about.php" class="font25 lbtn">聞々ハヤえもんについて</a>
+                <div id="navi">
+                    <div class="left"><a href="about.php" class="lbtn">聞々ハヤえもんについて</a></div>
+                    <div class="right"><a href="howtodownload.php" class="btn">聞々ハヤえもんをダウンロードする方法</a></div>
                 </div>
-                <div style="float:right;text-align:right">
-                    <a href="howtodownload.php" class="font25 btn">聞々ハヤえもんをダウンロードする方法</a>
-                </div>
-                <br><br>
                 <center>
                     <!-- How_About_Bottom_728x90 -->
                     <div id='div-gpt-ad-1353715793997-0' style='width:728px; height:90px;'>

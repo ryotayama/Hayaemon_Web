@@ -34,14 +34,10 @@ include('./include/header.php');
                     <br>
                     左側のエディットボックスに直接値を入力することでも、再生周波数を変更することができます。
                 </div>
-                <br><br>
-                <div style="float:left">
-                    <a href="whychangespeed.php" class="font23 lbtn">音声の再生速度を変えることで何ができるのか</a>
+                <div id="navi">
+                    <div class="left"><a href="whychangespeed.php" class="lbtn">音声の再生速度を変えることで何ができるのか</a></div>
+                    <div class="right"><a href="changepitch.php" class="btn">聞々ハヤえもんで音程を変更する方法</a></div>
                 </div>
-                <div style="float:right;text-align:right">
-                    <a href="changepitch.php" class="font23 btn">聞々ハヤえもんで音程を変更する方法</a>
-                </div>
-                <br><br>
                 <center>
                     <!-- How_About_Bottom_728x90 -->
                     <div id='div-gpt-ad-1353715793997-0' style='width:728px; height:90px;'>

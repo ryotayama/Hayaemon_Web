@@ -53,11 +53,9 @@ include('./include/header.php');
                         <img src="img/firstboot.png" style="border:solid 1px #a0a0a0"><br>
                     </div>
                 </div>
-                <br><br>
-                <div align="right">
-                    <a href="play.php" class="font25 btn">聞々ハヤえもんで音楽を聴く方法</a>
+                <div id="navi">
+                    <div class="right"><a href="play.php" class="btn">聞々ハヤえもんで音楽を聴く方法</a></div>
                 </div>
-                <br>
                 <center>
                     <!-- How_About_Bottom_728x90 -->
                     <div id='div-gpt-ad-1353715793997-0' style='width:728px; height:90px;'>

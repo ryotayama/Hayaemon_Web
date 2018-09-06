@@ -44,11 +44,9 @@ include('./include/header.php');
                     <center class="font12">▼「日本語版」ボタンをクリック</center>
                     <img src="<?php echo $o['Url']; ?>/img/nihongo.png" border="1">
                 </div>
-                <br><br>
-                <div align="right">
-                    <a href="boot.php" class="font25 btn">聞々ハヤえもんを起動する方法</a>
+                <div id="navi">
+                    <div class="right"><a href="boot.php" class="btn">聞々ハヤえもんを起動する方法</a></div>
                 </div>
-                <br>
                 <center>
                     <!-- How_Thanks_Bottom_728x90 -->
                     <div id='div-gpt-ad-1353719504529-0' style='width:728px; height:90px;'>

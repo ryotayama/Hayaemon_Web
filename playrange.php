@@ -30,14 +30,10 @@ include('./include/header.php');
                     <br>
                     この機能を使うには、システム ⇒ 再生範囲メニューをクリックして出てきたウィンドウに再生範囲を入力します。
                 </div>
-                <br><br>
-                <div style="float:left">
-                    <a href="effects.php" class="font21 lbtn">聞々ハヤえもんでエフェクト機能を使ってみよう</a>
+                <div id="navi">
+                    <div class="left"><a href="effects.php" class="lbtn">聞々ハヤえもんでエフェクト機能を使ってみよう</a></div>
+                    <div class="right"><a href="incspeed.php" class="btn">聞々ハヤえもんでだんだん速くする機能を使う方法</a></div>
                 </div>
-                <div style="float:right;text-align:right">
-                    <a href="incspeed.php" class="font21 btn">聞々ハヤえもんでだんだん速くする機能を使う方法</a>
-                </div>
-                <br><br>
                 <center>
                     <!-- How_About_Bottom_728x90 -->
                     <div id='div-gpt-ad-1353715793997-0' style='width:728px; height:90px;'>

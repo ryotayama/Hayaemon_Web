@@ -79,11 +79,9 @@ include('./include/header.php');
                 <div style="margin-left:20px">
                     聞々ハヤえもんは、もちろんデフォルトの音楽プレイヤーとしても充分な機能を備えています。WAVE, MP3, Ogg Vorbis, WMA, AIFF, APE, M3U などの各種フォーマットの読み込みに対応している他、CD の読み込みに対応、WAVE, MP3, Ogg Vorbis 形式での保存、各種エフェクト機能など、便利な機能が盛りだくさんです。音楽をもっと楽しむためのプレイヤー、聞々ハヤえもんをぜひ一度おためしください。
                 </div>
-                <br><br>
-                <div align="right">
-                    <a href="environment.php" class="font25 btn">聞々ハヤえもんの動作環境について</a>
+                <div id="navi">
+                    <div class="right"><a href="environment.php" class="btn">聞々ハヤえもんの動作環境について</a></div>
                 </div>
-                <br>
                 <center>
                     <!-- How_About_Bottom_728x90 -->
                     <div id='div-gpt-ad-1353715793997-0' style='width:728px; height:90px;'>

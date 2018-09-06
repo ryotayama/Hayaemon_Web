@@ -56,14 +56,10 @@ include('./include/header.php');
                 <div style="margin-left:20px">
                     会議の議事録を取ることになった時。音声からテキストに書き起こす必要がある時。そんな時にも、再生速度をゆっくりにして確実に聴き取れるようにしましょう。
                 </div>
-                <br><br>
-                <div style="float:left">
-                    <a href="changespeed.php" class="font23 lbtn">聞々ハヤえもんで再生速度を変更する方法</a>
+                <div id="navi">
+                    <div class="left"><a href="changespeed.php" class="lbtn">聞々ハヤえもんで再生速度を変更する方法</a></div>
+                    <div class="right"><a href="changefrequency.php" class="btn">聞々ハヤえもんで再生周波数を変更する方法</a></div>
                 </div>
-                <div style="float:right;text-align:right">
-                    <a href="changefrequency.php" class="font23 btn">聞々ハヤえもんで再生周波数を変更する方法</a>
-                </div>
-                <br><br>
                 <center>
                     <!-- How_About_Bottom_728x90 -->
                     <div id='div-gpt-ad-1353715793997-0' style='width:728px; height:90px;'>

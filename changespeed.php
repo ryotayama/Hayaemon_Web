@@ -41,14 +41,10 @@ include('./include/header.php');
                     <br>
                     また、同様の操作により再生周波数や音程を変更することもできます。
                 </div>
-                <br><br>
-                <div style="float:left">
-                    <a href="play.php" class="font25 lbtn">聞々ハヤえもんで音楽を聴く方法</a>
+                <div id="navi">
+                    <div class="left"><a href="play.php" class="lbtn">聞々ハヤえもんで音楽を聴く方法</a></div>
+                    <div class="right"><a href="whychangespeed.php" class="btn">音声の再生速度を変えることで何ができるのか</a></div>
                 </div>
-                <div style="float:right;text-align:right">
-                    <a href="whychangespeed.php" class="font25 btn">音声の再生速度を変えることで何ができるのか</a>
-                </div>
-                <br><br>
                 <center>
                     <!-- How_About_Bottom_728x90 -->
                     <div id='div-gpt-ad-1353715793997-0' style='width:728px; height:90px;'>

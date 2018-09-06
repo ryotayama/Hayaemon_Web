@@ -32,14 +32,10 @@ include('./include/header.php');
                     <br>
                     この機能を使うには、エフェクト ⇒ ノーマライズメニューをクリックし、メニューを選択します。
                 </div>
-                <br><br>
-                <div style="float:left">
-                    <a href="soundeffects.php" class="lbtn">効果音機能を使ってみよう</a>
+                <div id="navi">
+                    <div class="left"><a href="soundeffects.php" class="lbtn">効果音機能を使ってみよう</a></div>
+                    <div class="right"><a href="versionup.php" class="btn">聞々ハヤえもんをバージョンアップする方法</a></div>
                 </div>
-                <div style="float:right;text-align:right">
-                    <a href="versionup.php" class="btn">聞々ハヤえもんをバージョンアップする方法</a>
-                </div>
-                <br><br>
                 <center>
                     <!-- How_About_Bottom_728x90 -->
                     <div id='div-gpt-ad-1353715793997-0' style='width:728px; height:90px;'>

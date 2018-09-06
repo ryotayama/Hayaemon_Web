@@ -32,14 +32,10 @@ include('./include/header.php');
                     <br>
                     この機能を使うには、エフェクト ⇒ 再生速度 ⇒ だんだん速くするメニューをクリックします。同様にだんだん遅くすることも可能です。
                 </div>
-                <br><br>
-                <div style="float:left">
-                    <a href="playrange.php" class="font23 lbtn">聞々ハヤえもんで再生範囲を指定する方法</a>
+                <div id="navi">
+                    <div class="left"><a href="playrange.php" class="lbtn">聞々ハヤえもんで再生範囲を指定する方法</a></div>
+                    <div class="right"><a href="eqpreset.php" class="btn">聞々ハヤえもんでEQプリセットを使う方法</a></div>
                 </div>
-                <div style="float:right;text-align:right">
-                    <a href="eqpreset.php" class="font23 btn">聞々ハヤえもんでEQプリセットを使う方法</a>
-                </div>
-                <br><br>
                 <center>
                     <!-- How_About_Bottom_728x90 -->
                     <div id='div-gpt-ad-1353715793997-0' style='width:728px; height:90px;'>

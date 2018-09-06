@@ -35,14 +35,10 @@ include('./include/header.php');
                     <br>
                     左側のエディットボックスに直接値を入力することでも、音程を変更することができます。
                 </div>
-                <br><br>
-                <div style="float:left">
-                    <a href="changefrequency.php" class="font22 lbtn">聞々ハヤえもんで再生周波数を変更する方法</a>
+                <div id="navi">
+                    <div class="left"><a href="changefrequency.php" class="lbtn">聞々ハヤえもんで再生周波数を変更する方法</a></div>
+                    <div class="right"><a href="savefile.php" class="btn">聞々ハヤえもんで変換ファイルを保存する方法</a></div>
                 </div>
-                <div style="float:right;text-align:right">
-                    <a href="savefile.php" class="font22 btn">聞々ハヤえもんで変換ファイルを保存する方法</a>
-                </div>
-                <br><br>
                 <center>
                     <!-- How_About_Bottom_728x90 -->
                     <div id='div-gpt-ad-1353715793997-0' style='width:728px; height:90px;'>

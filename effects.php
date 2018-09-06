@@ -30,14 +30,10 @@ include('./include/header.php');
                     <br>
                     聞々ハヤえもんにはたくさんの種類のエフェクトがありますので、まずは手当たり次第クリックしてみてくださいね。
                 </div>
-                <br><br>
-                <div style="float:left">
-                    <a href="controls.php" class="font19 lbtn">聞々ハヤえもんで歌詞を表示させる方法</a>
+                <div id="navi">
+                    <div class="left"><a href="controls.php" class="lbtn">聞々ハヤえもんで歌詞を表示させる方法</a></div>
+                    <div class="right"><a href="playrange.php" class="btn">聞々ハヤえもんで再生範囲を指定する方法</a></div>
                 </div>
-                <div style="float:right;text-align:right">
-                    <a href="playrange.php" class="font19 btn">聞々ハヤえもんで再生範囲を指定する方法</a>
-                </div>
-                <br><br>
                 <center>
                     <!-- How_About_Bottom_728x90 -->
                     <div id='div-gpt-ad-1353715793997-0' style='width:728px; height:90px;'>

@@ -48,14 +48,10 @@ include('./include/header.php');
                     <br>
                     ファイルの種類を選択することにより保存することができます。
                 </div>
-                <br><br>
-                <div style="float:left">
-                    <a href="changespeed.php" class="font23 lbtn">聞々ハヤえもんで再生速度を変更する方法</a>
+                <div id="navi">
+                    <div class="left"><a href="changespeed.php" class="lbtn">聞々ハヤえもんで再生速度を変更する方法</a></div>
+                    <div class="right"><a href="abloop.php" class="btn">聞々ハヤえもんでABループ機能を使う方法</a></div>
                 </div>
-                <div style="float:right;text-align:right">
-                    <a href="abloop.php" class="font23 btn">聞々ハヤえもんでABループ機能を使う方法</a>
-                </div>
-                <br><br>
                 <center>
                     <!-- How_About_Bottom_728x90 -->
                     <div id='div-gpt-ad-1353715793997-0' style='width:728px; height:90px;'>
