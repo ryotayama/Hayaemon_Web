@@ -198,6 +198,24 @@ a[target="_blank"]:hover, a.btn, a.lbtn, .footer a{
     line-height: 70%;
 }
 
+#top{
+    width: 800px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    background-color: #aaa;
+}
+#navi{
+    font-size: 17px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.left{
+    float:left;
+}
+.right{
+    float:right;
+}
+
 .footer{
     font-size:14px;
     margin-top:14px;

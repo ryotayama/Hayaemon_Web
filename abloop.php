@@ -34,14 +34,10 @@ include('./include/header.php');
                     <br>
                     クリック時に現在の再生位置をループ箇所として指定することができます。
                 </div>
-                <br><br>
-                <div style="float:left">
-                    <a href="savefile.php" class="font19 lbtn">聞々ハヤえもんで変換ファイルを保存する方法</a>
+                <div id="navi">
+                    <div class="left"><a href="savefile.php" class="lbtn">聞々ハヤえもんで変換ファイルを保存する方法</a></div>
+                    <div class="right"><a href="controls.php" class="btn">聞々ハヤえもんでコントロールの表示状態を切り替える方法</a></div>
                 </div>
-                <div style="float:right;text-align:right">
-                    <a href="controls.php" class="font19 btn">聞々ハヤえもんでコントロールの表示状態を切り替える方法</a>
-                </div>
-                <br><br>
                 <center>
                     <!-- How_About_Bottom_728x90 -->
                     <div id='div-gpt-ad-1353715793997-0' style='width:728px; height:90px;'>
