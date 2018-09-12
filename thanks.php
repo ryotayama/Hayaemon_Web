@@ -8,8 +8,7 @@ include('./include/header.php');
 
 ?>
                     <div class="font30" style="color:#808080;font-weight:bold">そして、次のステップへ。</div>
-                    <br>
-                    <center>
+                    <div class="center">
                         <!-- How_Thanks_Top_728x90 -->
                         <div id='div-gpt-ad-1361584819763-1' style='width:728px; height:90px;'>
                             <script type='text/javascript'>
@@ -18,8 +17,8 @@ include('./include/header.php');
                                 });
                             </script>
                         </div>
-                    </center>
-                    <br clear="all"/>
+                    </div>
+                    <br clear="all">
                     聞々ハヤえもんをダウンロードくださり、ありがとうございます。<br>
                     次のステップとして、役立ちそうなリンクを以下に記載させていただきました。<br>
                     日々、改善され続けていく聞々ハヤえもんをどうぞお楽しみください。
@@ -104,8 +103,7 @@ include('./include/header.php');
                     <br>
                     <a href="bosyu.php" class="btn">聞々ハヤえもんの開発にご協力いただける場合はこちら</a>
                 </div>
-                <br>
-                <center>
+                <div class="center">
                     <!-- How_Thanks_Bottom_728x90 -->
                     <div id='div-gpt-ad-1361584819763-0' style='width:728px; height:90px;'>
                         <script type='text/javascript'>
@@ -114,7 +112,7 @@ include('./include/header.php');
                             });
                         </script>
                     </div>
-                </center>
+                </div>
             </div>
         </div>
     </div>

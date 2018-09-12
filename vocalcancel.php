@@ -8,16 +8,14 @@ include('./include/header.php');
 
 ?>
                     <div class="font30" style="color:#808080;font-weight:bold">ボーカルを小さくすることで、カラオケを楽しむ。</div>
-                    <br>
-                    <center>
+                    <div class="center">
                         <!-- How_About_Top_728x90 -->
                         <div id='div-gpt-ad-1353715793997-1' style='width:728px; height:90px'>
                             <script type='text/javascript'>
                                 googletag.cmd.push(function () { googletag.display('div-gpt-ad-1353715793997-1'); });
                             </script>
                         </div>
-                    </center>
-                    <br><br>
+                    </div>
                     このページでは、ボーカルキャンセル機能を使う方法を説明します。<br>
                     聞々ハヤえもんをご存知無い方は、まず以下のページをご覧ください。<br>
                     <a class="btn" href="about.php">聞々ハヤえもんについて</a><br>
@@ -34,14 +32,14 @@ include('./include/header.php');
                     <div class="left"><a href="normalize.php" class="lbtn">ノーマライズ機能を使ってみよう</a></div>
                     <div class="right"><a href="versionup.php" class="btn">聞々ハヤえもんをバージョンアップする方法</a></div>
                 </div>
-                <center>
+                <div class="center">
                     <!-- How_About_Bottom_728x90 -->
                     <div id='div-gpt-ad-1353715793997-0' style='width:728px; height:90px;'>
                         <script type='text/javascript'>
                             googletag.cmd.push(function () { googletag.display('div-gpt-ad-1353715793997-0'); });
                         </script>
                     </div>
-                </center>
+                </div>
             </div>
         </div>
 </div>

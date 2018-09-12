@@ -9,8 +9,7 @@ include('./include/header.php');
 ?>
 
                     <div class="font30" style="color:#808080;font-weight:bold">苦手な箇所を、何回でも。</div>
-                    <br>
-                    <center>
+                    <div class="center">
                         <!-- How_About_Top_728x90 -->
                         <div id='div-gpt-ad-1353715793997-1' style='width:728px; height:90px'>
                             <script type='text/javascript'>
@@ -19,8 +18,7 @@ include('./include/header.php');
                                 });
                             </script>
                         </div>
-                    </center>
-                    <br><br>
+                    </div>
                     このページでは、聞々ハヤえもんでABループ機能を使う方法を説明します。<br>
                     聞々ハヤえもんをご存知無い方は、まず以下のページをご覧ください。<br><br>
     <a href="about.php" class="font25 btn">聞々ハヤえもんについて</a><br><br>
@@ -38,7 +36,7 @@ include('./include/header.php');
                     <div class="left"><a href="savefile.php" class="lbtn">聞々ハヤえもんで変換ファイルを保存する方法</a></div>
                     <div class="right"><a href="controls.php" class="btn">聞々ハヤえもんでコントロールの表示状態を切り替える方法</a></div>
                 </div>
-                <center>
+                <div class="center">
                     <!-- How_About_Bottom_728x90 -->
                     <div id='div-gpt-ad-1353715793997-0' style='width:728px; height:90px;'>
                         <script type='text/javascript'>
@@ -47,7 +45,7 @@ include('./include/header.php');
                             });
                         </script>
                     </div>
-                </center>
+                </div>
             </div>
         </div>
     </div>

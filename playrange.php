@@ -8,16 +8,14 @@ include('./include/header.php');
 
 ?>
                     <div class="font30" style="color:#808080;font-weight:bold">10秒ずつダイジェスト的に全曲を聴いてみる。</div>
-                    <br>
-                    <center>
+                    <div class="center">
                         <!-- How_About_Top_728x90 -->
                         <div id='div-gpt-ad-1353715793997-1' style='width:728px; height:90px'>
                             <script type='text/javascript'>
                                 googletag.cmd.push(function () { googletag.display('div-gpt-ad-1353715793997-1'); });
                             </script>
                         </div>
-                    </center>
-                    <br><br>
+                    </div>
                     このページでは、再生範囲を指定する方法を説明します。<br>
                     聞々ハヤえもんをご存知無い方は、まず以下のページをご覧ください。<br><br>
                     <a href="about.php" class="font25 btn">聞々ハヤえもんについて</a><br><br>
@@ -34,14 +32,14 @@ include('./include/header.php');
                     <div class="left"><a href="effects.php" class="lbtn">聞々ハヤえもんでエフェクト機能を使ってみよう</a></div>
                     <div class="right"><a href="incspeed.php" class="btn">聞々ハヤえもんでだんだん速くする機能を使う方法</a></div>
                 </div>
-                <center>
+                <div class="center">
                     <!-- How_About_Bottom_728x90 -->
                     <div id='div-gpt-ad-1353715793997-0' style='width:728px; height:90px;'>
                         <script type='text/javascript'>
                             googletag.cmd.push(function () { googletag.display('div-gpt-ad-1353715793997-0'); });
                         </script>
                     </div>
-                </center>
+                </div>
             </div>
         </div>
 </div>

@@ -8,8 +8,7 @@ include('./include/header.php');
 
 ?>
                     <div class="font30" style="color:#808080;font-weight:bold">少しずつ速くすることで、速度に慣れていく。</div>
-                    <br>
-                    <center>
+                    <div class="center">
                         <!-- How_About_Top_728x90 -->
                         <div id='div-gpt-ad-1353715793997-1' style='width:728px; height:90px'>
                             <script type='text/javascript'>
@@ -18,8 +17,7 @@ include('./include/header.php');
                                 });
                             </script>
                         </div>
-                    </center>
-                    <br><br>
+                    </div>
                     このページでは、だんだん速くする機能を使う方法を説明します。<br>
                     聞々ハヤえもんをご存知無い方は、まず以下のページをご覧ください。<br><br>
                     <a href="about.php" class="font25 btn">聞々ハヤえもんについて</a><br><br>
@@ -36,7 +34,7 @@ include('./include/header.php');
                     <div class="left"><a href="playrange.php" class="lbtn">聞々ハヤえもんで再生範囲を指定する方法</a></div>
                     <div class="right"><a href="eqpreset.php" class="btn">聞々ハヤえもんでEQプリセットを使う方法</a></div>
                 </div>
-                <center>
+                <div class="center">
                     <!-- How_About_Bottom_728x90 -->
                     <div id='div-gpt-ad-1353715793997-0' style='width:728px; height:90px;'>
                         <script type='text/javascript'>
@@ -45,7 +43,7 @@ include('./include/header.php');
                             });
                         </script>
                     </div>
-                </center>
+                </div>
             </div>
         </div>
     </div>

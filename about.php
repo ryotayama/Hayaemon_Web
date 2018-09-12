@@ -9,8 +9,7 @@ include('./include/header.php');
 ?>
 
                     <div class="font30" style="color:#808080;font-weight:bold">音楽を、もっと楽しく！！</div>
-                    <br>
-                    <center>
+                    <div class="center">
                         <!-- How_About_Top_728x90 -->
                         <div id='div-gpt-ad-1353715793997-1' style='width:728px; height:90px'>
                             <script type='text/javascript'>
@@ -19,7 +18,7 @@ include('./include/header.php');
                         </div>
                         <br>
                         <a href="img/hayaemonscreenshot2.jpg" rel="lightbox[top]" title="聞々ハヤえもんのスクリーンショット"><img src="img/hayaemonscreenshot2_s.jpg" width="280" height="210" border="0" style="margin-bottom:10px"></a><a href="img/hayaemonscreenshot.jpg" rel="lightbox[top]" title="聞々ハヤえもんのスクリーンショット"><img src="img/hayaemonscreenshot_s.jpg" width="280" height="210" border="0" style="margin-left:30px;margin-bottom:10px"></a><a href="img/hayaemonscreenshot3.jpg" rel="lightbox[top]" title="聞々ハヤえもんのスクリーンショット"><img src="img/hayaemonscreenshot3_s.jpg" width="280" height="210" border="0" style="margin-left:30px;margin-bottom:10px"></a>
-                    </center>
+                    </div>
                 </div>
                 <div class="font26" style="margin-top:40px;font-weight:bold">再生速度、音程を自在に変更可能。</div>
                 <div class="font18" style="margin-top:15px;margin-bottom:20px;font-weight:bold;color:#808080">
@@ -82,14 +81,14 @@ include('./include/header.php');
                 <div id="navi">
                     <div class="right"><a href="environment.php" class="btn">聞々ハヤえもんの動作環境について</a></div>
                 </div>
-                <center>
+                <div class="center">
                     <!-- How_About_Bottom_728x90 -->
                     <div id='div-gpt-ad-1353715793997-0' style='width:728px; height:90px;'>
                         <script type='text/javascript'>
                             googletag.cmd.push(function () { googletag.display('div-gpt-ad-1353715793997-0'); });
                         </script>
                     </div>
-                </center>
+                </div>
             </div>
         </div>
 </div>

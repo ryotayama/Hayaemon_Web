@@ -8,8 +8,7 @@ include('./include/header.php');
 
 ?>
                     <div class="font30" style="color:#808080;font-weight:bold">全ての設定をそのまま引き継ぎ、最新版に。</div>
-                    <br>
-                    <center>
+                    <div class="center">
                         <!-- How_About_Top_728x90 -->
                         <div id='div-gpt-ad-1353715793997-1' style='width:728px; height:90px'>
                             <script type='text/javascript'>
@@ -18,8 +17,7 @@ include('./include/header.php');
                                 });
                             </script>
                         </div>
-                    </center>
-                    <br><br>
+                    </div>
                     このページでは、聞々ハヤえもんを最新版にバージョンアップする方法を説明します。<br>
                     聞々ハヤえもんをご存知無い方は、まず以下のページをご覧ください。<br>
                     <a href="about.php" class="btn">聞々ハヤえもんについて</a><br>
@@ -51,8 +49,7 @@ include('./include/header.php');
                     <br>
                     以上でバージョンアップの作業は全て完了です。同じフォルダ内にある「Setting.ini」というファイルにキーボードショートカットなど全ての設定状態を保持している為、バージョンアップ後も今までの設定状態をそのまま引き継いで使用することができます。
                 </div>
-                <br>
-                <center>
+                <div class="center">
                     <!-- How_About_Bottom_728x90 -->
                     <div id='div-gpt-ad-1353715793997-0' style='width:728px; height:90px;'>
                         <script type='text/javascript'>
@@ -61,7 +58,7 @@ include('./include/header.php');
                             });
                         </script>
                     </div>
-                </center>
+                </div>
             </div>
         </div>
     </div>

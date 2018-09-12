@@ -216,7 +216,22 @@ a[target="_blank"]:hover, a.btn, a.lbtn, .footer a{
     float:right;
 }
 
+.center{
+    margin:15px auto 50px;
+    width:908px;
+    min-height:96px;
+    border: 1px solid gray; /* 一時的な表示確認用コード */
+}
+
 .footer{
     font-size:14px;
     margin-top:14px;
+}
+
+.text-center{
+    text-align:center;
+}
+
+p.text-center{
+    margin-bottom:0px;
 }

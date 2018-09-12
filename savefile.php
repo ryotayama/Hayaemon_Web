@@ -8,8 +8,7 @@ include('./include/header.php');
 
 ?>
                     <div class="font30" style="color:#808080;font-weight:bold">再生速度や音程を変更したお気に入りの音楽を、そのままの形で。</div>
-                    <br>
-                    <center>
+                    <div class="center">
                         <!-- How_About_Top_728x90 -->
                         <div id='div-gpt-ad-1353715793997-1' style='width:728px; height:90px'>
                             <script type='text/javascript'>
@@ -18,8 +17,7 @@ include('./include/header.php');
                                 });
                             </script>
                         </div>
-                    </center>
-                    <br><br>
+                    </div>
                     このページでは、聞々ハヤえもんで変換ファイルを保存する方法を説明します。<br>
                     聞々ハヤえもんをご存知無い方は、まず以下のページをご覧ください。<br><br>
                     <a href="about.php" class="font25 btn">聞々ハヤえもんについて</a><br><br>
@@ -52,7 +50,7 @@ include('./include/header.php');
                     <div class="left"><a href="changespeed.php" class="lbtn">聞々ハヤえもんで再生速度を変更する方法</a></div>
                     <div class="right"><a href="abloop.php" class="btn">聞々ハヤえもんでABループ機能を使う方法</a></div>
                 </div>
-                <center>
+                <div class="center">
                     <!-- How_About_Bottom_728x90 -->
                     <div id='div-gpt-ad-1353715793997-0' style='width:728px; height:90px;'>
                         <script type='text/javascript'>
@@ -61,7 +59,7 @@ include('./include/header.php');
                             });
                         </script>
                     </div>
-                </center>
+                </div>
             </div>
         </div>
     </div>

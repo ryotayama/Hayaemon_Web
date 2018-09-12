@@ -16,8 +16,7 @@ include('./include/header.php');
                             <g:plusone size="medium"></g:plusone>
                         </div>
                     </div>
-                    <br>
-                    <center>
+                    <div class="center">
                         <!-- How_Manual_Top_728x90 -->
                         <div id='div-gpt-ad-1369654236269-1' style='width:728px; height:90px;'>
                             <script type='text/javascript'>
@@ -26,8 +25,7 @@ include('./include/header.php');
                                 });
                             </script>
                         </div>
-                        <br>
-                    </center>
+                    </div>
                 </div>
                 <ol id="indexList">
                 <li><a href="about.php">はじめに</a></li>
@@ -80,8 +78,7 @@ include('./include/header.php');
                         <input type=submit value="送信する">
                     </form>
                 </div>
-                <br>
-                <center>
+                <div class="center">
                     <!-- How_Manual_Bottom_728x90 -->
                     <div id='div-gpt-ad-1369654236269-0' style='width:728px; height:90px;'>
                         <script type='text/javascript'>
@@ -90,7 +87,7 @@ include('./include/header.php');
                             });
                         </script>
                     </div>
-                </center>
+                </div>
             </div>
         </div>
     </div>
