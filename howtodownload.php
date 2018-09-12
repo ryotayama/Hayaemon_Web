@@ -28,7 +28,7 @@ include('./include/header.php');
                 <div style="margin-left:20px">
                     まずは、聞々ハヤえもん公式サイトにアクセスしましょう。<br>
                     <br>
-                    <a href="<?php echo $o['Url']; ?>/" target="_blank"><img src="http://soft.edolfzoku.com/link/hayaemon-L.gif">←クリックして、聞々ハヤえもん公式サイトにアクセス。</a><br>
+                    <a href="<?php echo $o['Url']; ?>/" target="_blank"><img src="<?php echo $o['Url']; ?>/img/hayaemon-L.gif">←クリックして、聞々ハヤえもん公式サイトにアクセス。</a><br>
                     <br>
                     聞々ハヤえもん公式サイトにアクセスすると、以下の画面になります。<br>
                     <br>

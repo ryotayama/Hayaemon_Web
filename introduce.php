@@ -76,8 +76,8 @@ include('./include/header.php');
                     <br>
                     リンクを貼るには、以下のコードをあなたのウェブサイトにそのまま貼り付けるだけでＯＫです。<br>
                     <br>
-                    <a href="<?php echo $o['Url']; ?>/"><img src="http://soft.edolfzoku.com/link/hayaemon-L.gif" alt="聞々ハヤえもん公式サイト／MP3プレイヤー フリーソフト" width="200" height="40"></a>
-                    <textarea cols="120" rows="3" onclick="this.focus();this.select()">&lt;a href="<?php echo $o['Url']; ?>/"&gt;&lt;img src="http://soft.edolfzoku.com/link/hayaemon-L.gif" alt="聞々ハヤえもん公式サイト／MP3プレイヤー フリーソフト" width="200" height="40"&gt;&lt;/a&gt;</textarea>
+                    <a href="<?php echo $o['Url']; ?>/"><img src="<?php echo $o['Url']; ?>/img/hayaemon-L.gif" alt="聞々ハヤえもん公式サイト／MP3プレイヤー フリーソフト" width="200" height="40"></a>
+                    <textarea cols="120" rows="3" onclick="this.focus();this.select()">&lt;a href="<?php echo $o['Url']; ?>/"&gt;&lt;img src="<?php echo $o['Url']; ?>/img/hayaemon-L.gif" alt="聞々ハヤえもん公式サイト／MP3プレイヤー フリーソフト" width="200" height="40"&gt;&lt;/a&gt;</textarea>
                 </div>
                 <div class="font26" style="margin-top:40px;font-weight:bold">ブログに紹介記事を書くこと。</div>
                 <div class="font18" style="margin-top:15px;margin-bottom:20px;font-weight:bold;color:#808080">
