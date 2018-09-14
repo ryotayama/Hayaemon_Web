@@ -164,6 +164,10 @@ h2#PageTitle{
     margin-left: 5px;
 }
 
+#history .alternate{
+    border-bottom: none;
+}
+
 .twitter::after{
     content: "\f081";  /* twitter-square */
     content: "\f099";  /* twitter */
