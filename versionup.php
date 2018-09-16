@@ -49,6 +49,10 @@ include('./include/header.php');
                     <br>
                     以上でバージョンアップの作業は全て完了です。同じフォルダ内にある「Setting.ini」というファイルにキーボードショートカットなど全ての設定状態を保持している為、バージョンアップ後も今までの設定状態をそのまま引き継いで使用することができます。
                 </div>
+                <div id="navi">
+                    <div class="left"><a href="record.php" class="lbtn">古びたレコード再生を使ってみよう</a></div>
+                    <div class="right"><a href="uninstall.php" class="btn">聞々ハヤえもんをアンインストールする方法</a></div>
+                </div>
                 <div class="center">
                     <!-- How_About_Bottom_728x90 -->
                     <div id='div-gpt-ad-1353715793997-0' style='width:728px; height:90px;'>
