@@ -17,30 +17,49 @@
 .font33 { font-size:33px; }
 .font40 { font-size:40px; }
 
-#menu a:after, #vocalChange a:after, #manualList li a:after, .btn:after{
-    content: '';
+/*.btn:after {line-height: 0.7;}*/
+/*#manualList li a:after { line-height:1;}*/
+/*#history div .btn:after{ line-height: 1.3;}*/
+
+#manualList li a:after,.btn:after {
+    content: '\f138';
+    font-family: "Font Awesome 5 Free";
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
     display: inline-block;
-    background-image: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMCAyMCI+PGRlZnM+PHN0eWxlPiNhe2ZpbGw6IzhmYjRlMTtzdHJva2U6IzNlNjE4ZDtzdHJva2Utd2lkdGg6MnB4O30jYntmaWxsOm5vbmU7c3Ryb2tlOiNmZmY7c3Ryb2tlLXdpZHRoOjJweDt9PC9zdHlsZT48L2RlZnM+PGNpcmNsZSBpZD0iYSIgY3g9IjEwIiBjeT0iMTAiIHI9IjkiLz48cG9seWxpbmUgaWQ9ImIiIHBvaW50cz0iNyA2LjUgMTMgMTAgNyAxMy41Ii8+PC9zdmc+");
-    margin-left: 5px;
-    width: 16px;
-    height: 16px;
-    background-size: contain;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    line-height: 1;
+    font-weight: 900;
     vertical-align: middle;
+    margin-left: .3em;
+    color: #3e618d;
 }
 
-#menu a:after, #vocalChange a:after, #manualList li a:after{
-   margin-left: 10px;
+
+a[target="_blank"] {
+    text-decoration:none;
+}
+
+a[target="_blank"]:hover, a.btn, a.lbtn, .footer a{
+    text-decoration: underline;
 }
 
 .lbtn:before{
-    content: '';
+    content: '\f137';
+    font-family: "Font Awesome 5 Free";
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
     display: inline-block;
-    background-image: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMCAyMCI+PGRlZnM+PHN0eWxlPiNhe2ZpbGw6IzhmYjRlMTtzdHJva2U6IzNlNjE4ZDtzdHJva2Utd2lkdGg6MnB4O30jYntmaWxsOm5vbmU7c3Ryb2tlOiNmZmY7c3Ryb2tlLXdpZHRoOjJweDt9PC9zdHlsZT48L2RlZnM+PGNpcmNsZSBpZD0iYSIgY3g9IjEwIiBjeT0iMTAiIHI9IjkiLz48cG9seWxpbmUgaWQ9ImIiIHBvaW50cz0iMTMgNi41IDcgMTAgMTMgMTMuNSIvPjwvc3ZnPg==");
-    margin-right: 5px;
-    width: 16px;
-    height: 16px;
-    background-size: contain;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    line-height: 1;
+    font-weight: 900;
     vertical-align: middle;
+    margin-right: .3em;
+    color: #3e618d;
 }
 
 #manualList ol{
@@ -63,4 +82,168 @@
     font-weight:bold;
     font-size:26px;
     color:#006699;
+}
+
+#news{
+    float:left;
+    width:340px;
+    margin-left:10px;
+}
+
+h2#PageTitle{
+    font-size:40px;
+    padding-top:40px;
+    margin-bottom:20px;
+    font-weight:bold;
+    line-height:120%;
+}
+
+#news h2, #history h2{
+    font-size:24px;
+    margin-top:20px;
+    padding:10px 0;
+    display: inline-block;
+    width:340px;
+    border-bottom:3px solid #c0c0c0;
+}
+
+#news ul{
+    padding-left: 0px;
+    width: 340px;
+}
+#news li{
+    list-style:none;
+    list-style-position:inside;
+    width: 340px;
+    border-bottom:1px solid #c0c0c0;
+    padding-top: 5px;
+}
+#news li a{
+    text-decoration: none;
+    display: block;
+    width: 340px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 12px;
+}
+#news li:hover{
+    background-color: #e0f0ff;
+}
+
+#history{
+    float:right;
+    width:340px;
+    margin-right:10px;
+}
+
+#history .history{
+    border-bottom:1px solid #c0c0c0;
+    margin-top:5px;
+}
+
+#history .history h3{
+   font-size:12px;
+}
+
+#history .history .downloadlink{
+    margin-left: auto;
+    display: block;
+    width: 185px;
+}
+.downloadlink::after{
+    content: '\f56d';
+    font-family: "Font Awesome 5 Free";
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    display: inline-block;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    line-height: 1;
+    font-weight: 900;
+    margin-left: 5px;
+}
+
+#history .alternate{
+    border-bottom: none;
+}
+
+.twitter::after{
+    content: "\f081";  /* twitter-square */
+    content: "\f099";  /* twitter */
+    
+    font-family:"Font Awesome 5 Brands";
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    display: inline-block;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    line-height: 1;
+    margin-left: 5px;
+}
+
+.github::before{
+    content: "\f09b";
+    font-family:"Font Awesome 5 Brands";
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    display: inline-block;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    line-height: 1;
+    margin-right: 5px;
+    color: #333;
+    background-color: #f5f5f5;
+    border-radius:50%;
+}
+
+.listStyleType_none li{
+   list-style-type:none;
+}
+
+#banner ruby {
+    font-weight: bold;
+    color: #ff4040;
+    font-size: 32px;
+    line-height: 70%;
+}
+
+#top{
+    width: 800px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    background-color: #aaa;
+}
+#navi{
+    font-size: 17px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.left{
+    float:left;
+}
+.right{
+    float:right;
+}
+
+.center{
+    margin:15px auto 50px;
+    width:908px;
+    min-height:96px;
+    border: 1px solid gray; /* 一時的な表示確認用コード */
+}
+
+.footer{
+    font-size:14px;
+    margin-top:14px;
+}
+
+.text-center{
+    text-align:center;
+}
+
+p.text-center{
+    margin-bottom:0px;
 }

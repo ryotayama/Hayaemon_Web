@@ -1,0 +1,341 @@
+# 2006/02/28	Version 2.00 α 6 開発版
+$ /download/Windows/Hayaemon200a6.lzh
+* 再生時間表示用ラベルの更新処理を停止中には行わないようにしました。
+
+# 2006/02/28	Version 2.00 α 5 開発版
+$ /download/Windows/Hayaemon200a5.lzh
+* 再生時間表示用ラベルをクリックすることで、「再生時間表示モード」と「残り時間表示モード」とを切り替えられるようにしました。
+
+# 2006/02/27	Version 2.00 α 4 開発版
+$ /download/Windows/Hayaemon200a4.lzh
+* コントロールの間隔を調整しました。
+* コントロール間に区切り線を表示するようにしました。
+
+# 2006/02/27	Version 2.00 α 3 開発版
+$ /download/Windows/Hayaemon200a3.lzh
+* ソースコードを整理しました。
+
+# 2006/02/27	Version 2.00 α 2 開発版
+$ /download/Windows/Hayaemon200a2.lzh
+* スライダを動かしてからファイルを読み込むと、再生速度などが設定されていなかったのを修正しました。
+
+# 2006/02/27	Version 2.00 α 1 開発版
+$ /download/Windows/Hayaemon200a1.lzh
+* 公開しました。
+
+# 2006/02/13	Version 1.02 安定版
+$ /download/expiration
+* 公開しました。
+
+# 2006/03/27	Version 2.01 β 7 開発版
+$ /download/Windows/Hayaemon201b7.lzh
+* システムフォントの設定によっては、画面のレイアウトが崩れていたのを修正しました。
+
+# 2006/03/27	Version 2.01 β 6 開発版
+$ /download/Windows/Hayaemon201b6.lzh
+* １曲ループのときに、ツールバーの全曲ループ・ランダム再生設定用のボタンを非表示にしていたのを、灰色表示 ( 選択不可 ) にするようにしました。
+
+# 2006/03/27	Version 2.01 β 5 開発版
+$ /download/Windows/Hayaemon201b5.lzh
+* フォルダのアイコン・ウィンドウへのドロップに対応しました。
+
+# 2006/03/26	Version 2.01 β 4 開発版
+$ /download/Windows/Hayaemon201b4.lzh
+* Tab, Shift + Tab により、コントロールのフォーカスを移動できるようにしました。
+
+# 2006/03/26	Version 2.01 β 3 開発版
+$ /download/Windows/Hayaemon201b3.lzh
+* 音量・パンの値をテキストボックスから変更できるようにしました。
+
+# 2006/03/26	Version 2.01 β 2 開発版
+$ /download/Windows/Hayaemon201b2.lzh
+* 再生速度・再生周波数・音程の値をテキストボックスから変更できるようにしました。
+
+# 2006/03/24	Version 2.01 β 1 開発版
+$ /download/Windows/Hayaemon201b1.lzh
+* Ctrl + A により再生リストのすべての項目を選択できるようにしました。
+
+# 2006/03/23	Version 2.00 安定版
+$ /download/Windows/Hayaemon200.lzh
+* 安定版として公開しました。
+
+# 2006/03/22	Version 2.00 β 6 開発版
+$ /download/Windows/Hayaemon200b6.lzh
+* AB ループ中に停止・一時停止をすると、AB ループがきかなくなっていたのを修正しました。
+
+# 2006/03/22	Version 2.00 β 5 開発版
+$ /download/Windows/Hayaemon200b5.lzh
+* 付属ファイルとして、マニュアルを作成・追加しました。
+
+# 2006/03/21	Version 2.00 β 4 開発版
+$ /download/Windows/Hayaemon200b4.lzh
+* AB ループ機能を追加しました。
+
+# 2006/03/20	Version 2.00 β 3 開発版
+$ /download/Windows/Hayaemon200b3.lzh
+* β 2 の更新により、再生位置設定用スライダをクリックした場合の移動量がおかしくなっていたのを修正しました。
+
+# 2006/03/20	Version 2.00 β 2 開発版
+$ /download/Windows/Hayaemon200b2.lzh
+* 再生位置設定用スライダが無駄なメモリを大量に消費していたのを修正しました。
+
+# 2006/03/20	Version 2.00 β 1 開発版
+$ /download/Windows/Hayaemon200b1.lzh
+* β版として公開しました。
+
+# 2006/03/20	Version 2.00 α 46 開発版
+$ /download/Windows/Hayaemon200a46.lzh
+* 再生リスト内でのドラッグ＆ドロップによる並べ替え機能を追加しました。
+
+# 2006/03/19	Version 2.00 α 45 開発版
+$ /download/Windows/Hayaemon200a45.lzh
+* 再生速度・再生周波数・音程・音量・パンの設定用スライダのつまみをダブルクリックした場合、値をデフォルトに戻すようにしました。
+
+# 2006/03/19	Version 2.00 α 44 開発版
+$ /download/Windows/Hayaemon200a44.lzh
+* ウィンドウにデスクトップへのスナップ機能を追加しました。
+
+# 2006/03/19	Version 2.00 α 43 開発版
+$ /download/Windows/Hayaemon200a43.lzh
+* 新しく再生するファイルがリストビューの中央に表示されるようにしました。
+* 再生リストをスクロールした状態で、ウィンドウの最小サイズが正しく設定できていなかったのを修正しました。
+
+# 2006/03/18	Version 2.00 α 42 開発版
+$ /download/Windows/Hayaemon200a42.lzh
+* ランダム再生に対応しました。
+
+# 2006/03/16	Version 2.00 α 41 開発版
+$ /download/Windows/Hayaemon200a41.lzh
+* デリートキーにより再生リストからファイルを削除できるようにしました。
+
+# 2006/03/16	Version 2.00 α 40 開発版
+$ /download/Windows/Hayaemon200a40.lzh
+* ダブルクリックにより再生リスト内で選択中のファイルを再生できるようにしました。
+
+# 2006/03/16	Version 2.00 α 39 開発版
+$ /download/Windows/Hayaemon200a39.lzh
+* エンターキーで再生リスト内で選択中のファイルを再生できるようにしました。
+
+# 2006/03/16	Version 2.00 α 38 開発版
+$ /download/Windows/Hayaemon200a38.lzh
+* 再生中のファイルを再生リスト内で強調表示するようにしました。
+
+# 2006/03/15	Version 2.00 α 37 開発版
+$ /download/Windows/Hayaemon200a37.lzh
+* ファイルを開くダイアログからの複数ファイルのオープンに対応しました。
+
+# 2006/03/15	Version 2.00 α 36 開発版
+$ /download/Windows/Hayaemon200a36.lzh
+* ファイルのウィンドウへのドロップ後に、再生順がおかしくなることがあったのを修正しました。
+
+# 2006/03/15	Version 2.00 α 35 開発版
+$ /download/Windows/Hayaemon200a35.lzh
+* 再生リスト部分にファイルをドロップした場合は、ファイルを追加するようにしました。
+
+# 2006/03/15	Version 2.00 α 34 開発版
+$ /download/Windows/Hayaemon200a34.lzh
+* 起動直後にファイルを開くダイアログからファイルを開くと、前へ・次へメニューの表示状態がおかしくなっていたのを修正しました。
+
+# 2006/03/15	Version 2.00 α 33 開発版
+$ /download/Windows/Hayaemon200a33.lzh
+* 巻き戻し・早送りボタンを、前へ・次へとしても機能するようにしました。
+
+# 2006/03/15	Version 2.00 α 32 開発版
+$ /download/Windows/Hayaemon200a32.lzh
+* メニューから、再生ファイルをひとつ前のファイル・ひとつ次のファイルに変更できるようにしました。
+
+# 2006/03/15	Version 2.00 α 31 開発版
+$ /download/Windows/Hayaemon200a31.lzh
+* 全曲ループ機能を追加しました。
+
+# 2006/03/14	Version 2.00 α 30 開発版
+$ /download/Windows/Hayaemon200a30.lzh
+* 再生リストの表示・非表示をメニューやツールバーのボタンから切り替えられるようにしました。
+
+# 2006/03/14	Version 2.00 α 29 開発版
+$ /download/Windows/Hayaemon200a29.lzh
+* コントロールバーの表示・非表示をツールバーのボタンから切り替えられるようにしました。
+
+# 2006/03/14	Version 2.00 α 28 開発版
+$ /download/Windows/Hayaemon200a28.lzh
+* 再生リストの表示用にリストビューを追加しました。
+* ウィンドウの最小サイズを設定しました。
+
+# 2006/03/13	Version 2.00 α 27 開発版
+$ /download/Windows/Hayaemon200a27.lzh
+* 環境によっては、起動直後に強制終了してしまっていたのを修正しました。
+
+# 2006/03/12	Version 2.00 α 26 開発版
+$ /download/Windows/Hayaemon200a26.lzh
+* コントロールの配置を再調整しました。
+
+# 2006/03/12	Version 2.00 α 25 開発版
+$ /download/Windows/Hayaemon200a25.lzh
+* コントロールバーの表示・非表示をメニューから切り替えられるようにしました。
+
+# 2006/03/11	Version 2.00 α 24 開発版
+$ /download/Windows/Hayaemon200a24.lzh
+* パンの変更機能を追加しました。
+
+# 2006/03/11	Version 2.00 α 23 開発版
+$ /download/Windows/Hayaemon200a23.lzh
+* 音量の変更機能を追加しました。
+
+# 2006/03/11	Version 2.00 α 22 開発版
+$ /download/Windows/Hayaemon200a22.lzh
+* 入力・出力ファイルが同一ファイルの場合は、エラーを出すようにしました。
+
+# 2006/03/11	Version 2.00 α 21 開発版
+$ /download/Windows/Hayaemon200a21.lzh
+* 保存中ダイアログにプログレスバーを追加しました。
+
+# 2006/03/11	Version 2.00 α 20 開発版
+$ /download/Windows/Hayaemon200a20.lzh
+* 音声ファイルの保存機能を追加しました。
+
+# 2006/03/10	Version 2.00 α 19 開発版
+$ /download/Windows/Hayaemon200a19.lzh
+* ファイルのウィンドウへのドロップに対応しました。
+
+# 2006/03/09	Version 2.00 α 18 開発版
+$ /download/Windows/Hayaemon200a18.lzh
+* 再生時間の表示がマイナスになることがあったのを修正しました。
+
+# 2006/03/09	Version 2.00 α 17 開発版
+$ /download/Windows/Hayaemon200a17.lzh
+* 起動を高速化しました。
+* ファイルのアイコンへのドロップに対応しました。
+* 読み込めないファイル形式だった場合、再生時間をゼロに戻すようにしました。
+
+# 2006/03/08	Version 2.00 α 16 開発版
+$ /download/Windows/Hayaemon200a16.lzh
+* 再生位置設定用スライダの位置を調整しました。
+
+# 2006/03/04	Version 2.00 α 15 開発版
+$ /download/Windows/Hayaemon200a15.lzh
+* α 13 の更新により、頭出しメニューが機能しなくなっていたのを修正しました。
+
+# 2006/03/04	Version 2.00 α 14 開発版
+$ /download/Windows/Hayaemon200a14.lzh
+* キーボードショートカットにより、一部メニューを操作できるようにしました。
+
+# 2006/03/04	Version 2.00 α 13 開発版
+$ /download/Windows/Hayaemon200a13.lzh
+* 巻き戻し・早送りメニューを追加しました。
+* 頭出し/巻き戻しボタンが頭出しとして認識される時間を長くしました。
+
+# 2006/03/04	Version 2.00 α 12 開発版
+$ /download/Windows/Hayaemon200a12.lzh
+* WMA ファイルの再生に対応しました。
+
+# 2006/03/03	Version 2.00 α 11 開発版
+$ /download/Windows/Hayaemon200a11.lzh
+* 再生時間表示用ラベルの位置を調整しました。
+
+# 2006/03/03	Version 2.00 α 10 開発版
+$ /download/Windows/Hayaemon200a10.lzh
+* アイコンを作成・設定しました。
+
+# 2006/03/02	Version 2.00 α 9 開発版
+$ /download/Windows/Hayaemon200a9.lzh
+* 早送りボタンを長押しすることで、早送りができるようにしました。
+
+# 2006/03/02	Version 2.00 α 8 開発版
+$ /download/Windows/Hayaemon200a8.lzh
+* 頭出し以外のボタンでも、長押しすると巻き戻しになってしまっていたのを修正しました。
+
+# 2006/03/02	Version 2.00 α 7 開発版
+$ /download/Windows/Hayaemon200a7.lzh
+* 頭出しボタンを長押しすることで、巻き戻しができるようにしました。
+
+# 2006/04/25	Version 2.01 β 19 開発版
+$ /download/Windows/Hayaemon201b19.lzh
+* エディットコントロールにフォーカスがある場合、HOME キーによりデフォルトの値に戻せるようにしました。
+
+# 2006/04/23	Version 2.01 β 18 開発版
+$ /download/Windows/Hayaemon201b18.lzh
+* アップダウンコントロールにより数値を変更できるようにしました。
+
+# 2006/04/18	Version 2.01 β 17 開発版
+$ /download/Windows/Hayaemon201b17.lzh
+* 連続再生メニューにより連続再生のオン・オフを切り替えられるようにしました。
+
+# 2006/04/15	Version 2.01 β 16 開発版
+$ /download/Windows/Hayaemon201b16.lzh
+* ダブルクリックやエンターキーで再生順を変更した場合、それ以降ランダム再生になってしまっていたのを修正しました。
+
+# 2006/04/15	Version 2.01 β 15 開発版
+$ /download/Windows/Hayaemon201b15.lzh
+* グラフィックイコライザ ( 250 Hz ) を追加しました。
+
+# 2006/04/09	Version 2.01 β 14 開発版
+$ /download/Windows/Hayaemon201b14.lzh
+* グラフィックイコライザ ( 500 Hz ) を追加しました。
+
+# 2006/04/09	Version 2.01 β 13 開発版
+$ /download/Windows/Hayaemon201b13.lzh
+* グラフィックイコライザ ( 1 KHz ) を追加しました。
+
+# 2006/04/08	Version 2.01 β 12 開発版
+$ /download/Windows/Hayaemon201b12.lzh
+* グラフィックイコライザ ( 2 KHz ) を追加しました。
+
+# 2006/04/08	Version 2.01 β 11 開発版
+$ /download/Windows/Hayaemon201b11.lzh
+* グラフィックイコライザ ( 4 KHz ) を追加しました。
+
+# 2006/04/08	Version 2.01 β 10 開発版
+$ /download/Windows/Hayaemon201b10.lzh
+* グラフィックイコライザ ( 8 KHz ) を追加しました。
+
+# 2006/04/08	Version 2.01 β 9 開発版
+$ /download/Windows/Hayaemon201b9.lzh
+* ツールバーからコントロールバーの開閉ボタンを削除しました。
+
+# 2006/04/08	Version 2.01 β 8 開発版
+$ /download/Windows/Hayaemon201b8.lzh
+* 起動時に、コントロールバーや再生リストを表示しないようにしました。
+
+# 2006/06/25	Version 2.02 安定版
+$ /download/Windows/Hayaemon202.lzh
+* 安定版として公開しました。
+
+# 2006/06/24	Version 2.01 β 24 開発版
+$ /download/Windows/Hayaemon201b24.lzh
+* スライダにフォーカスがある場合、PgUpキーで値が減少、PgDnキーで値が増加していたのを反対にしました。
+
+# 2006/06/24	Version 2.01 β 23 開発版
+$ /download/Windows/Hayaemon201b23.lzh
+* スライダにフォーカスがある場合、上キーで値が減少、下キーで値が増加していたのを反対にしました。
+
+# 2006/06/11	Version 2.01 β 22 開発版
+$ /download/Windows/Hayaemon201b22.lzh
+* スライダにフォーカスがある場合、HOME キーによりデフォルトの値に戻せるようにしました。
+
+# 2006/06/10	Version 2.01 β 21 開発版
+$ /download/Windows/Hayaemon201b21.lzh
+* β 20 の更新で起動が遅くなってしまっていたのを改善しました。
+
+# 2006/06/10	Version 2.01 β 20 開発版
+$ /download/Windows/Hayaemon201b20.lzh
+* 前回のコントロールバーなどの表示状態を復元するようにしました。
+
+# 2006/07/17	Version 2.03 β 4 開発版
+$ /download/Windows/Hayaemon203b4.lzh
+* 今まで BASS 2.2.0.4 を使っていたのを 2.3.0.1 を使用するようにしました。
+
+# 2006/07/15	Version 2.03 β 3 開発版
+$ /download/Windows/Hayaemon203b3.lzh
+* 前回の音量を復元するようにしました。
+
+# 2006/07/12	Version 2.03 β 2 開発版
+$ /download/Windows/Hayaemon203b2.lzh
+* 連続再生メニューがデフォルトでオフになっていたのを修正しました。
+
+# 2006/07/09	Version 2.03 β 1 開発版
+$ /download/Windows/Hayaemon203b1.lzh
+* 前回の再生モードのオン・オフを復元するようにしました。
+
+# 2006/08/18	Version 2.04 安定版
+$ /download/Windows/Hayaemon204.lzh
+* 安定版として公開しました。

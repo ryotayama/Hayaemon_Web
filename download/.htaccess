@@ -1,0 +1,8 @@
+Options +MultiViews -Indexes
+ErrorDocument 401 /download/expiration.php
+ErrorDocument 402 /download/expiration.php
+ErrorDocument 403 /download/expiration.php
+ErrorDocument 404 /download/expiration.php
+ErrorDocument 410 /download/expiration.php
+ErrorDocument 412 /download/expiration.php
+ErrorDocument 451 /download/expiration.php
